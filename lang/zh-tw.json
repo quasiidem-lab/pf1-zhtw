@@ -1,0 +1,3238 @@
+{
+  "PF1": {
+    "Title": "開拓者 1e",
+    "KEYBINDINGS": {
+      "SkipConfirmPrompt": {
+        "Name": "跳過確認提示"
+      },
+      "HideTokenTooltip": {
+        "Name": "隱藏指示物提示",
+        "Hint": "按下此鍵時隱藏滑鼠懸停的指示物提示"
+      },
+      "HideTokenTooltipGMInfo": {
+        "Name": "顯示玩家視角的指示物提示"
+      },
+      "ForceShowItem": {
+        "Name": "強制顯示物品",
+        "Hint": "在使用物品巨集時，強制在聊天欄中顯示該物品卡片"
+      }
+    },
+    "SpellComponents": {
+      "Label": "法術成分",
+      "Misc": "其他成分",
+      "Type": {
+        "verbal": {
+          "Label": "語言",
+          "Abbr": "V"
+        },
+        "somatic": {
+          "Label": "姿勢",
+          "Abbr": "S"
+        },
+        "thought": {
+          "Label": "思維",
+          "Abbr": "T"
+        },
+        "emotion": {
+          "Label": "情緒",
+          "Abbr": "E"
+        },
+        "material": {
+          "Label": "材料",
+          "Abbr": "M",
+          "Desc": "材料描述",
+          "Value": "材料價值"
+        },
+        "focus": {
+          "Label": "法器",
+          "Abbr": "F"
+        },
+        "divineFocus": {
+          "Label": "聖徽",
+          "Abbr": "DF"
+        }
+      },
+      "DFVariants": {
+        "DF": "DF",
+        "MDF": "M/DF",
+        "FDF": "F/DF"
+      }
+    },
+    "SpellDescriptors": {
+      "acid": "強酸",
+      "air": "氣",
+      "chaotic": "混亂",
+      "cold": "寒冷",
+      "curse": "詛咒",
+      "darkness": "黑暗",
+      "death": "死亡",
+      "disease": "疾病",
+      "draconic": "龍類",
+      "earth": "土",
+      "electricity": "電擊",
+      "emotion": "情緒",
+      "evil": "邪惡",
+      "fear": "恐懼",
+      "fire": "火焰",
+      "force": "力場",
+      "good": "善良",
+      "languageDependent": "語言依賴",
+      "lawful": "秩序",
+      "light": "光亮",
+      "meditative": "冥想",
+      "mindAffecting": "影響心靈",
+      "pain": "痛苦",
+      "poison": "毒素",
+      "ruse": "詭計",
+      "shadow": "陰影",
+      "sonic": "音波",
+      "water": "水"
+    },
+    "WoundThreshold": "創傷閾值",
+    "WoundLevel": {
+      "healthy": "健康狀態",
+      "grazed": "擦傷狀態",
+      "wounded": "受傷狀態",
+      "critical": "重傷狀態"
+    },
+    "Sheet": {
+      "PC": "玩家角色 (PC)",
+      "NPC": "非玩家角色 (NPC)",
+      "NPCLite": "NPC (精簡版)",
+      "NPCLoot": "戰利品",
+      "Haunt": "作祟",
+      "Trap": "陷阱",
+      "Vehicle": "載具",
+      "Item": "通用物品",
+      "Container": "容器",
+      "TextPage": "文本頁 (PF1)"
+    },
+    "LevelUp": {
+      "Add": "新增 {class}",
+      "Increase": "升級 {class}",
+      "Action": "升級",
+      "NewLevel": "新等級",
+      "NewTier": "新階層",
+      "SkipHint": "直接新增職業等級，忽略此對話方塊中的選擇。職業關聯和基礎提升（如BAB）仍會新增。",
+      "Health": {
+        "Label": "生命值",
+        "Auto": {
+          "Label": "自動",
+          "Desc": "你的生命值將根據預定義的比率 ({rate}%) 自動設置。"
+        },
+        "Static": {
+          "Label": "固定",
+          "Desc": "你獲得由職業定義的固定生命值。"
+        },
+        "Maximized": {
+          "Label": "取滿",
+          "Desc": "根據你的生命骰，你獲得當前等級可能的最大生命值。"
+        },
+        "Roll": {
+          "Label": "投骰",
+          "Desc": "你此等級的生命值將根據生命骰進行投擲。"
+        },
+        "Manual": {
+          "Label": "手動",
+          "Desc": "你將手動決定此等級獲得的生命值。"
+        }
+      },
+      "FC": {
+        "Label": "天賦職業獎勵 (FCB)",
+        "HP": {
+          "Label": "生命值",
+          "Desc": "你獲得 1 點生命值。"
+        },
+        "Skill": {
+          "Label": "技能點",
+          "Desc": "你獲得 1 點可自由分配的技能點。"
+        },
+        "Alt": {
+          "Label": "變體",
+          "Desc": "你獲得該職業與種族組合的特定獎勵。"
+        },
+        "None": {
+          "Label": "無",
+          "Desc": "你沒有獲得獎勵，可能是因為該職業沒有 FCB 或你未選擇。"
+        }
+      },
+      "AbilityScore": {
+        "Label": "屬性值",
+        "PointsLeft": "剩餘點數: {value}",
+        "Item": {
+          "Name": "屬性值提升",
+          "Desc": "<p>此特性用於追蹤因獲得生命骰（HD）而帶來的屬性值變化。</p>"
+        },
+        "NextLevel": "下次獲得於角色等級 {level}。",
+        "NextTier": "下次獲得於神話階層 {tier}。"
+      },
+      "Summary": {
+        "Label": "概要"
+      },
+      "Chat": {
+        "Header": "升級報告",
+        "Health": {
+          "Header": "生命值",
+          "Roll": "投擲結果: {add}",
+          "Manual": "手動設置: {add}",
+          "Auto": "自動計算: {add}",
+          "Static": "固定值: {add}"
+        },
+        "FC": {
+          "Header": "天賦職業獎勵"
+        },
+        "AbilityScore": {
+          "Header": "屬性值提升",
+          "Gain": "{abl}: +{value}"
+        },
+        "Extra": {
+          "Header": "額外",
+          "NewFeat": "你有 1 個新專長選用",
+          "NewFeats": "你有 {newValue} 個新專長選用"
+        }
+      }
+    },
+    "General": "通用",
+    "Apply": "應用",
+    "ApplyHalf": "應用半額",
+    "ApplyDamage": "應用傷害",
+    "ApplyHealing": "應用治療",
+    "ApplyToAll": "應用到全部",
+    "Roll": "投骰",
+    "TakeX": "取 {number}",
+    "Flags": "標記 (Flags)",
+    "FlagsBoolean": "布林標記",
+    "FlagsDictionary": "字典標記",
+    "AbilityDamage": "屬性傷害",
+    "AbilityPenalty": "屬性減值",
+    "AbilityDrain": "屬性吸取",
+    "ModifierOnly": "僅調整值",
+    "CheckOnly": "僅檢定",
+    "CreateItem": "建立物品",
+    "EditItem": "編輯物品",
+    "EditAction": "編輯動作",
+    "Delete": "刪除",
+    "Duplicate": "複製",
+    "DuplicateItem": "複製物品",
+    "DuplicateAction": "複製動作",
+    "QuantityAdd": "增加數量<br><br>點擊: 1<br>Shift + 點擊: 5<br>Ctrl + 點擊: 10",
+    "QuantitySub": "減少數量<br><br>點擊: -1<br>Shift + 點擊: -5<br>Ctrl + 點擊: -10",
+    "DeleteItem": "刪除物品",
+    "DeleteItemTitle": "刪除物品: {name}",
+    "DeleteItemConfirmation": "確定要刪除此物品嗎？",
+    "DeleteAction": "刪除動作",
+    "DeleteActionTitle": "刪除動作: {name}",
+    "DeleteActionConfirmation": "確定要從 {name} 中刪除此動作嗎？",
+    "DeleteChildLinks": "以下物品也將因附屬連結或其他關聯被刪除",
+    "EditSkill": "編輯技能",
+    "DeleteSkill": "刪除技能",
+    "DeleteSkillTitle": "刪除技能: {name}",
+    "DeleteSkillConfirmation": "確定要刪除此技能嗎？",
+    "LinkTypeChildren": "附屬子項",
+    "LinkTypeCharges": "共享充能",
+    "LinkTypeClassAssociations": "職業關聯",
+    "LinkTypeSupplements": "補充項",
+    "LinkHelpChildren": "當父物品（本物品）被刪除時，關聯的子物品也會從角色身上刪除。",
+    "LinkHelpCharges": "關聯物品繼承並共享父物品（本物品）的充能/使用次數。",
+    "LinkHelpClassAssociations": "職業關聯物品會在達到相應職業等級時自動新增到角色身上。與其他連結不同，這必須連結自合集包（Compendium）。",
+    "LinkHelpSupplements": "當本物品新增到角色身上時，補充項物品也會一併新增。",
+    "HelpSellMultiplierN": "出售比率",
+    "HelpSellMultiplier": "物品出售價格的比率。<br>預設為 0.5。<br>貿易品（Trade goods）總是全價出售 (1.0)。",
+    "AbilityStr": "力量",
+    "AbilityDex": "敏捷",
+    "AbilityCon": "體質",
+    "AbilityInt": "智力",
+    "AbilityWis": "感知",
+    "AbilityCha": "魅力",
+    "AbilityStrMod": "力量調整值",
+    "AbilityDexMod": "敏捷調整值",
+    "AbilityConMod": "體質調整值",
+    "AbilityIntMod": "智力調整值",
+    "AbilityWisMod": "感知調整值",
+    "AbilityChaMod": "魅力調整值",
+    "AbilityStrPen": "力量減值",
+    "AbilityDexPen": "敏捷減值",
+    "AbilityConPen": "體質減值",
+    "AbilityIntPen": "智力減值",
+    "AbilityWisPen": "感知減值",
+    "AbilityChaPen": "魅力減值",
+    "AbilityShortStr": "力",
+    "AbilityShortDex": "敏",
+    "AbilityShortCon": "體",
+    "AbilityShortInt": "智",
+    "AbilityShortWis": "感",
+    "AbilityShortCha": "魅",
+    "SavingThrowFort": "強韌",
+    "SavingThrowRef": "反射",
+    "SavingThrowWill": "意志",
+    "WeaponHoldTypeOneHanded": "單手",
+    "WeaponHoldTypeTwoHanded": "雙手",
+    "WeaponHoldTypeOffhand": "副手",
+    "Hands": "所需手部",
+    "WeaponGroup": {
+      "axes": "斧",
+      "bladesHeavy": "重刃",
+      "bladesLight": "輕刃",
+      "bows": "弓",
+      "close": "貼身",
+      "crossbows": "弩",
+      "double": "雙頭",
+      "firearms": "火器",
+      "flails": "鏈枷",
+      "hammers": "錘",
+      "monk": "武僧",
+      "natural": "天生",
+      "polearms": "長柄",
+      "siegeEngines": "攻城",
+      "spears": "矛",
+      "thrown": "投擲",
+      "tribal": "部族"
+    },
+    "Condition": {
+      "bleed": "流血",
+      "blind": "目盲",
+      "confused": "困惑",
+      "cowering": "畏縮",
+      "curse": "詛咒效果",
+      "dazed": "暈眩",
+      "dazzled": "目眩",
+      "dead": "死亡",
+      "deaf": "耳聾",
+      "deathEffects": "死亡效果",
+      "disabled": "癱瘓",
+      "disease": "疾病",
+      "dying": "瀕死",
+      "energyDrain": "能量流失",
+      "entangled": "糾纏",
+      "exhausted": "力竭",
+      "fatigued": "疲乏",
+      "fear": "恐懼",
+      "flatFooted": "措手不及",
+      "frightened": "驚懼",
+      "grappled": "擒抱",
+      "helpless": "無助",
+      "incorporeal": "虛體",
+      "invisible": "隱形",
+      "moraleEffects": "士氣效果",
+      "mindAffecting": "影響心靈",
+      "nauseated": "反胃",
+      "panicked": "恐慌",
+      "paralyzed": "麻痺",
+      "petrified": "石化",
+      "pinned": "壓制",
+      "poison": "毒素",
+      "polymorph": "變形",
+      "prone": "俯臥",
+      "shaken": "戰慄",
+      "sickened": "噁心",
+      "sleep": "睡眠",
+      "squeezing": "擠壓",
+      "stable": "傷勢穩定",
+      "staggered": "恍惚",
+      "stunned": "震懾",
+      "unconscious": "昏迷"
+    },
+    "ClassType": "職業類型",
+    "ActionTypes": {
+      "mwak": "近戰武器攻擊",
+      "rwak": "遠程武器攻擊",
+      "twak": "投擲武器攻擊",
+      "msak": "近戰法術攻擊",
+      "rsak": "遠程法術攻擊",
+      "mcman": "近戰戰技",
+      "rcman": "遠程戰技",
+      "spellSave": "豁免 (法術)",
+      "save": "豁免",
+      "heal": "治療",
+      "other": "其他"
+    },
+    "Alignment": "陣營",
+    "Alignments": {
+      "l": "守序",
+      "c": "混亂",
+      "g": "善良",
+      "e": "邪惡",
+      "lg": "守序善良",
+      "ng": "中立善良",
+      "cg": "混亂善良",
+      "ln": "守序中立",
+      "tn": "絕對中立",
+      "cn": "混亂中立",
+      "le": "守序邪惡",
+      "ne": "中立邪惡",
+      "ce": "混亂邪惡",
+      "Short": {
+        "lg": "守善",
+        "ng": "中善",
+        "cg": "混善",
+        "ln": "守中",
+        "tn": "中立",
+        "cn": "混中",
+        "le": "守邪",
+        "ne": "中邪",
+        "ce": "混邪"
+      }
+    },
+    "DamageAlignment": {
+      "Override": "覆蓋父級物品",
+      "Inherit": "繼承自父級物品"
+    },
+    "StartingWealth": "起始財富",
+    "Currency": {
+      "Label": "貨幣",
+      "Weightless": "貨幣無重量",
+      "Abbr": {
+        "pp": "PP",
+        "gp": "GP",
+        "sp": "SP",
+        "cp": "CP"
+      },
+      "Full": {
+        "pp": "白金幣",
+        "gp": "金幣",
+        "sp": "銀幣",
+        "cp": "銅幣"
+      },
+      "Inline": {
+        "pp": "{value} pp",
+        "gp": "{value} gp",
+        "sp": "{value} sp",
+        "cp": "{value} cp"
+      }
+    },
+    "Distance": {
+      "personal": "個人",
+      "touch": "接觸",
+      "melee": "近戰",
+      "reach": "長觸及",
+      "close": "近距",
+      "medium": "中距",
+      "long": "遠距",
+      "ft": "英尺",
+      "ftShort": "尺",
+      "mi": "英里",
+      "miShort": "裡",
+      "m": "米",
+      "mShort": "米",
+      "km": "千米",
+      "kmShort": "千米"
+    },
+    "Containers": {
+      "Contents": {
+        "Label": "內容物",
+        "Value": "內容物價值",
+        "Take": "從容器中取出"
+      },
+      "TotalValue": "總價值: {gp} gp, {sp} sp, {cp} cp",
+      "SellValue": "出售價值: {gp} gp, {sp} sp, {cp} cp"
+    },
+    "SplitValue": "{gp} gp, {sp} sp, {cp} cp",
+    "TotalItemValue": "物品總價值: {gp} gp, {sp} sp, {cp} cp",
+    "WeightReduction": {
+      "Label": "重量減免",
+      "Percentage": "百分比",
+      "Flat": "固定值"
+    },
+    "Subtypes": {
+      "Item": {
+        "class": {
+          "base": {
+            "Single": "基礎職業"
+          },
+          "prestige": {
+            "Single": "進階職業"
+          },
+          "npc": {
+            "Single": "NPC 職業"
+          },
+          "racial": {
+            "Single": "種族 HD"
+          },
+          "mythic": {
+            "Single": "神話道途"
+          }
+        },
+        "equipment": {
+          "shield": {
+            "Single": "盾牌",
+            "Types": {
+              "light": "輕盾",
+              "heavy": "重盾",
+              "tower": "塔盾",
+              "misc": "其他盾牌"
+            }
+          },
+          "armor": {
+            "Single": "護甲",
+            "Plural": "護甲",
+            "Types": {
+              "light": "輕甲",
+              "medium": "中甲",
+              "heavy": "重甲"
+            }
+          },
+          "wondrous": {
+            "Single": "奇物"
+          },
+          "clothing": {
+            "Single": "服裝",
+            "Plural": "服裝"
+          }
+        },
+        "loot": {
+          "gear": {
+            "Single": "裝備",
+            "Plural": "裝備"
+          },
+          "ammo": {
+            "Single": "彈藥",
+            "Plural": "彈藥"
+          },
+          "tradeGoods": {
+            "Single": "貿易品",
+            "Plural": "貿易品"
+          },
+          "tool": {
+            "Single": "工具",
+            "Plural": "工具"
+          },
+          "food": {
+            "Single": "食物",
+            "Plural": "食物"
+          },
+          "herb": {
+            "Single": "草藥",
+            "Plural": "草藥"
+          },
+          "adventuring": {
+            "Single": "冒險裝備",
+            "Plural": "冒險裝備"
+          },
+          "animal": {
+            "Single": "動物/坐騎",
+            "Plural": "動物/坐騎"
+          },
+          "animalGear": {
+            "Single": "動物裝備",
+            "Plural": "動物裝備"
+          },
+          "reagent": {
+            "Single": "鍊金試劑",
+            "Plural": "鍊金試劑"
+          },
+          "remedy": {
+            "Single": "鍊金藥物",
+            "Plural": "鍊金藥物"
+          },
+          "entertainment": {
+            "Single": "娛樂",
+            "Plural": "娛樂"
+          },
+          "treasure": {
+            "Single": "財寶",
+            "Plural": "財寶"
+          },
+          "vehicle": {
+            "Single": "載具/交通工具",
+            "Plural": "載具/交通工具"
+          },
+          "misc": {
+            "Single": "雜項",
+            "Plural": "雜項"
+          }
+        },
+        "consumable": {
+          "potion": {
+            "Single": "藥水/油"
+          },
+          "poison": {
+            "Single": "毒素"
+          },
+          "drug": {
+            "Single": "藥物"
+          },
+          "scroll": {
+            "Single": "卷軸"
+          },
+          "wand": {
+            "Single": "魔杖"
+          },
+          "rod": {
+            "Single": "權杖"
+          },
+          "staff": {
+            "Single": "法杖"
+          },
+          "pharmaceutical": {
+            "Single": "藥劑 (科技)"
+          }
+        },
+        "attack": {
+          "weapon": {
+            "Single": "武器攻擊",
+            "Plural": "武器攻擊"
+          },
+          "natural": {
+            "Single": "天生攻擊",
+            "Plural": "天生攻擊"
+          },
+          "ability": {
+            "Single": "職業能力",
+            "Plural": "職業能力"
+          },
+          "racialAbility": {
+            "Single": "種族能力",
+            "Plural": "種族能力"
+          },
+          "item": {
+            "Single": "物品",
+            "Plural": "物品"
+          },
+          "misc": {
+            "Single": "雜項",
+            "Plural": "雜項"
+          }
+        },
+        "weapon": {
+          "simple": {
+            "Single": "簡易"
+          },
+          "martial": {
+            "Single": "軍用"
+          },
+          "exotic": {
+            "Single": "異種"
+          },
+          "firearm": {
+            "Single": "火器"
+          },
+          "siege": {
+            "Single": "攻城"
+          },
+          "heavy": {
+            "Single": "重型"
+          },
+          "misc": {
+            "Single": "雜項"
+          }
+        },
+        "feat": {
+          "feat": {
+            "Single": "專長",
+            "Plural": "專長"
+          },
+          "classFeat": {
+            "Single": "職業特性",
+            "Plural": "職業特性"
+          },
+          "trait": {
+            "Single": "背景特性",
+            "Plural": "背景特性"
+          },
+          "racial": {
+            "Single": "種族特性",
+            "Plural": "種族特性"
+          },
+          "template": {
+            "Single": "模板",
+            "Plural": "模板"
+          },
+          "misc": {
+            "Single": "雜項",
+            "Plural": "雜項"
+          }
+        },
+        "buff": {
+          "temp": {
+            "Single": "臨時",
+            "Plural": "臨時"
+          },
+          "spell": {
+            "Single": "法術",
+            "Plural": "法術"
+          },
+          "feat": {
+            "Single": "特性",
+            "Plural": "特性"
+          },
+          "perm": {
+            "Single": "永久",
+            "Plural": "永久"
+          },
+          "item": {
+            "Single": "物品",
+            "Plural": "物品"
+          },
+          "misc": {
+            "Single": "雜項",
+            "Plural": "雜項"
+          }
+        },
+        "implant": {
+          "cybertech": {
+            "Single": "賽博科技植入物"
+          }
+        }
+      }
+    },
+    "AmmoType": {
+      "arrow": "箭矢",
+      "bolt": "弩矢",
+      "repeatingBolt": "連發弩矢",
+      "slingBullet": "投石索彈丸",
+      "gunBullet": "火器彈藥",
+      "dragoonBullet": "龍騎兵定裝彈",
+      "dart": "鏢",
+      "siege": "攻城彈藥"
+    },
+    "Sense": {
+      "blindsense": "盲感",
+      "blindsight": "盲視",
+      "darkvision": "黑暗視覺",
+      "tremorsense": "顫動感知",
+      "trueseeing": "真知術",
+      "lifesense": "生命感知",
+      "lowlight": "昏暗視覺",
+      "seeInvis": "識破隱形",
+      "seeInDark": "看破黑暗",
+      "scent": "靈敏嗅覺"
+    },
+    "BuffTarACGeneric": "通用 AC",
+    "BuffTarACArmor": "護甲 AC",
+    "BuffTarACShield": "盾牌 AC",
+    "BuffTarACNatural": "天生護甲 AC",
+    "BuffTarACTouch": "接觸 AC",
+    "BuffTarACFlatFooted": "措手不及 AC",
+    "BuffTarStrSkills": "力量技能",
+    "BuffTarDexSkills": "敏捷技能",
+    "BuffTarConSkills": "體質技能",
+    "BuffTarIntSkills": "智力技能",
+    "BuffTarWisSkills": "感知技能",
+    "BuffTarChaSkills": "魅力技能",
+    "BuffTarSpecificSkill": "特定技能",
+    "BuffTarAbilityChecks": "屬性檢定",
+    "BuffTarStrChecks": "力量檢定",
+    "BuffTarDexChecks": "敏捷檢定",
+    "BuffTarConChecks": "體質檢定",
+    "BuffTarIntChecks": "智力檢定",
+    "BuffTarWisChecks": "感知檢定",
+    "BuffTarChaChecks": "魅力檢定",
+    "BuffTarBonusSkillRanks": "獎勵技能點",
+    "BuffTarBonusFeats": "獎勵專長",
+    "BuffTarAllAttackRolls": "所有攻擊檢定",
+    "BuffTarAllDamageRolls": "所有傷害檢定",
+    "BuffTarAllSavingThrows": "所有豁免檢定",
+    "BuffTarAllSkills": "所有技能",
+    "BuffTarUntrainedSkills": "未受訓技能",
+    "BuffTarAllAbilityChecks": "所有屬性檢定",
+    "BuffTarReach": "天生觸及",
+    "BuffTarAllSpeeds": "所有速度",
+    "BuffTarMeleeAttack": "近戰攻擊檢定",
+    "BuffTarWeaponAttack": "武器攻擊檢定",
+    "BuffTarSpellAttack": "法術攻擊檢定",
+    "BuffTarNaturalAttack": "天生攻擊檢定",
+    "BuffTarRangedAttack": "遠程攻擊檢定",
+    "BuffTarThrownAttack": "投擲攻擊檢定",
+    "BuffTarSpells": "法術",
+    "BuffTarSpellEffect": "法術效果",
+    "SkillAcr": "特技動作",
+    "SkillApr": "估價",
+    "SkillArt": "技藝",
+    "SkillBlf": "唬騙",
+    "SkillClm": "攀爬",
+    "SkillCrf": "工藝",
+    "SkillDip": "交涉",
+    "SkillDev": "解除裝置",
+    "SkillDis": "易容",
+    "SkillEsc": "逃脫",
+    "SkillFly": "飛行",
+    "SkillHan": "馴養動物",
+    "SkillHea": "醫療",
+    "SkillInt": "威嚇",
+    "SkillKAr": "知識（奧秘）",
+    "SkillKDu": "知識（地城）",
+    "SkillKEn": "知識（工程）",
+    "SkillKGe": "知識（地理）",
+    "SkillKHi": "知識（歷史）",
+    "SkillKLo": "知識（地方）",
+    "SkillKNa": "知識（自然）",
+    "SkillKNo": "知識（貴族）",
+    "SkillKPl": "知識（位面）",
+    "SkillKRe": "知識（宗教）",
+    "SkillLin": "語言學",
+    "SkillLor": "學識",
+    "SkillPer": "察覺",
+    "SkillPrf": "表演",
+    "SkillPro": "專業",
+    "SkillRid": "騎術",
+    "SkillSen": "察言觀色",
+    "SkillSlt": "巧手",
+    "SkillSpl": "法術辨識",
+    "SkillSte": "隱匿",
+    "SkillSur": "生存",
+    "SkillSwm": "游泳",
+    "SkillUMD": "使用魔法裝置",
+    "AddSkill": "新增技能",
+    "Time": {
+      "Format": "{value} {unit}",
+      "Period": {
+        "inst": {
+          "Label": "立即"
+        },
+        "turn": {
+          "Label": "回合",
+          "Short": "回合"
+        },
+        "round": {
+          "Label": "輪",
+          "Short": "輪"
+        },
+        "second": {
+          "Label": "秒",
+          "Short": "秒"
+        },
+        "minute": {
+          "Label": "分鐘",
+          "Short": "分"
+        },
+        "hour": {
+          "Label": "小時",
+          "Short": "時"
+        },
+        "day": {
+          "Label": "天"
+        },
+        "month": {
+          "Label": "月"
+        },
+        "year": {
+          "Label": "年"
+        },
+        "perm": {
+          "Label": "永久"
+        }
+      },
+      "Turn": {
+        "Start": "回合開始",
+        "End": "回合結束"
+      }
+    },
+    "AssociatedClass": "關聯職業",
+    "SpellPrepAtWill": "隨意",
+    "SpellPrepPrepared": "準備",
+    "SpellPrepSpontaneous": "自發",
+    "SpellsKnown": "已知法術",
+    "Arcanist": "奧能師",
+    "RedMantisAssassin": "紅螳螂殺手",
+    "Psychic": "異能者",
+    "Spellcasting": {
+      "Progression": {
+        "Label": "進度",
+        "Hint": "高進度最高 9 環。<br>中進度最高 6 環。<br>低進度最高 4 環。"
+      },
+      "Type": {
+        "Label": "法術類型",
+        "Arcane": "奧術",
+        "Divine": "神術",
+        "Psychic": "異能",
+        "Alchemy": "鍊金"
+      }
+    },
+    "AutoSpellClassLevelOffset": {
+      "Formula": "職業等級調整",
+      "InfoBox": "如果你有會改變職業等級的進階職業，在此新增 (例如 @classes.mysticTheurge.level)"
+    },
+    "Spellbook": {
+      "Known": "已知",
+      "OpenSlots": "空閒法術位",
+      "InsufficientAbility": "屬性值不足",
+      "InsufficientLevel": "等級不足"
+    },
+    "CompendiumBrowser": {
+      "ShowPack": "在合集包瀏覽器中顯示",
+      "HidePack": "在合集包瀏覽器中隱藏",
+      "ActiveFilters": "啟用的過濾器<br><br>點擊清除",
+      "ClearFilters": "清除過濾器",
+      "ReloadPacks": "重載合集包"
+    },
+    "CompendiumBrowserTitle": "合集包瀏覽器: {type}",
+    "Any": "任意",
+    "FilterBooleanOperatorHint": "切換要求物品匹配所有過濾器，或匹配任意一個。",
+    "FilterNoChoices": "未找到匹配選項。",
+    "LoadingItemsFromIndexes": "正在從 {indexes} 個索引中載入 {items} 個物品…",
+    "CopyUuidToClipboard": "複製 UUID 到剪貼簿",
+    "WeaponType": "武器類型",
+    "WeaponTypeSplash": "潑濺",
+    "WeaponProperty": {
+      "Automatic": "全自動",
+      "Blocking": "格擋",
+      "Brace": "迎擊",
+      "Deadly": "處決",
+      "Distracting": "虛實",
+      "Double": "雙頭",
+      "Disarm": "卸武",
+      "Finesse": "靈巧",
+      "Fragile": "易碎",
+      "Grapple": "擒抱",
+      "Improvised": "臨時",
+      "Monk": "武僧",
+      "NonLethal": "非致命",
+      "Performance": "演武",
+      "Reach": "長觸及",
+      "Scatter": "散射",
+      "SemiAutomatic": "半自動",
+      "SlowFiring": "慢速射擊",
+      "Sunder": "破損",
+      "Special": "特殊",
+      "Thrown": "投擲",
+      "Trip": "絆摔"
+    },
+    "WeaponSubtype": "武器子類型",
+    "WeaponSubtypeLight": "輕型",
+    "WeaponSubtypeOneHanded": "單手",
+    "WeaponSubtypeTwoHanded": "雙手",
+    "WeaponSubtypeRanged": "遠程",
+    "WeaponSubtypeAssault": "突擊",
+    "WeaponSubtypeDirect": "直射",
+    "WeaponSubtypeIndirect": "拋射",
+    "EquipSlots": {
+      "none": "無插槽",
+      "armor": "護甲",
+      "shield": "盾牌",
+      "clothing": "服裝",
+      "head": "頭部",
+      "headband": "頭帶",
+      "eyes": "眼部",
+      "shoulders": "肩部",
+      "neck": "頸部",
+      "chest": "胸部",
+      "body": "身體",
+      "belt": "腰部",
+      "wrists": "手腕",
+      "hands": "手部",
+      "ring": "戒指",
+      "feet": "腳部"
+    },
+    "Implanted": "已植入",
+    "Cybertech": {
+      "Implantation": "植入",
+      "Install": "安裝 DC",
+      "Slots": {
+        "none": "無",
+        "arm": "手臂",
+        "body": "身體",
+        "brain": "大腦",
+        "ears": "耳朵",
+        "eyes": "眼睛",
+        "head": "頭部",
+        "legs": "腿部"
+      }
+    },
+    "TraitType": "背景特性類型",
+    "Trait": {
+      "combat": "戰鬥",
+      "magic": "魔法",
+      "faith": "信念",
+      "social": "社會",
+      "campaign": "戰役",
+      "cosmic": "宇宙",
+      "equipment": "裝備",
+      "exemplar": "典範",
+      "faction": "派系",
+      "family": "家庭",
+      "mount": "坐騎",
+      "race": "種族",
+      "region": "地區",
+      "religion": "宗教",
+      "drawback": "缺陷"
+    },
+    "Template": {
+      "Acquired": "獲得",
+      "Inherited": "繼承",
+      "Simple": "簡單",
+      "UsableWithSummons": "可用於召喚生物"
+    },
+    "RacePoints": "種族點數 (RP)",
+    "RacialTraitCategories": {
+      "defense": "防禦",
+      "featSkills": "專長與技能",
+      "magical": "魔法",
+      "movement": "移動",
+      "senses": "感官",
+      "offense": "攻擊",
+      "other": "其他",
+      "weakness": "弱點"
+    },
+    "RaceType": "種族類型",
+    "RaceTypes": {
+      "standard": "標準",
+      "advanced": "進階",
+      "monstrous": "怪物"
+    },
+    "Activation": {
+      "passive": {
+        "Single": "被動",
+        "Plural": "被動"
+      },
+      "free": {
+        "Single": "自由",
+        "Plural": "自由動作"
+      },
+      "swift": {
+        "Single": "迅捷",
+        "Plural": "迅捷動作"
+      },
+      "immediate": {
+        "Single": "直覺",
+        "Plural": "直覺動作"
+      },
+      "move": {
+        "Single": "移動",
+        "Plural": "移動動作"
+      },
+      "standard": {
+        "Single": "標準",
+        "Plural": "標準動作"
+      },
+      "fullRound": {
+        "Single": "整輪",
+        "Plural": "整輪動作"
+      },
+      "attack": {
+        "Single": "攻擊",
+        "Plural": "攻擊動作"
+      },
+      "round": {
+        "Single": "輪",
+        "Plural": "輪"
+      },
+      "minute": {
+        "Single": "分鐘",
+        "Plural": "分鐘"
+      },
+      "hour": {
+        "Single": "小時",
+        "Plural": "小時"
+      },
+      "special": {
+        "Single": "特殊",
+        "Plural": "特殊"
+      },
+      "nonaction": {
+        "Single": "非動作"
+      },
+      "aoo": {
+        "Single": "藉機攻擊",
+        "Plural": "藉機攻擊"
+      },
+      "reaction": {
+        "Single": "反應",
+        "Plural": "反應"
+      },
+      "action": {
+        "Single": "動作",
+        "Plural": "動作"
+      }
+    },
+    "LimitedUses": {
+      "Label": "使用限制",
+      "Periods": {
+        "single": "單次使用",
+        "round": "每輪",
+        "minute": "每分鐘",
+        "hour": "每小時",
+        "day": "每天",
+        "week": "每週",
+        "charges": "充能"
+      }
+    },
+    "SpellSchools": {
+      "abj": "防護系",
+      "con": "咒法系",
+      "div": "預言系",
+      "enc": "惑控系",
+      "evo": "塑能系",
+      "ill": "幻術系",
+      "nec": "死靈系",
+      "tra": "變化系",
+      "uni": "通用系"
+    },
+    "SpellSubschools": {
+      "calling": "呼喚",
+      "charm": "魅惑",
+      "compulsion": "脅迫",
+      "creation": "創造",
+      "figment": "虛假幻覺",
+      "glamer": "五官幻覺",
+      "haunted": "Haunted",
+      "healing": "醫療",
+      "pattern": "心靈幻覺",
+      "phantasm": "魅影幻覺",
+      "polymorph": "變形",
+      "scrying": "探知",
+      "shadow": "陰影",
+      "summoning": "召喚",
+      "teleportation": "傳送"
+    },
+    "SpellLevels": {
+      "0": "0環 (戲法/禱念/念力)",
+      "1": "1環",
+      "2": "2環",
+      "3": "3環",
+      "4": "4環",
+      "5": "5環",
+      "6": "6環",
+      "7": "7環",
+      "8": "8環",
+      "9": "9環"
+    },
+    "FavouredClass": {
+      "Bonuses": {
+        "Label": "天賦職業獎勵",
+        "hp": "生命值",
+        "skill": "技能點",
+        "alt": "變體/其他"
+      }
+    },
+    "FavouredClassBonus": {
+      "HP": "生命值",
+      "Skill": "技能點",
+      "Alt": "變體/其他"
+    },
+    "Proficiency": {
+      "Armor": {
+        "LabelPlural": "護甲擅長",
+        "light": "輕甲",
+        "medium": "中甲",
+        "heavy": "重甲",
+        "shield": "盾牌",
+        "tower": "塔盾"
+      },
+      "Weapon": {
+        "LabelPlural": "武器擅長",
+        "simple": "簡易武器",
+        "martial": "軍用武器",
+        "firearm": "火器",
+        "siege": "攻城武器",
+        "heavy": "重型武器"
+      },
+      "Granted": "獲得的擅長",
+      "Penalty": "擅長減值"
+    },
+    "InventoryWeapons": "武器",
+    "InventoryEquipment": "裝備",
+    "InventoryConsumables": "消耗品",
+    "InventoryContainers": "容器",
+    "InventoryImplants": "植入物",
+    "ChangeFlags": {
+      "ImmuneToMoraleEffects": "免疫士氣效果",
+      "LoseDexToAC": "AC 失去敏捷加值",
+      "NoMediumEncumbrance": "不受中載影響",
+      "NoHeavyEncumbrance": "不受重載影響",
+      "MediumArmorFullSpeed": "中甲全速移動",
+      "HeavyArmorFullSpeed": "重甲全速移動",
+      "LowLightVision": "昏暗視覺",
+      "SeeInvisibility": "識破隱形",
+      "SeeInDarkness": "看破黑暗"
+    },
+    "Undefined": "未定義",
+    "Error": {
+      "NoActorPermission": "你沒有權限控制此角色",
+      "NoActorPermissionAlt": "你沒有權限控制角色 \"{name}\"",
+      "NoItemPermission": "你沒有權限修改此物品。",
+      "DisallowedActionType": "角色 \"{name}\" 不允許執行此類動作。",
+      "TooManyConditionSources": "要編輯的狀態來源太多。",
+      "NoDefenseCard": "無法顯示防禦卡片。角色不支持？",
+      "NoSave": "無法投擲豁免。角色不支持？",
+      "ItemNoOwner": "此物品沒有所有者",
+      "SpellbookExists": "法術書已存在",
+      "NoFreeSpellbooks": "沒有空閒的法術書",
+      "UUIDNotFound": "UUID \"{uuid}\" 未解析到任何相關內容。",
+      "NoInitOnDuplicateCombatant": "無法確定為哪個戰鬥人員投擲先攻。",
+      "InvalidContentLinkDrop": "無法從拖放資料建立內容連結。",
+      "NoGiftTargets": "沒有有效的贈送目標。",
+      "InsufficientCharges": "{name} 的剩餘充能不足",
+      "InsufficientPreparation": "{name} 尚未準備或未知。",
+      "NoQuantity": "你沒有更多該物品了",
+      "ItemNotFound": "未找到 ID 為 {id} 的物品",
+      "CantIdentify": "你不被允許鑑定物品",
+      "FeatDisabled": "此專長已禁用",
+      "CommandParse": "聊天命令解析失敗。",
+      "NoMacroID": "未找到 ID 為 '{id}' 的巨集",
+      "EmptySkillTag": "技能標籤不能為空",
+      "SkillTagAlreadyExists": "技能標籤 '{tag}' 已存在"
+    },
+    "Warning": {
+      "NoSizeDie": "無法確定 {formula} 的體型適應骰子，預設為投擲 {fallback}",
+      "DuplicateDFlag": "角色 \"{actor}\" 上的物品 \"{item}\" (標識符 \"{tag}\") 存在衝突的字典標記 \"{key}\"。",
+      "DuplicateTag": "在角色 \"{actor}\" 的物品 \"{item}\" 中發現重複的物品標識符 \"{tag}\"。",
+      "NoDiceAllowedInFormula": "在 {context} 的公式 '{formula}' 中不允許投骰。",
+      "NoConditionalTargetOptions": "沒有可用的條件目標選項。",
+      "ConditionalRoll": "投擲條件式 {name} 的第 {number} 個條件公式導致錯誤",
+      "NoItemOnActor": "角色 \"{actor}\" 沒有物品 \"{item}\"",
+      "NoActionInItem": "物品 \"{item}\" 沒有動作 \"{action}\"",
+      "InvalidItemSheetDrop": "接收到無效的拖放類型 \"{type}\"。",
+      "ImmuneToCondition": "{name} 對 {condition} 狀態免疫。",
+      "CannotCreateChargeLink": "無法讓 {target} 從 {source} 繼承充能，因為 {target} 已經在共享充能。",
+      "CannotCreateChargeLink2": "無法讓 {target} 從 {source} 繼承充能，因為 {target} 已經在從 {deeptarget} 繼承。",
+      "LinkOwnerMismatch": "無法在不同所有者的物品上建立連結。",
+      "LinkOnlyUnowned": "無法連結已擁有的物品。",
+      "LinkOnlyCompendium": "無法連結合集包之外的物品。",
+      "NoActorSelected": "動作未選擇角色。",
+      "NoMultiLink": "無法多次連結同一物品。",
+      "NoCombatantFound": "未找到戰鬥人員",
+      "FormulaMustBeDeterministic": "公式必須是確定性的（無骰子投擲或其他隨機元素）。",
+      "FormulaMustBeSimple": "公式必須簡單（無變量、骰子投擲或其他非數學元素）。",
+      "InvalidInput": "無效值"
+    },
+    "NotificationCreatedAttack": "已為 {item} 建立攻擊",
+    "Info_FirstClass": "從 {browser} 拖放<br>或點擊上方的 {create} 按鈕從頭開始。",
+    "Info_FirstClass_Compendium": "職業合集包",
+    "Info_MissingClass": "你的角色缺少職業。請前往角色卡概要標籤頁的職業部分。",
+    "CMDNotes": "CMD 備註",
+    "Footnotes": "腳註",
+    "FootnotesHint": "僅顯示在聊天卡片底部的備註。",
+    "EffectNotes": "效果備註",
+    "EffectNotesHint": "每個實例顯示的備註，例如每次單獨攻擊的效果。",
+    "SpellResistanceNotes": "法術抗力備註",
+    "ContextNotes": "情境備註",
+    "ACNotes": "AC 備註",
+    "SaveNotes": "豁免備註",
+    "CLNotes": "施法者等級備註",
+    "CLSchoolNotes": "CL 備註 ({school})",
+    "DCSchoolNotes": "DC 備註 ({school})",
+    "SourceNote": "來源: {source}",
+    "NonApplicable": "不適用",
+    "SkillTypeAdventure": "冒險",
+    "SkillTypeBackground": "背景",
+    "ACP": "ACP",
+    "ACPLong": "防具檢定減值",
+    "ACPTooltip": "防具檢定減值",
+    "CS": "本職",
+    "CSTooltip": "本職技能",
+    "RT": "受訓",
+    "RTTooltip": "需受訓",
+    "SkillJournalHint": "將日誌或日誌頁拖放到此處以進行連結。",
+    "SkillModTooltip": "技能調整值",
+    "BrowseSpells": "瀏覽法術",
+    "BrowseItems": "瀏覽物品",
+    "BrowseBestiary": "瀏覽怪物圖鑑",
+    "BrowseFeats": "瀏覽特性",
+    "BrowseClasses": "瀏覽職業",
+    "BrowseRaces": "瀏覽種族",
+    "BrowseBuffs": "瀏覽增益",
+    "Language": {
+      "aboleth": "底棲魔魚語",
+      "abyssal": "深淵語",
+      "aklo": "邪靈語",
+      "ancientosiriani": "古奧斯利昂語",
+      "androffan": "安卓語",
+      "aquan": "水族語",
+      "auran": "風族語",
+      "azlanti": "阿茲蘭特語",
+      "boggard": "沼蜍語",
+      "catfolk": "貓族語",
+      "celestial": "天界語",
+      "common": "通用語",
+      "cyclops": "獨眼巨人語",
+      "dark": "幽暗語",
+      "draconic": "龍語",
+      "drowsign": "卓爾手語",
+      "druidic": "德魯伊語",
+      "dwarven": "矮人語",
+      "dziriak": "影界蟻語",
+      "elven": "精靈語",
+      "giant": "巨人語",
+      "gnoll": "豺狼人語",
+      "gnome": "侏儒語",
+      "goblin": "地精語",
+      "grippli": "樹蛙人語",
+      "halfling": "半身人語",
+      "hallit": "哈利特語",
+      "ib": "Ib",
+      "ignan": "火族語",
+      "infernal": "煉獄語",
+      "jistka": "吉斯塔克語",
+      "kasatha": "卡薩達語",
+      "kelish": "珂萊士語",
+      "kuru": "庫魯語",
+      "lashunta": "勒珊塔語",
+      "munavri": "白化人語",
+      "necril": "亡靈語",
+      "orc": "獸人語",
+      "orvian": "奧烏語",
+      "osiriani": "奧斯利昂語",
+      "polyglot": "多語",
+      "protean": "幻蛇語",
+      "reptoid": "爬蟲語",
+      "rougarou": "狩狼人語",
+      "samsaran": "輪迴者語",
+      "sasquatch": "大腳語",
+      "shadowtongue": "暗影語",
+      "shoanti": "休盎提語",
+      "skald": "斯卡爾德語",
+      "sphinx": "斯芬克斯語",
+      "strix": "梟形人語",
+      "sylvan": "森族語",
+      "syrinx": "貓頭鷹人語",
+      "taldane": "塔爾多語",
+      "tekritanin": "泰克立坦語",
+      "tengu": "天狗語",
+      "terran": "土族語",
+      "thassilonian": "瑟西隆語",
+      "tien": "天洲語",
+      "treant": "樹人語",
+      "triaxian": "特里亞克薩斯語",
+      "undercommon": "地底通用語",
+      "vanaran": "靈猴族語",
+      "varisian": "瓦瑞西亞語",
+      "vegepygmy": "孢子人語",
+      "vishkanya": "蝮血裔語",
+      "vudrani": "烏陀羅語",
+      "yaddithian": "亞狄斯語"
+    },
+    "Rest": "休息",
+    "CreatureTypes": {
+      "Single": "生物類型",
+      "Plural": "生物類型",
+      "aberration": "異怪",
+      "animal": "動物",
+      "construct": "構裝體",
+      "dragon": "龍",
+      "fey": "精類",
+      "humanoid": "類人生物",
+      "magicalBeast": "魔法獸",
+      "monstrousHumanoid": "類人怪物",
+      "ooze": "泥怪",
+      "outsider": "異界生物",
+      "plant": "植物",
+      "undead": "不死生物",
+      "vermin": "蟲類"
+    },
+    "CreatureSubTypes": {
+      "Single": "生物子類型",
+      "Plural": "生物子類型",
+      "adlet": "狼妖",
+      "aeon": "御衡者",
+      "aether": "以太",
+      "agathion": "衛使",
+      "air": "氣",
+      "android": "仿生人",
+      "angel": "天使",
+      "aquatic": "水生",
+      "archon": "聖使",
+      "astomoi": "阿斯托莫伊人",
+      "asura": "阿修羅",
+      "augmented": "增強",
+      "azata": "靈使",
+      "behemoth": "巨獸",
+      "blight": "荒疫怪",
+      "catfolk": "貓族",
+      "changeling": "替換兒",
+      "chaotic": "混亂",
+      "clockwork": "發條",
+      "cold": "寒冷",
+      "colossus": "巨像",
+      "daemon": "邪魔",
+      "darkFolk": "幽暗之民",
+      "deepOne": "深潛者",
+      "demodand": "神孽",
+      "demon": "惡魔",
+      "derro": "迪洛人",
+      "devil": "魔鬼",
+      "div": "妖靈",
+      "dwarf": "矮人",
+      "earth": "土",
+      "elemental": "元素",
+      "elf": "精靈",
+      "evil": "邪惡",
+      "extraplanar": "跨位面",
+      "fire": "火",
+      "giant": "巨人",
+      "gnome": "侏儒",
+      "goblinoid": "地精",
+      "good": "善良",
+      "gray": "小灰人",
+      "greatOldOne": "舊日支配者",
+      "grippli": "樹蛙人",
+      "halfling": "半身人",
+      "hive": "巢群",
+      "herald": "令使",
+      "human": "人類",
+      "incorporeal": "虛體",
+      "inevitable": "制裁者",
+      "kaiju": "怪獸",
+      "kami": "神靈",
+      "kasatha": "卡薩達人",
+      "kitsune": "狐妖",
+      "kyton": "鏈魔",
+      "lawful": "守序",
+      "leshy": "萊西",
+      "manasaputra": "聖仙",
+      "mortic": "死靈裔",
+      "munavri": "白化人",
+      "mythic": "神話",
+      "native": "本地",
+      "nightshade": "夜影",
+      "oni": "鬼",
+      "orc": "獸人",
+      "sahkil": "薩奇爾",
+      "phantom": "魅影",
+      "protean": "幻蛇",
+      "psychopomp": "招魂者",
+      "qlippoth": "古魔",
+      "rakshasa": "羅剎",
+      "ratfolk": "鼠族",
+      "reptilian": "爬蟲",
+      "robot": "機體",
+      "samsaran": "輪迴者",
+      "sasquatch": "大腳怪",
+      "shapechanger": "變形生物",
+      "skinwalker": "獸態人",
+      "spawnOfRovagug": "拉瓦古格之嗣",
+      "swarm": "集群",
+      "troop": "部隊",
+      "vanara": "靈猴族",
+      "vishkanya": "蝮血裔",
+      "water": "水",
+      "wayang": "皮影人",
+      "wildHunt": "狂獵"
+    },
+    "RestoreHealth": "恢復生命值",
+    "RestoreDailyUses": "恢復每日使用次數",
+    "LongTermCare": "長期護理",
+    "RestMessage": "{name} 休息了 {hours} 小時。",
+    "FullRestMessage": "{name} 休息了 {hours} 小時並恢復了每日使用次數。",
+    "ModifierType": {
+      "untyped": "無類型",
+      "untypedPerm": "無類型 (永久)",
+      "base": "基礎",
+      "enhancement": "增強",
+      "dodge": "閃避",
+      "inherent": "內在",
+      "deflection": "偏斜",
+      "morale": "士氣",
+      "luck": "幸運",
+      "sacred": "神聖",
+      "insight": "洞察",
+      "resistance": "抗力",
+      "profane": "褻瀆",
+      "trait": "背景",
+      "racial": "種族",
+      "size": "體型",
+      "competence": "表現",
+      "circumstance": "環境",
+      "alchemical": "鍊金",
+      "haste": "加速"
+    },
+    "AbilityTypes": {
+      "na": {
+        "Label": "天生",
+        "Short": "Na"
+      },
+      "ex": {
+        "Label": "特異",
+        "Short": "Ex"
+      },
+      "su": {
+        "Label": "超自然",
+        "Short": "Su"
+      },
+      "sp": {
+        "Label": "類法術",
+        "Short": "Sp"
+      }
+    },
+    "RollSkillMacroName": "{actor}: 投擲 {skill}",
+    "DisplayDefensesMacroName": "{actor}: 顯示防禦",
+    "RollCMBMacroName": "{actor}: 投擲戰技加值 (CMB)",
+    "RollCLMacroName": "{actor}: 投擲施法者等級 ({book})",
+    "RollConcentrationMacroName": "{actor}: 投擲專注 ({book})",
+    "RollBABMacroName": "{actor}: 投擲基本攻擊加值 (BAB)",
+    "RollSaveMacroName": "{actor}: 投擲 {type} 豁免",
+    "RollInitiativeMacroName": "{actor}: 投擲先攻",
+    "RollAbilityMacroName": "{actor}: 投擲 {ability}",
+    "RollMeleeMacroName": "{actor}: 投擲近戰攻擊",
+    "RollRangedMacroName": "{actor}: 投擲遠程攻擊",
+    "DamageTypes": {
+      "untyped": {
+        "Label": "無類型"
+      },
+      "areaOfEffect": {
+        "Label": "區域效果"
+      },
+      "bludgeoning": {
+        "Label": "鈍擊",
+        "Abbr": "B"
+      },
+      "piercing": {
+        "Label": "穿刺",
+        "Abbr": "P"
+      },
+      "slashing": {
+        "Label": "揮砍",
+        "Abbr": "S"
+      },
+      "cold": {
+        "Label": "寒冷"
+      },
+      "fire": {
+        "Label": "火焰"
+      },
+      "electricity": {
+        "Label": "電擊"
+      },
+      "sonic": {
+        "Label": "音波"
+      },
+      "acid": {
+        "Label": "強酸"
+      },
+      "force": {
+        "Label": "力場"
+      },
+      "negative": {
+        "Label": "負能量"
+      },
+      "positive": {
+        "Label": "正能量"
+      }
+    },
+    "DamageTypeCategory": {
+      "misc": "雜項",
+      "physical": "物理",
+      "energy": "能量"
+    },
+    "Materials": {
+      "Label": "材料",
+      "Base": "基礎材料",
+      "Normal": "材料",
+      "Addon": "附加材料",
+      "NormalOverride": "材料覆蓋",
+      "AddonOverride": "附加材料覆蓋",
+      "Types": {
+        "abysium": "疫石",
+        "adamantine": "精金",
+        "alchemicalSilver": "煉銀",
+        "angelSkin": "天使皮",
+        "aszite": "Aszite",
+        "blackwood": "黑木",
+        "blightQuartz": "凋零石英",
+        "bloodCrystal": "血晶",
+        "buletteArmor": "鯊蜥獸甲",
+        "caphorite": "Caphorite",
+        "cloth": "布料",
+        "coldIron": "寒鐵",
+        "cryptstone": "墓石",
+        "darkleafCloth": "暗葉布",
+        "darkwood": "暗木",
+        "dragonhide": "龍革",
+        "druchite": "Druchite",
+        "eelHide": "電鰻革",
+        "elysianBronze": "極樂青銅",
+        "fireForgedSteel": "火紋鋼",
+        "frostForgedSteel": "冰紋鋼",
+        "glaucite": "Glaucite",
+        "greenwood": "綠木",
+        "griffonMane": "獅鷲鬃",
+        "heatstonePlating": "熱能石鍍層",
+        "horacalcum": "時銅",
+        "inubrix": "虛鉛",
+        "irespanbasalt": "大橋玄武岩",
+        "lazurite": "Lazurite",
+        "leather": "皮革",
+        "liquidGlass": "液態玻璃",
+        "livingSteel": "活鋼",
+        "mithral": "秘銀",
+        "nexavaranSteel": "Nexavaran Steel",
+        "noqual": "零晶",
+        "paueliel": "Paueliel",
+        "pyresteel": "Pyre Steel",
+        "siccatite": "漠石",
+        "silver": "銀",
+        "silversheen": "銀紡",
+        "singingSteel": "鳴鋼",
+        "spireSteel": "Spiresteel",
+        "steel": "鋼鐵",
+        "sunsilk": "太陽絲綢",
+        "sunsilver": "曜銀",
+        "throneglass": "寶座琉璃",
+        "viridium": "毒琉璃",
+        "voidglass": "虛空玻璃",
+        "whipwood": "扭木",
+        "wyroot": "汲魂之莖",
+        "bone": "骨頭",
+        "bronze": "青銅",
+        "glass": "玻璃",
+        "gold": "黃金",
+        "obsidian": "黑曜石",
+        "stone": "石頭",
+        "wood": "木材",
+        "magic": "魔法",
+        "epic": "史詩"
+      }
+    },
+    "SourceInfoSkillRank_ClassBase": "{className} (本職)",
+    "SourceInfoSkillRank_ClassFC": "{className} (天賦職業)",
+    "CreateItemForSpell": "為 {name} 建立物品",
+    "CreateItemWand": "魔杖",
+    "CreateItemScroll": "卷軸",
+    "CreateItemPotion": "藥水",
+    "CreateItemNamePlaceholder": "魔杖、卷軸或藥水",
+    "CreateItemWandOf": "{name}魔杖",
+    "CreateItemScrollOf": "{name}卷軸",
+    "CreateItemPotionOf": "{name}藥水",
+    "Trigger": "觸發",
+    "Haunt": {
+      "Notice": "察覺",
+      "Weakness": "弱點",
+      "Destruction": "摧毀",
+      "Shape": "形狀",
+      "Template": {
+        "belligerent": "好戰",
+        "itemBound": "附著物品",
+        "chained": "被縛",
+        "elusive": "難以捉摸",
+        "fast": "快速",
+        "freeRoaming": "自由遊蕩",
+        "increasedArea": "區域擴大",
+        "latent": "潛伏",
+        "persistent": "持久",
+        "possessing": "附身",
+        "spiteful": "懷恨",
+        "tenacious": "頑強",
+        "unyielding": "不屈",
+        "vaporous": "氣態",
+        "variant": "變體"
+      }
+    },
+    "Trap": {
+      "Bypass": {
+        "HiddenLock": "隱藏鎖",
+        "HiddenSwitch": "隱藏開關",
+        "Lock": "鎖"
+      },
+      "Labels": {
+        "Bypass": "繞過",
+        "DisableDeviceDC": "解除裝置 DC",
+        "EffectsDetails": "效果",
+        "PerceptionDC": "察覺 DC",
+        "Technology": "科技"
+      },
+      "Reset": {
+        "Automatic": "自動",
+        "Manual": "手動",
+        "Repair": "修理"
+      },
+      "Tooltips": {
+        "Bypass": "繞過類型",
+        "Reset": {
+          "Period": "重置週期",
+          "Time": "重置時間",
+          "Type": "重置類型"
+        },
+        "Technology": "這是科技陷阱嗎？",
+        "Trigger": {
+          "Period": "觸發週期",
+          "Range": "觸發範圍",
+          "Time": "觸發時間",
+          "Type": "觸發類型"
+        },
+        "Vision": "視覺類型"
+      },
+      "Triggers": {
+        "ElectricEyes": "電子眼",
+        "Genetic": "基因",
+        "Location": "位置",
+        "Manual": "手動",
+        "Proximity": "鄰近",
+        "Sound": "聲音",
+        "Spell": "法術",
+        "Timed": "定時",
+        "Touch": "接觸",
+        "Visual": "視覺"
+      },
+      "Types": {
+        "Magic": "魔法",
+        "Mechanical": "機械"
+      },
+      "Vision": {
+        "ArcaneEye": "秘法眼",
+        "Clairvoyance": "銳耳/鷹眼術",
+        "TrueSeeing": "真知術"
+      }
+    },
+    "Vehicles": {
+      "Space": {
+        "Large": "2-6 格",
+        "Huge": "7-12 格",
+        "Gargantuan": "13-20 格",
+        "Colossal": "21+ 格"
+      },
+      "Types": {
+        "Land": "陸地",
+        "Sea": "水上",
+        "Air": "空中"
+      },
+      "OccupiedSpace": "佔據空間",
+      "CurrentSpeed": "當前速度",
+      "MaximumSpeed": "最高速度",
+      "Acceleration": "加速度",
+      "Propulsion": "推進方式",
+      "DrivingCheck": "駕駛檢定",
+      "ForwardFacing": "正前方",
+      "DrivingDevice": "駕駛裝置",
+      "DrivingSpace": "駕駛空間",
+      "Crew": "船員/機組",
+      "Decks": "甲板",
+      "SelectDriver": "選擇駕駛員",
+      "DriverSkill": "駕駛技能",
+      "Passengers": "乘客",
+      "ACStoppedMotion": "靜止 AC",
+      "CMDStoppedMotion": "CMD (靜止)",
+      "Cargo": "貨物",
+      "Metal": "金屬",
+      "MagicallyHardened": "魔法加固",
+      "Squares": "格",
+      "Full": "滿載"
+    },
+    "CombatInfo_Header": "戰鬥",
+    "CombatInfo_Round": "第 {round} 輪",
+    "ScriptCalls": {
+      "Name": "腳本呼叫",
+      "NewName": "新腳本呼叫",
+      "Create": "建立嵌入式腳本呼叫",
+      "Use": {
+        "Name": "使用",
+        "Info": "在物品被'使用'（攻擊、喝藥水等）時呼叫。包含額外的數組變量 <code>attacks</code>，其中包含動作的攻擊檢定（如果有）。"
+      },
+      "PostUse": {
+        "Name": "使用後",
+        "Info": "在物品被'使用'且系統完成所有相關處理後呼叫。"
+      },
+      "Equip": {
+        "Name": "裝備",
+        "Info": "在物品被裝備或卸下時呼叫。包含額外的布林變量 <code>equipped</code>。"
+      },
+      "Implant": {
+        "Name": "植入",
+        "Info": "在物品被植入或移除時呼叫。包含額外的布林變量 <code>implanted</code>。"
+      },
+      "Toggle": {
+        "Name": "切換",
+        "Info": "在物品被啟用或禁用時呼叫。包含額外的布林變量 <code>state</code>。"
+      },
+      "ChangeQuantity": {
+        "Name": "更改數量",
+        "Info": "在物品數量更改時呼叫。包含額外的數字變量 <code>quantity.previous</code> 和 <code>quantity.new</code>。"
+      },
+      "ChangeLevel": {
+        "Name": "更改等級",
+        "Info": "在物品等級更改時呼叫。包含額外的數字變量 <code>level.previous</code> 和 <code>level.new</code>。"
+      }
+    },
+    "Abundant": "豐富",
+    "AbundantDesc": "使用時永不消耗此彈藥。",
+    "Action": "動作",
+    "ActionPlural": "動作",
+    "ActionType": "動作類型",
+    "All": "全部",
+    "Attack": "攻擊",
+    "AddEffect": "新增效果",
+    "AddConditional": "新增條件",
+    "AddNote": "新增備註",
+    "AddEntry": "新增條目",
+    "Attributes": "屬性",
+    "ArmorClass": "防禦等級 (AC)",
+    "NaturalArmor": "天生防禦",
+    "Attacks": "攻擊",
+    "Biography": "傳記",
+    "Buffs": "增益",
+    "Change": "改變",
+    "Changes": "改變",
+    "Conditionals": "條件調整值",
+    "ConImm": "狀態免疫",
+    "ConRes": "狀態抗力",
+    "Copy": "複製",
+    "Critical": "重擊",
+    "CriticalConfirmation": "重擊確認",
+    "DefenseDC": "防禦 DC",
+    "Damage": "傷害",
+    "DamageCritical": "重擊傷害",
+    "DamImm": "傷害免疫",
+    "DamRed": "傷害減免 (DR)",
+    "DamVuln": "傷害易傷",
+    "Drain": "吸取",
+    "Penalty": "減值",
+    "Defense": "防禦",
+    "Defenses": "防禦",
+    "Description": "描述",
+    "NoDescription": "無描述。",
+    "Instructions": "說明",
+    "NoInstrutions": "未提供說明。",
+    "Descriptor": "描述符",
+    "DescriptorPlural": "描述符",
+    "Details": "詳情",
+    "Edit": "編輯",
+    "EnRes": "能量抗力",
+    "Equipped": "已裝備",
+    "Carried": "攜帶",
+    "Identified": "已鑑定",
+    "Iterative": "迭代",
+    "Unidentified": "未鑑定",
+    "UnidentifiedDescription": "表面細節",
+    "IdentifiedDescription": "鑑定屬性",
+    "Health": "生命",
+    "Healing": "治療",
+    "Wounds": "創傷",
+    "Vigor": "活力",
+    "HitDice": "生命骰 (HD)",
+    "HitDie": "生命骰",
+    "ActiveFeedback": {
+      "Deltas": {
+        "Health": "{value} 生命值",
+        "Nonlethal": "{value} 瘀傷",
+        "TempHP": "{value} 臨時生命",
+        "Wounds": "{value} 創傷",
+        "Vigor": "{value} 活力",
+        "TempVigor": "{value} 臨時活力",
+        "AbilityDrain": "{value} {ability} 吸取",
+        "AbilityDamage": "{value} {ability} 傷害",
+        "AbilityPenalty": "{value} {ability} 減值",
+        "NegativeLevel": "{value} 負向等級"
+      }
+    },
+    "HealthPerTier": "每階層生命值",
+    "CustomHitDice": "自定義生命骰",
+    "CustomHitDiceHint": "輸入公式，例如 floor(@item.level / 2)",
+    "DieSize": "d{size}",
+    "InfoShort": "資訊",
+    "Inventory": "物品欄",
+    "Feature": "特性",
+    "Features": "特性",
+    "Languages": "語言",
+    "NegativeLevels": "負向等級",
+    "None": "無",
+    "Notes": "備註",
+    "Operator": "運算符",
+    "Quadruped": "四足",
+    "Senses": "感官",
+    "Save": "豁免",
+    "Size": "體型",
+    "Reach": "觸及",
+    "AgeCategory": {
+      "Base": "年齡段",
+      "Mental": "心理年齡段",
+      "Physical": "生理年齡段"
+    },
+    "Resizing": "體型調整",
+    "Special": "特殊",
+    "Movement": {
+      "Label": "移動",
+      "Speed": "速度",
+      "Short": "{speed} {unit} {mode}",
+      "Mode": {
+        "land": "陸地",
+        "swim": "游泳",
+        "fly": "飛行",
+        "climb": "攀爬",
+        "burrow": "掘地"
+      },
+      "FlyManeuverability": {
+        "Label": "飛行機動性",
+        "Abbr": "機動性",
+        "Quality": {
+          "clumsy": "笨拙",
+          "poor": "差勁",
+          "average": "普通",
+          "good": "良好",
+          "perfect": "完美"
+        }
+      }
+    },
+    "ActorSize": {
+      "fine": "超微型",
+      "dim": "微型",
+      "tiny": "超小型",
+      "sm": "小型",
+      "med": "中型",
+      "lg": "大型",
+      "huge": "超大型",
+      "grg": "巨型",
+      "col": "超巨型"
+    },
+    "AgeCategories": {
+      "young": "青年",
+      "adult": "成年",
+      "middleAge": "中年",
+      "old": "老年",
+      "venerable": "暮年"
+    },
+    "Spells": "法術",
+    "Stature": "身形",
+    "StatureLong": "長",
+    "StatureTall": "高",
+    "Items": "物品",
+    "Skill": "技能",
+    "Skills": "技能",
+    "CharacterName": "角色名稱",
+    "Level": "等級",
+    "Gender": "性別",
+    "Deity": "信仰",
+    "Race": "種族",
+    "RaceSubtypePlural": "亞種",
+    "Age": "年齡",
+    "Height": "身高",
+    "Weight": "體重",
+    "ItemWeight": "重量",
+    "StackDetails": {
+      "Base": "基礎: {value}",
+      "Stack": "堆疊: {value}",
+      "Contents": "內容: {value}",
+      "Total": "總計: {value}"
+    },
+    "Base": "基礎",
+    "TempShort": "臨時",
+    "TempHP": "臨時生命值",
+    "Nonlethal": "瘀傷",
+    "Precision": "精準",
+    "Splash": "潑濺",
+    "Initiative": "先攻",
+    "Tiebreaker": "決勝值",
+    "MaxDexShort": "最大敏捷",
+    "Type": "類型",
+    "Subtype": "子類型",
+    "ChargePlural": "充能",
+    "ConditionPlural": "狀態",
+    "Add": "新增",
+    "ItemName": "物品名稱",
+    "BuffName": "增益名稱",
+    "AttackName": "攻擊名稱",
+    "CreateAttack": "建立攻擊",
+    "CreateSpellbook": "建立法術書",
+    "Active": "啟用",
+    "SpellBook": "法術書",
+    "SpellBookPrimary": "主要",
+    "SpellBookSecondary": "次要",
+    "SpellBookTertiary": "第三",
+    "SpellBookSpelllike": "類法術能力",
+    "SpellLevel": "法術等級",
+    "SpellSchool": "法術學派",
+    "SpellResistance": "法術抗力",
+    "SpellResistanceAbbr": "SR",
+    "Subschool": "子學派",
+    "TypePlural": "類型",
+    "SpellEffectExample": "例如：一滴酸液",
+    "Area": "區域",
+    "Melee": "近戰",
+    "MeleeWeapon": "近戰武器",
+    "MeleeSpell": "近戰法術",
+    "Ranged": "遠程",
+    "RangedWeapon": "遠程武器",
+    "RangedSpell": "遠程法術",
+    "WeaponDamage": "武器傷害",
+    "MeleeWeaponDamage": "近戰武器傷害",
+    "RangedWeaponDamage": "遠程武器傷害",
+    "ThrownWeaponDamage": "投擲武器傷害",
+    "AllRangedDamage": "所有遠程傷害",
+    "AllMeleeDamage": "所有近戰傷害",
+    "NaturalAttackDamage": "天生攻擊傷害",
+    "SpellDamage": "法術傷害",
+    "AttackRollPlural": "攻擊檢定",
+    "CriticalHitPlural": "重擊",
+    "AbilityScore": "屬性值",
+    "AbilityScoreLinks": "屬性值連結",
+    "KeyAbility": "關鍵屬性",
+    "KeyAbilityRef": "關鍵屬性 ({ability})",
+    "BaseSetup": "基礎設置",
+    "UtilityFunctions": "實用功能",
+    "SavingThrow": "豁免檢定",
+    "SavingThrowPlural": "豁免檢定",
+    "SavingThrowEffect": "豁免效果",
+    "SavingThrowGoodFractionalBonus": "高豁免加值",
+    "Misc": "雜項",
+    "MiscShort": "雜項",
+    "HitPoints": "生命值",
+    "VulnerableTo": "易傷於 {vulnerability}",
+    "Immune": "免疫",
+    "ImmuneTo": "免疫於 {immunity}",
+    "Check": "{type} 檢定",
+    "SavingThrowRoll": "{save} 豁免檢定",
+    "SavingThrowButtonLabel": "{type} DC {dc}",
+    "SavingThrowButtonLabelGMSensitive": "{save} 豁免",
+    "SpellResistanceNote": "法術抗力 {value}",
+    "ImmunityPlural": "免疫",
+    "BABAbbr": "BAB",
+    "BAB": "基本攻擊加值",
+    "HalfBAB": "1/2 BAB",
+    "BABOverride": "BAB 覆蓋",
+    "CMBAbbr": "CMB",
+    "CMB": "戰技加值",
+    "ACNormal": "AC",
+    "ACTouch": "接觸",
+    "ACFlatFooted": "措手不及",
+    "ACFFAbbr": "措手不及 AC",
+    "CMDFlatFooted": "措手不及 CMD",
+    "CMDAbbr": "CMD",
+    "CMDFFAbbr": "措手不及 CMD",
+    "CMD": "戰技防禦",
+    "Untrained": "未受訓",
+    "Range": "距離",
+    "RangeFormat": "{distance} {units}",
+    "MinRange": "最小距離",
+    "RangeNote": "距離: {distance} {units}",
+    "MaxRangeNote": "最大距離: {distance} {units}",
+    "Radius": "半徑",
+    "Target": "目標",
+    "Targets": "目標",
+    "Effect": "效果",
+    "Effects": "效果",
+    "Prepared": "已準備",
+    "Unprepared": "未準備",
+    "InitiallyPrepared": "初始準備",
+    "ClassPlural": "職業",
+    "NewClassFeaturePlural": "新職業特性",
+    "TemplatePlural": "模板",
+    "Temporary": "臨時",
+    "Permanent": "永久",
+    "Item": "物品",
+    "WeaponProperties": "武器屬性",
+    "Enhancement": "增強",
+    "EnhancementInline": "+{bonus} 增強",
+    "EnhancementBonus": "增強加值",
+    "EnhancementBonusOverride": "增強加值覆蓋",
+    "AttackAlignment": "陣營特性",
+    "AttackAlignmentOverride": "陣營特性覆蓋",
+    "Preparation": "準備",
+    "CastsLeft": "剩餘次數",
+    "Harmless": "無害",
+    "CasterLevelOffset": "施法者等級偏移",
+    "CasterLevelCheck": "施法者等級檢定",
+    "CasterLevel": "施法者等級",
+    "CasterLevelAbbr": "CL",
+    "LevelOffset": "等級偏移",
+    "CasterLevelBonusFormula": "施法者等級加值公式",
+    "CasterLevelNotes": "施法者等級備註",
+    "School": "學派",
+    "Domain": "領域",
+    "SubDomain": "子領域",
+    "CastingTime": "施法時間",
+    "Components": "成分",
+    "SpellRangeShort": "25 尺 + 5 尺/2 等級",
+    "SpellRangeMedium": "100 尺 + 10 尺/等級",
+    "SpellRangeLong": "400 尺 + 40 尺/等級",
+    "SpellRangeShortMetric": "7.5 米 + 1.5 米/2 等級",
+    "SpellRangeMediumMetric": "30 米 + 3 米/等級",
+    "SpellRangeLongMetric": "120 米 + 12 米/等級",
+    "Aura": {
+      "Single": "靈光",
+      "Plural": "靈光",
+      "Strength": {
+        "faint": "微弱",
+        "moderate": "中等",
+        "strong": "強烈",
+        "overwhelming": "刺目"
+      }
+    },
+    "Unknown": "未知",
+    "ElementalSchool": "元素學派",
+    "Bloodline": "血統",
+    "ConcentrationCheck": "專注檢定",
+    "Concentration": "專注",
+    "ConcentrationBonusFormula": "專注加值公式",
+    "ConcentrationNotes": "專注備註",
+    "Dismissable": "可解消",
+    "DismissableMark": "(D)",
+    "SpellLevelOffset": "法術等級偏移",
+    "SpellSlotCost": "法術位消耗",
+    "CastsPerDayUsedFormula": "每日施法次數消耗公式",
+    "SpellCasting": "施法",
+    "SpellcastingClass": "施法職業",
+    "SpellcastingAbility": "施法屬性",
+    "Usage": "用法",
+    "Slot": "插槽",
+    "MaxDexterityModifier": "最大敏捷加值",
+    "ArmorCheckPenalty": "防具檢定減值",
+    "ArcaneSpellFailure": "奧術失敗率",
+    "ArcaneSpellFailureAbbr": "ASF",
+    "AutomaticSpellSlots": "屬性值獎勵法術位",
+    "RequiresAutoSlots": "需要啟用自動法術位。",
+    "AutoCalculateSpellSlots": "自動計算法術位",
+    "AutoSlotIncompatible": "需要禁用自動法術位。",
+    "HasCantrips": "擁有戲法/禱唸",
+    "NoCastingAbilityLimit": "忽略屬性限制",
+    "InvalidSpellLevelHint": "無效的法術等級<br>僅因為分配了法術而顯示。",
+    "Modifications": "修改",
+    "PreparePerDay": "每日準備",
+    "CastPerDay": "每日施法",
+    "SkillsPerLevel": "技能點/等級",
+    "Source": "來源",
+    "Unlimited": "無限",
+    "Infinite": "無限",
+    "Requirements": "要求",
+    "Formula": "公式",
+    "BonusFormula": "加值公式",
+    "AttackRollBonus": "攻擊檢定加值",
+    "SecondaryAttackModifier": "次要攻擊調整值",
+    "Rolls": {
+      "Check": {
+        "Label": "檢定",
+        "Override": "檢定覆蓋",
+        "OverrideHint": "例如 2d20kl"
+      },
+      "Bonus": "檢定加值",
+      "BonusHint": "例如 1d6[靈感] + 2[援助] + 1"
+    },
+    "CriticalThreatRange": "重擊威脅範圍",
+    "CriticalMultiplier": "重擊倍率",
+    "CriticalConfirmBonus": "重擊確認加值",
+    "AttackAbility": "攻擊屬性",
+    "ExtraAttacks": {
+      "Label": "額外攻擊",
+      "Standard": "迭代攻擊",
+      "Advanced": "迭代 + 自定義",
+      "Flurry": "疾風連擊 (Chained)",
+      "UnFlurry": "疾風連擊 (Unchained)",
+      "FlurryFlavor": "疾風",
+      "FlurryAttack": "疾風 #{0}",
+      "Custom": "自定義",
+      "Add": "新增額外攻擊",
+      "ModifierFormula": "攻擊調整值公式",
+      "ModifierTooltip": "<code>@formulaicAttack</code> 可用於引用這是序列中的第幾次攻擊。",
+      "Formula": {
+        "Label": "按公式",
+        "LabelDefault": "攻擊 #{0}",
+        "LabelTooltip": "插入 <code>{0}</code> 以顯示迭代計數器。",
+        "Count": "攻擊次數公式"
+      }
+    },
+    "Name": "名稱",
+    "DamageAbility": "傷害屬性",
+    "AbilityBonus": "屬性加值",
+    "MaxAbilityHint": "允許的最大屬性調整值。在乘數之前應用限制。如果未定義則無限制。",
+    "SecondaryAttackAbilityMultiplier": "次要攻擊屬性乘數",
+    "BaseFormula": "基礎公式",
+    "DamageFormulaHint": "例如 sizeRoll(1, 8, @size)",
+    "OnCritBonusFormula": "重擊時加值公式",
+    "NonMultBonusFormula": "非乘倍加值公式",
+    "AddBaseInstance": "新增基礎實例",
+    "AddOnCritInstance": "新增重擊時實例",
+    "AddNonMultInstance": "新增非乘倍實例",
+    "DamageType": "傷害類型",
+    "DamageModifiers": "傷害調整",
+    "DamageBonus": "傷害加值",
+    "DamageBonusHint": "例如 1d4[火焰] + 2",
+    "HealBonus": "治療加值",
+    "HealBonusHint": "例如 1d6 + 6[不可思議治療]",
+    "ActivationCost": "啟用消耗",
+    "Duration": "持續時間",
+    "ConcentationDuration": "專注，至多 {duration}",
+    "ForDuration": "{subject} 持續 {duration}",
+    "DurationEndTiming": "結束時機",
+    "EnabledCheckFlags": "啟用的標記",
+    "CheckFlags": "標記",
+    "Quantity": "數量",
+    "Price": "價格",
+    "PricePerCharge": "每次充能價格",
+    "HPShort": "HP",
+    "Hardness": "硬度",
+    "SituationalBonus": "情境加值",
+    "RollMode": "投骰模式",
+    "UpdateActor": "更新角色",
+    "UpdateItem": "更新物品",
+    "BonusCarryStrength": "額外負重力量",
+    "BonusCarryMultiplier": "額外負重倍率",
+    "CarryStrength": "負重力量",
+    "CarryMultiplier": "負重倍率",
+    "Multiplier": "倍率",
+    "CarryLightLoad": "輕載",
+    "CarryMediumLoad": "中載",
+    "CarryHeavyLoad": "重載",
+    "CarryAboveHead": "舉過頭頂",
+    "CarryOffGround": "離地搬運",
+    "CarryDragPush": "拖曳推行",
+    "CarryLabel": "負重 {lbs} 磅",
+    "CarryLabelKg": "負重 {kg} 公斤",
+    "SkillBonusRankFormula": "獎勵等級公式",
+    "ToggleSkillLock": "切換很少需要的技能列表部分的編輯鎖定。",
+    "Rank": "等級",
+    "SkillRankPlural": "技能等級",
+    "Used": "已用",
+    "Transferred": "已轉移",
+    "BGSkillRanks": "背景技能等級",
+    "BGUsed": "背景已用",
+    "SeeText": "見文本",
+    "DC": "DC",
+    "DifficultyClass": "難度等級",
+    "SpellDC": "法術 DC",
+    "DCFormula": "DC 公式",
+    "DCOffset": "DC 偏移",
+    "DCOffsetFormula": "DC 偏移公式",
+    "DCThreshold": "DC {threshold}",
+    "DCDescriptionExample": "例如 反射減半",
+    "Success": "成功",
+    "Failure": "失敗",
+    "PowerAttack": "猛力攻擊",
+    "DeadlyAim": "致命瞄準",
+    "Flanking": "夾擊",
+    "HighGround": "高地",
+    "Charge": "衝鋒",
+    "PrimaryAttack": "主要攻擊",
+    "SecondaryAttack": "次要攻擊",
+    "TouchAttack": "接觸攻擊",
+    "TouchAttackShort": "接觸",
+    "Enabled": "啟用",
+    "Disabled": "禁用",
+    "Low": "低",
+    "Medium": "中",
+    "High": "高",
+    "Poor": "差",
+    "Good": "好",
+    "Proficient": "擅長",
+    "ProficientAttack": "擅長 (攻擊)",
+    "Masterwork": "精製品",
+    "ClassSkills": "本職技能",
+    "MeasureTemplate": "測量模板",
+    "TemplateType": "模板類型",
+    "TemplateSizeFormula": "尺寸公式 (尺)",
+    "TemplateSizeFormulaHint": "定義錐形和射線的距離，圓形的半徑，以及矩形的邊長。",
+    "LearnedAt": "學習於",
+    "EquipmentType": "裝備類型",
+    "EquipmentSubtype": "裝備子類型",
+    "ConsumableType": "消耗品類型",
+    "CreatureType": "生物類型",
+    "InheritAs": "繼承 ({inherited})",
+    "Standard": "標準",
+    "Manual": "手動",
+    "Override": "覆蓋",
+    "NoOverride": "無覆蓋",
+    "CustomColor": "自定義顏色",
+    "CustomTexture": "自定義紋理",
+    "CustomSkill": "自定義技能",
+    "FromSources": "來源",
+    "UnidentifiedName": "未鑑定名稱",
+    "UnidentifiedPriceShort": "未鑑價格",
+    "Finish": "完成",
+    "Yes": "是",
+    "No": "否",
+    "Other": "其他",
+    "BaseDCFormula": "基礎 DC 公式",
+    "Lbs": "磅",
+    "Kgs": "千克",
+    "Category": "類別",
+    "Quickbar": "快捷欄",
+    "QuickbarHint": "顯示在指示物 HUD 和摘要快捷動作中。",
+    "QuickCombat": "戰鬥標籤頁",
+    "QuickCombatHint": "也將此物品包含在戰鬥標籤頁中。",
+    "Tag": "標籤",
+    "Tags": "標籤",
+    "Identifier": "標識符",
+    "Reset": "重置",
+    "AttackType": "攻擊類型",
+    "SingleAttack": "單次攻擊",
+    "FullAttack": "全力攻擊",
+    "Use": "使用",
+    "Regeneration": "再生",
+    "FastHealing": "快速醫療",
+    "Links": "連結",
+    "Confirm": "確認",
+    "CROffset": "挑戰等級偏移",
+    "Offsets": "偏移",
+    "Haste": "加速術",
+    "Manyshot": "多重射擊",
+    "RapidShot": "快速射擊",
+    "PointBlankShot": "近距射擊",
+    "Ammunition": "彈藥",
+    "AmmunitionType": "彈藥類型",
+    "AmmunitionPerAttack": "彈藥消耗 (每次攻擊)",
+    "AmmunitionAbbr": "彈藥",
+    "AmmoRemaining": "剩餘彈藥: {quantity}",
+    "AmmoDepleted": "彈藥耗盡！",
+    "ChargesDepleted": "充能耗盡！",
+    "NotSelected": "未選擇",
+    "InvalidAmmoType": "無效的彈藥類型",
+    "DefaultAmmo": "預設彈藥",
+    "Misfire": "不發火",
+    "Capacity": "容量",
+    "Priority": "優先級",
+    "ChangePriority": {
+      "Early": "早期",
+      "Late": "晚期",
+      "Normal": "正常"
+    },
+    "Creatures": "生物",
+    "ChargeCost": "充能消耗",
+    "ChargeCostFormula": "充能消耗公式",
+    "ChargeCostItemFormulaHint": "此物品預設消耗多少充能（或施法次數、法力點等）。負值將恢復充能。",
+    "ChargeCostActionFormulaHint": "此動作消耗多少充能（或施法次數、法力點等）。負值將恢復充能。",
+    "PerAttack": "每次攻擊",
+    "ChargeSource": "充能源",
+    "MaximumUsesFormula": "最大使用次數公式",
+    "RechargeFormula": "再充能公式",
+    "RechargeFormulaHint": "再充能將當前充能設置為公式的結果。對於相對再充能，請使用當前充能值 <code>@item.uses.value</code> 作為公式的一部分。",
+    "Value": "價值",
+    "SellValue": "出售價值",
+    "TotalItems": "{count} 總物品",
+    "FilteredItems": "{count} 過濾後物品",
+    "SearchFilterPlaceholder": "搜索過濾器…",
+    "FilterPrepared": "過濾未準備的。",
+    "FilterEmpty": "過濾空的部分。",
+    "QuickActions": "快捷動作",
+    "ConvertCurrency": "轉換貨幣",
+    "SoundEffect": "音效",
+    "Classes": "職業",
+    "Races": "種族",
+    "SetTo": "設置為 {value}",
+    "Feats": "專長",
+    "ByLevel": "按等級",
+    "ByBonus": "按獎勵",
+    "FromLevels": "來自等級",
+    "FromMythic": "來自神話",
+    "Total": "總計",
+    "Missing": "缺失",
+    "Excess": "過量",
+    "BonusFeatFormula": "獎勵專長公式",
+    "CustomBonus": "自定義加值",
+    "CustomBonusType": "自定義加值 ({type})",
+    "Advanced": "高級",
+    "LeftToPrepare": "剩餘準備數量",
+    "SpellsTotalEachDay": "每日法術總數",
+    "UseItem": "使用物品",
+    "UseSpell": "施放法術",
+    "UseFeat": "使用特性",
+    "UseBuff": "使用增益",
+    "RollSkill": "投擲技能檢定",
+    "PerformAttack": "執行攻擊",
+    "DisplayInChat": "在聊天中顯示",
+    "UseSpellPoints": "使用法力點",
+    "MaxFormula": "最大值公式",
+    "SpellPoints": "法力點",
+    "SpellPointsMax": "最大法力點",
+    "SpellPointsCost": "法力點消耗",
+    "RestoredOnRest": "休息時恢復",
+    "Broken": "破損",
+    "AutoBroken": "由於剩餘生命值自動破損。",
+    "Cursed": "詛咒",
+    "Timeworn": "老舊",
+    "Artifact": "神器",
+    "Compendium": "合集包",
+    "Custom": "自定義",
+    "RecoverChancePercentage": "回收幾率 %",
+    "RecoverAmmunition": "回收彈藥",
+    "RecoveredAmmo": "回收了 {count} 發彈藥",
+    "ForceRecover": "回收 (強制)",
+    "Default": "預設",
+    "DefaultRef": "預設 ({value})",
+    "Held": "持握",
+    "HeldMult": "持握 (×{mult})",
+    "BaseTypes": {
+      "Label": "裝備基礎類型",
+      "Description": "用於對特定類型起作用的特性，如武器專攻或特定武器擅長（如異種武器擅長），或當物品名稱偏離其基礎名稱時。<p>例如，命運之刃的基礎類型是匕首。"
+    },
+    "ArmorOrShield": "護甲/盾牌",
+    "WeaponGroups": "武器組",
+    "GiveItem": "給予物品",
+    "GiveItemToActor": "給予物品給角色",
+    "SplitItem": "拆分物品",
+    "HideFromToken": "對指示物隱藏",
+    "ACPArmor": "ACP (護甲)",
+    "ACPShield": "ACP (盾牌)",
+    "MaxDexArmor": "最大敏捷加值 (護甲)",
+    "MaxDexShield": "最大敏捷加值 (盾牌)",
+    "Encumbrance": "負重",
+    "MediumEncumbrance": "中載",
+    "HeavyEncumbrance": "重載",
+    "Normal": "正常",
+    "IdentifyDC": "鑑定 DC",
+    "IdentifyCurseDC": "鑑定詛咒 DC",
+    "Identify": "鑑定",
+    "Unidentify": "取消鑑定",
+    "MagicItems": "魔法物品",
+    "Summary": "概要",
+    "HitDieShort": "HD",
+    "ChallengeRatingShort": "CR",
+    "Experience": "經驗",
+    "XPValue": "{value} XP",
+    "Combat": "戰鬥",
+    "Current": "當前",
+    "Maximum": "最大",
+    "MaxShort": "最大",
+    "Minimum": "最小",
+    "Average": "平均",
+    "AverageShort": "平均",
+    "Ability": "屬性",
+    "AbilityPlural": "屬性",
+    "Modifier": "調整值",
+    "ModifierAbbr": "調整",
+    "Bonus": "加值",
+    "OpenAssociatedCompendiumEntry": "打開關聯的合集包條目",
+    "Tier": "階層",
+    "ReducedMovementSpeed": "移動速度降低",
+    "Settings": "設置",
+    "SpellbookUsage": "法術書用途",
+    "SpellSlotAbilityBonus": "法術位屬性加值",
+    "SpellbookName": "法術書名稱",
+    "StaticSize": "靜態尺寸",
+    "StaticSizeHint": "如果啟用，指示物尺寸和縮放不會自動調整以匹配角色體型。",
+    "CustomVisionRules": {
+      "Label": "禁用系統控制視覺",
+      "Description": "阻止系統控制視覺，允許你自定義它。",
+      "ConfigHint": "系統控制的感官在角色卡的屬性標籤頁配置。",
+      "Warning": "如果在全局或指示物中禁用了系統控制視覺，此配置無效。如果你希望繼續使用此功能，請禁用兩者。"
+    },
+    "DomainSlotValue": "領域/學派槽",
+    "DomainSlotValueDesc": "領域/學派法術每個法術等級擁有的額外法術位數量。",
+    "Command": "命令",
+    "MaximumRangeIncrements": "最大射程增量",
+    "DuplicateInitiative": "重複先攻",
+    "InitiativeOffset": "先攻偏移",
+    "CustomRollDesc": "此投骰使用非預設公式",
+    "Hidden": "隱藏",
+    "Bright": "明亮",
+    "Dim": "昏暗",
+    "PCs": "PC們",
+    "NPCs": "NPC們",
+    "Options": "選項",
+    "Split": "拆分",
+    "ChooseAnAction": "選擇一個動作",
+    "Select": "選擇",
+    "SelectSpecific": "選擇 {specifier}",
+    "Drink": "飲用",
+    "Properties": "屬性",
+    "Driving": "駕駛",
+    "Migration": {
+      "Start": "正在應用 PF1 系統遷移至版本 {version}。請稍候。",
+      "InProgress": "PF1 系統遷移正在進行中。請等待完成。",
+      "End": "PF1 系統遷移至版本 {version} 完成！",
+      "Dialog": {
+        "Title": "遷移",
+        "Ongoing": "遷移進行中！",
+        "Completed": "遷移完成！",
+        "IgnoreLocked": "忽略鎖定的合集包",
+        "ProcessLocked": "處理鎖定的合集包",
+        "FastMode": "跳過已遷移的文檔。",
+        "SlowMode": "處理所有文檔。",
+        "RefreshRequired": "需要重新整理以完成遷移！",
+        "ReloadAll": "重新載入所有客戶端",
+        "Category": "類別",
+        "Issues": "遷移問題",
+        "InvalidDocuments": "無效文檔",
+        "ErrorHelp": "點擊類別錯誤計數器檢視詳情。",
+        "Errors": "錯誤",
+        "Tooltip": {
+          "Ignored": "已忽略",
+          "Invalid": "無效",
+          "Errors": "錯誤",
+          "Processed": "已處理",
+          "Total": "總計",
+          "Status": "狀態"
+        }
+      },
+      "Category": {
+        "World": "世界",
+        "Modules": "模組包",
+        "System": "系統",
+        "Actors": "角色目錄",
+        "Items": "物品目錄",
+        "Chat": "聊天消息",
+        "Scenes": "場景",
+        "Packs": "合集包"
+      },
+      "Issues": {
+        "ID": "ID",
+        "UUID": "UUID",
+        "Message": "消息"
+      }
+    },
+    "ContentSource": {
+      "Title": "內容來源: {name}",
+      "EditHint": "編輯內容來源詳情",
+      "Missing": "無來源資訊",
+      "Extras": "額外來源",
+      "AddEntry": "新增來源",
+      "NewEntry": "新來源",
+      "DelEntry": "刪除來源",
+      "DelTitle": "刪除來源: {entry}",
+      "DelEntryDesc": "確定要刪除 \"{entry}\" 嗎？",
+      "Pages": "p. {pages}",
+      "Autofill": "從來源登錄檔自動填充。",
+      "DateFormat": "YYYY-MM-DD",
+      "Errors": {
+        "DuplicateID": "具有相同 ID 的來源條目已存在。"
+      },
+      "Info": {
+        "Title": "標題",
+        "TitleHint": "源材料的標題，通常是書名。",
+        "ID": "ID",
+        "IDHint": "書籍 ID 或類似，例如 PZO1110",
+        "Edition": "版本",
+        "EditionHint": "例如 6",
+        "Errata": "勘誤",
+        "ErrataHint": "勘誤版本或日期",
+        "Release": "發布",
+        "Pages": "頁碼",
+        "PagesHint": "頁碼，範圍 (例如 276-278)，或列表 (例如 124,270)",
+        "Publisher": "出版商",
+        "PublisherHint": "例如 Paizo"
+      }
+    },
+    "Application": {
+      "Damage": {
+        "Instances": "實例",
+        "ReduceBy": "減少",
+        "ApplyDamage": "對 {targets} 個目標應用傷害。",
+        "ApplyHeal": "對 {targets} 個目標應用治療。",
+        "DualHeal": "雙重治療",
+        "DualHealHint": "同時治療正常生命值和非致命傷害。",
+        "AsWounds": "作為創傷"
+      },
+      "Changelog": {
+        "Title": "更新日誌",
+        "DontShowAgain": "系統更新後不再顯示更新日誌",
+        "OpenInBrowser": "在瀏覽器中打開",
+        "Latest": "最新",
+        "Major": "主要",
+        "Legacy": "舊版"
+      },
+      "PartyRest": {
+        "Title": "隊伍休息",
+        "Watch": "守夜",
+        "Rested": "{people} 人的隊伍已充分休息！過去了 {hours} 小時。",
+        "Watches": {
+          "Label": "守夜",
+          "PerShift": "每班小時數",
+          "None": "無守夜",
+          "Length": "守夜時長",
+          "NoneHint": "沒人守夜。",
+          "Solo": "單人",
+          "SoloHint": "單人守夜。",
+          "Duo": "雙人",
+          "DuoHint": "兩人同時守夜。<br>至少需要 4 人。"
+        }
+      },
+      "ActionSelector": {
+        "Title": "{actor} 使用 {item}"
+      },
+      "ChangeTargetSelector": {
+        "Title": "選擇改變目標",
+        "InvalidChoice": "選擇對當前角色無效。"
+      },
+      "ContextNoteTargetSelector": {
+        "Title": "選擇情境備註目標"
+      },
+      "CurrencyTransfer": {
+        "Send": "發送貨幣",
+        "Failed": "貨幣轉賬失敗: ",
+        "GMRequired": "需要 GM 完成轉賬。",
+        "Insufficient": "貨幣不足"
+      },
+      "XPDistributor": {
+        "Title": "經驗分配器",
+        "Options": {
+          "BonusExperience": "獎勵經驗"
+        },
+        "Warnings": {
+          "NoRecipients": "未選擇接收者。",
+          "NoReward": "未定義獎勵。"
+        },
+        "Result": "獎勵了 {xp} XP。",
+        "Reward": "獎勵",
+        "SplitEvenly": "平均分配",
+        "GiveToAll": "給予所有人",
+        "TotalExperience": "總經驗",
+        "SplitExperience": "分攤經驗"
+      },
+      "VisionSharing": {
+        "Label": "視野共享"
+      },
+      "EntrySelector": {
+        "Title": "條目選擇器",
+        "TitleIsolated": "{item} – {title}",
+        "TitleOwned": "{item} – {actor} – {title}"
+      },
+      "TraitSelector": {
+        "NoCustomEntries": "無自定義條目。",
+        "CustomPlaceholder": "輸入自定義條目",
+        "CustomHint": "用回車或分號 (;) 新增新條目。在輸入為空時按兩次退格鍵刪除最後一項。"
+      },
+      "DamageResistanceSelector": {
+        "DRTitle": "傷害減免 (DR) 選擇",
+        "ERTitle": "能量抗力選擇",
+        "DamageAmount": "數量",
+        "Bypassed": "被穿透於",
+        "Resisted": "對抗",
+        "CombinationType": "運算符",
+        "CombinationOr": "或",
+        "CombinationAnd": "和",
+        "CombinationFormattedOr": "{type1} 或 {type2}",
+        "CombinationFormattedAnd": "{type1} 和 {type2}"
+      },
+      "ChangeEditor": {
+        "Label": "改變編輯器",
+        "AddChange": "新增改變",
+        "Invalid": "無效",
+        "Operator": {
+          "Add": "調整",
+          "AddVerb": "調整",
+          "AddHint": "通過公式調整目標屬性",
+          "Set": "設置",
+          "SetVerb": "設置",
+          "SetHint": "將目標屬性設置為公式",
+          "InvalidHint": "未知運算符。"
+        },
+        "Help": {
+          "Link": "關於改變的資訊",
+          "Value": "數值",
+          "ValueHint": "必須是確定性的，沒有骰子投擲等隨機元素。",
+          "Roll": "投骰",
+          "RollHint": "支持骰子投擲等隨機元素。",
+          "Simple": "簡單",
+          "SimpleHint": "僅支持數字項，無變量或骰子投擲。"
+        },
+        "AsType": "作為"
+      },
+      "Settings": {
+        "Player": "玩家",
+        "World": "世界",
+        "Integration": {
+          "Title": "模組整合",
+          "Label": "配置整合",
+          "Hint": "更改系統為哪些模組新增特殊功能。",
+          "Reset": "重置整合配置為預設值。",
+          "Modules": {
+            "dice-so-nice": {
+              "Label": "Dice So Nice",
+              "Info": "觸發 DSN，系統會混淆投骰資料並按上下文分組投骰。"
+            },
+            "drag-ruler": {
+              "Label": "Drag Ruler",
+              "Info": "向 Drag Ruler 新增速度提供器。"
+            },
+            "babele": {
+              "Label": "Babele",
+              "Info": "延遲包資料準備，以便 Babele 翻譯被計入。"
+            }
+          }
+        },
+        "Performance": {
+          "Title": "性能配置",
+          "Button": "性能設置",
+          "Hint": "調整影響性能的設置。",
+          "Reset": "重置性能配置為預設值。",
+          "Options": {
+            "reachLimit": {
+              "Label": "觸及高亮限制",
+              "Hint": "繪製觸及高亮的最大範圍（以格為單位）。預設為 60 (300 尺)。無論此設置如何，第一個增量始終完全顯示。低於 10 的值將完全禁用觸及高亮。"
+            }
+          }
+        },
+        "Health": {
+          "Title": "生命值配置",
+          "Label": "配置生命值",
+          "Hint": "配置角色的生命值計算。",
+          "Reset": "生命值配置已重置為預設值。保存以確認。",
+          "Instructions": "各種類型職業的生命值計算。作為參考，Pathfinder Society (PFS) 對玩家角色使用以下配置：自動計算，0.5 比率，一個 HD 取滿，向上取整，離散連續性。",
+          "Compute": "計算",
+          "Rate": "比率",
+          "CanMaximize": "可取滿",
+          "CanMaximizeHint": "計入取滿生命骰。",
+          "ComputeAuto": "自動",
+          "ComputeManual": "手動",
+          "AutoConfig": "自動生命值配置",
+          "MaximizedLimit": "取滿 HD 限制",
+          "Rounding": "生命值取整",
+          "RoundingHint": "生命值必須是整數。如何取整？",
+          "RoundingUp": "向上",
+          "RoundingDown": "向下",
+          "RoundingNearest": "最近",
+          "Continuity": "生命值連續性",
+          "ContinuityHint": "生命值可以離散或連續計算。離散生命值在每一級取整，意味著生物每個生命骰獲得穩定的生命值。連續生命值在評估完每個生命骰來源後取整，意味著生物每個生命骰獲得的生命值可能會波動。",
+          "Continuous": "連續",
+          "Discrete": "離散",
+          "Class": {
+            "base": "基礎",
+            "npc": "NPC",
+            "racial": "種族"
+          },
+          "WoundsAndVigor": {
+            "Label": "創傷與活力",
+            "Hint": "為此角色類型使用創傷與活力選用規則集。"
+          },
+          "WoundThresholds": {
+            "Label": "創傷閾值",
+            "Hint": "為此角色類型使用創傷閾值選用規則集。",
+            "VigorConflict": "如果也啟用了創傷與活力選用規則，創傷閾值將無效。",
+            "Disabled": "已禁用",
+            "Normal": "正常",
+            "Gritty": "嚴酷"
+          }
+        },
+        "Experience": {
+          "Title": "經驗值配置",
+          "Name": "經驗值配置",
+          "Label": "配置經驗值",
+          "Hint": "配置關於升級的方面。",
+          "Reset": "重置經驗值配置為預設值。",
+          "Track": {
+            "Label": "經驗值軌跡",
+            "Hint": "角色升級的速度",
+            "Options": {
+              "Slow": "慢速",
+              "Medium": "中速",
+              "Fast": "快速",
+              "Custom": "自定義"
+            },
+            "CustomPlaceholder": "例如 '@level * 1000'",
+            "CustomUsage": "自定義經驗公式是累積的。例如，要模仿 PF2 風格的經驗，你只需輸入 <code>1000</code>，因為每一級都需要 1000 經驗，而將其設置為 <code>@level * 1000</code> 將意味著每一級都比上一級多需要一千。使用角色的普通投骰資料並新增 <code>@level</code> 作為要達到的等級。"
+          },
+          "Disable": "禁用經驗值追蹤",
+          "DisableHint": "禁用系統的經驗值追蹤功能，如經驗條、升級檢測、XP 閾值等。",
+          "Distributor": "打開 XP 分配器",
+          "DistributorHint": "除非在確認刪除戰鬥時按住 Shift，否則在戰鬥結束時打開 XP 分配器"
+        }
+      },
+      "GetNumber": {
+        "Title": "輸入數字",
+        "Confirm": "確認"
+      },
+      "PointBuy": {
+        "Title": "購點計算器",
+        "SetupHint": "購點計算器僅在此處臨時可用。你可以隨時從設置標籤頁訪問它。",
+        "Warning": "購點計算器將**覆蓋**角色的基礎屬性值。",
+        "InvalidPoints": "無效的點數使用。",
+        "Spent": "已花費點數",
+        "Points": "點數",
+        "CampaignType": "戰役類型",
+        "Type": {
+          "low": "低魔戰役",
+          "standard": "標準戰役",
+          "high": "高魔戰役",
+          "epic": "史詩戰役"
+        }
+      },
+      "DocumentSelector": {
+        "Title": "文檔選擇器",
+        "None": "無"
+      },
+      "ItemSelector": {
+        "Title": "物品選擇器",
+        "Items": "物品",
+        "Quantity": "數量"
+      },
+      "ActorSelector": {
+        "Title": "角色選擇器",
+        "You": "你",
+        "Owner": "所有者",
+        "OwnedActors": "擁有",
+        "UnownedActors": "其他",
+        "NoUnownedActors": "你沒有權限檢視任何角色。",
+        "MinimumPermissionLevel": "最低所需權限級別為受限。"
+      }
+    },
+    "Dialog": {
+      "SplitItem": {
+        "Title": "拆分物品: {name}",
+        "Keep": "保留",
+        "Split": "拆分"
+      },
+      "VehicleSave": {
+        "Title": "選擇豁免類型",
+        "Message": "選擇要進行的豁免類型。"
+      }
+    },
+    "Info": {
+      "NotFunctioning": "系統 (目前) 不使用此功能"
+    },
+    "Troubleshooter": {
+      "Button": "疑難解答",
+      "Title": "Pathfinder 1e 系統疑難解答",
+      "Prelude": "遇到問題時可以嘗試以下操作。",
+      "Steps": {
+        "Label": "步驟",
+        "Foundry": "閱讀 Foundry 的 {link}。",
+        "FoundryLink": "用戶文檔",
+        "Help": "檢查 {link}，通常位於疑難解答按鈕附近。",
+        "HelpLink": "系統文檔",
+        "FAQ": "檢視常見問題 (FAQ)",
+        "Log": "檢查開發者工具控制台日誌以查找錯誤 (F12 [或 Mac 上的 Option+Command+I]，控制台標籤頁)",
+        "Modules": "確保不是模組引起的問題。",
+        "DisableModules": "以安全模式啟動是禁用所有模組的快速方法。",
+        "ModuleSuggest": "{link} 也可以加快排除模組的過程。",
+        "Discord": "訪問 {link} Discord 服務器。",
+        "DiscordChannel": "<code>{channel}</code> 頻道用於滿足你的 Pathfinder 1e 需求。",
+        "DiscordHint": "頻道置頂消息通常包含任何相關資訊。",
+        "Report": "考慮 {reportlink} 作為錯誤或功能請求。",
+        "ReportLinkText": "報告你的問題"
+      },
+      "Actions": {
+        "Label": "操作",
+        "UnlockPacks": "解鎖合集包以進行遷移。鎖定的合集包將被忽略。",
+        "Reprocess": "處理所有文檔，無論它們是否已遷移。",
+        "MigrateWorld": "遷移世界",
+        "MigrateWorldHint": "通常，每當 PF1 更新且 GM 首次登錄時，如果有相關的掛起遷移，遷移會自動運行。<br>手動運行遷移有時可以解決問題，例如從以前未遷移的來源導入的文檔。",
+        "MigrateModules": "遷移模組包",
+        "MigrateModulesHint": "如果你擁有的模組包含的合集包尚未在其端進行遷移以完全兼容當前版本。"
+      }
+    },
+    "Tours": {
+      "ActorSheet": {
+        "Title": "角色卡概覽",
+        "Description": "快速瀏覽 Foundry 中 Pathfinder 1e 的角色卡外觀及其內容。",
+        "GoToBasicMonsters": {
+          "Title": "預設基礎怪物",
+          "Content": "Pathfinder 1e 自帶一些預設的基礎怪物。<br>我們將使用其中一個來回顧角色卡及其配置方式。"
+        },
+        "HighlightStreetMagicianInCompendium": {
+          "Title": "街頭魔術師",
+          "Content": "這是合集包中最完整的 NPC 之一。<br>它擁有許多能力和特性，以及一些類法術能力和帶有腳本的魔法物品。"
+        },
+        "HighlightSheet": {
+          "Title": "角色卡",
+          "Content": "這是 NPC 的角色卡。<br>乍一看似乎很複雜，但你很快就會理解它。"
+        },
+        "TooltipsWithDefinitions": {
+          "Title": "資料引用",
+          "Content": "你可以將滑鼠懸停在角色卡中的任何條目上，將會顯示一個工具提示，列出如何在公式中引用該資料（例如，懸停在最大 HP 上會顯示 <code>@attributes.hp.max</code> 等）。"
+        },
+        "RollButtons": {
+          "Title": "投骰按鈕",
+          "Content": "請留意圖標 <i class='fas fa-dice-d20'></i> 和 <i class='fas fa-dice'></i>。<br>它們遍佈角色卡，你可以點擊它們來投擲豁免、攻擊、顯示防禦等..."
+        },
+        "OtherCommonButtons": {
+          "Title": "其他常用按鈕",
+          "Content": "還要留意以下按鈕，因為它們在角色卡上共享通用的<em>物品</em>（種族、職業、武器、專長、職業能力...）功能。如果你不是 GM，你將無法在<strong>此特定角色卡</strong>中看到這些圖標。<br><ul class='pf1-tour'><li><i class='fas fa-folder-plus'></i> 在 <code>CompendiumBrowser</code> 中搜索<em>物品</em>。</li><li><i class='fas fa-edit'></i> 編輯<em>物品</em>。</li><li><i class='fas fa-trash'></i> 刪除<em>物品</em>。</li><li><i class='fas fa-copy'></i> 克隆<em>物品</em>。</li><li><i class='fas fa-plus'></i> 從頭新增<em>物品</em>。</li></ul>"
+        },
+        "SheetTabs": {
+          "Title": "角色卡標籤頁",
+          "Content": "角色卡包含許多不同的標籤頁，用於存儲不同部分的資料。<br>你可以將它們視為角色卡的不同部分。"
+        },
+        "DetailsInSheet": {
+          "Title": "詳情部分",
+          "Content": "概要標籤頁由許多不同的部分組成。<br><br>在這一部分，你將聲明詳細資訊，如<em>性別</em>、<em>年齡</em>等... 以及種族。<br>我們稍後會回到這裡。"
+        },
+        "HdCrAndExperience": {
+          "Title": "生命骰，CR 和經驗值",
+          "Content": "這僅適用於 <strong>NPC 角色卡</strong>。對於 <strong>PC 角色卡</strong>，如果啟用（預設情況），它將顯示經驗條。<br><br>此 NPC 提供的生命骰和經驗值是自動計算的。生命骰基於職業部分，而經驗值基於 CR。<br><br>GM 可以手動編輯 CR。"
+        },
+        "RestButton": {
+          "Title": "休息",
+          "Content": "休息按鈕將自動填滿所有每日能力和物品的充能。<br>它還會根據休息的小時數新增恢復的生命值。"
+        },
+        "Race": {
+          "Title": "種族",
+          "Content": "這裡顯示種族。<br>當角色還沒有種族時，你可以點擊 <i class='fas fa-folder-plus'></i> 從 <code>CompendiumBrowser</code> 中選擇一個，或者點擊 <i class='fas fa-plus'></i> 建立自定義種族。<br><br>此外，你可以編輯種族並在需要時新增缺失的部分（例如人類的任意屬性 +2），方法是點擊 <i class='fas fa-edit'></i>，或者點擊 <i class='fas fa-trash'></i> 刪除它。"
+        },
+        "HitPointsAndSpeed": {
+          "Title": "生命值和速度",
+          "Content": "你可以手動編輯這裡的所有輸入，除了<strong>最大值</strong>，它是基於體質調整值和生命骰計算得出的。"
+        },
+        "QuickActionsInSummary": {
+          "Title": "快捷動作和投骰",
+          "Content": "你可以點擊這裡帶有 <i class='fas fa-dice'></i> 圖標的所有內容進行投骰，以及任何快捷動作。"
+        },
+        "Classes": {
+          "Title": "職業",
+          "Content": "與種族一樣，你可以點擊 <i class='fas fa-folder-plus'></i> 從 <code>CompendiumBrowser</code> 新增職業，點擊 <i class='fas fa-edit'></i> 編輯職業，或點擊 <i class='fas fa-trash'></i> 刪除它。<br><br>每當新增職業或現有職業升級時，都會彈出升級嚮導對話方塊以幫助你配置更改。<br><br>此外，你可以通過點擊 <i class='fas fa-copy'></i> 克隆現有職業。"
+        },
+        "AttributesTab": {
+          "Title": "屬性標籤頁",
+          "Content": "這裡顯示屬性值和特性。<br>我們將感官、體型、語言、抗力、免疫等的組合稱為特性。我們將快速瀏覽它們。"
+        },
+        "AbilityScoresSection": {
+          "Title": "屬性值",
+          "Content": "屬性值<em>總計</em>是可編輯的，但它編輯的是基礎值。<em>傷害</em>、<em>吸取</em>和<em>減值</em>也可以在這裡調整。"
+        },
+        "TraitsSection": {
+          "Title": "特性",
+          "Content": "體型、感官、抗力、免疫... 這裡的所有條目都可以通過點擊 <i class='fas fa-edit'></i> 編輯，直接在輸入框中輸入或從下拉選單中選擇。<br><br>感官會自動配合 Foundry 光照系統工作，除了那些不支持並標記為 (<code>*</code>) 的感官。"
+        },
+        "ResistancesAndImmunitiesDialog": {
+          "Title": "抗力和免疫對話方塊",
+          "Content": "每當你即將應用傷害時，你可以使用 <code>Shift+點擊</code> 來顯示你的抗力和免疫，並據此減少傷害。"
+        },
+        "CombatTab": {
+          "Title": "戰鬥標籤頁",
+          "Content": "在這裡你會找到遭遇戰所需的所有快捷方式。如你所見，物品按類型分組。<br><br>你可以通過點擊 <i class='fas fa-edit'></i> 編輯條目，點擊 <i class='fas fa-trash'></i> 刪除它們，或點擊 <i class='fas fa-copy'></i> 克隆它們。<br>此外，你可以通過點擊 <code><i class='fas fa-plus'></i>新增</code> 從頭新增物品。"
+        },
+        "FilterOptions": {
+          "Title": "過濾選項",
+          "Content": "注意過濾選項。這些選項用於過濾條目。它們在其他標籤頁中也可用。<br><br>每個標籤頁都有其特定物品類型的過濾器。"
+        },
+        "InventoryTab": {
+          "Title": "庫存標籤頁",
+          "Content": "在這裡你可以看到庫存中的所有物品。<br>與<em>戰鬥標籤頁</em>一樣，條目按類型分組。<br><br>你可以通過點擊 <i class='fas fa-folder-plus'></i> 從 <code>CompendiumBrowser</code> 新增物品。<br>你也有 <i class='fas fa-plus'></i>、<i class='fas fa-edit'></i>、<i class='fas fa-trash'></i> 和 <i class='fas fa-copy'></i> 選項。"
+        },
+        "ItemsDetails": {
+          "Title": "物品詳情和選項",
+          "Content": "你可以將滑鼠懸停在分組標題中的每個圖標上 (<i class='icon-pf text-icon icon-inventory-slot'></i>, <i class='icon-pf text-icon icon-gears'></i>, <i class='icon-pf text-icon icon-weight'></i>, <i class='icon-pf text-icon icon-quill-ink'></i>, ...) 以查找有關它們含義的更多資訊。"
+        },
+        "FeaturesTab": {
+          "Title": "專長與職業能力標籤頁",
+          "Content": "所有與專長或由職業、種族骰或其他效果賦予的能力都可以在這裡找到。<br><br>和以前一樣，你會在頂部找到過濾器以及 <i class='fas fa-folder-plus'></i>, <i class='fas fa-plus'></i>, <i class='fas fa-edit'></i>, <i class='fas fa-trash'></i> 和 <i class='fas fa-copy'></i> 選項。<br><br>你也可以懸停圖標以獲取資訊。"
+        },
+        "Charges": {
+          "Title": "充能",
+          "Content": "這是物品擁有的充能數量（<strong>不是剩餘的使用次數</strong>；例如 4 次剩餘的<em>聖療</em>並不意味著 4 次剩餘的<em>引導正能量</em>）。後面是最大數量。<br><br>你可以通過在輸入框中輸入或點擊 <i class='fas fa-edit'></i> 手動編輯充能。<br><br>你也可以通過點擊 <i class='fas fa-edit'></i> 編輯充能消耗。"
+        },
+        "SkillsTab": {
+          "Title": "技能標籤頁",
+          "Content": "這裡列出了所有 Pathfinder 技能。<br>如果你將滑鼠懸停在其中任何一個上，它將顯示一個 <i class='fas fa-book'></i> 圖標，該圖標將打開該技能的合集包條目。<br><br>此外，你可以通過點擊列表底部的 <code><i class='fas fa-plus'></i> 新增技能</code> 來新增自定義技能。"
+        },
+        "UnlockSkills": {
+          "Title": "解鎖技能以編輯",
+          "Content": "你可以通過點擊 <i class='fas fa-lock'></i> 解鎖技能進行編輯。<br>之後你會看到 <i class='fas fa-edit'></i> 圖標。你也可以通過點擊 <i class='fas fa-lock-open'></i> 再次鎖定技能。"
+        },
+        "AddSubskill": {
+          "Title": "新增子技能",
+          "Content": "你可以通過點擊技能的 <i class='fas fa-plus'></i> 來新增技能的子技能（例如<em>工藝</em>的<em>鍊金術</em>）。"
+        },
+        "BuffsTab": {
+          "Title": "增益與狀態標籤頁",
+          "Content": "所有的狀態和增益都可以在這裡找到。<br>新增增益後，你會看到 <i class='fas fa-edit'></i>, <i class='fas fa-trash'></i> 和 <i class='fas fa-copy'></i> 選項。你也可以使用 <i class='fas fa-folder-plus'></i> 和 <i class='fas fa-plus'></i> 選項建立一個。<br><br>大多數 Pathfinder 1e 狀態都顯示在上面，如果沒有，你可以在 <code>CompendiumBrowser</code> 中搜索它們。"
+        },
+        "ConditionDuration": {
+          "Title": "狀態持續時間",
+          "Content": "正如預期的那樣，你可以通過點擊圖標來啟用/停用狀態。<br><br>你也可以通過<em>右鍵點擊</em>它們來設置狀態的持續時間。"
+        },
+        "SpellsTab": {
+          "Title": "法術標籤頁",
+          "Content": "如果你的職業是施法者或者你配置了類法術能力，它們將顯示在這裡。<br>像往常一樣，你可以找到 <i class='fas fa-folder-plus'></i>, <i class='fas fa-plus'></i>, <i class='fas fa-edit'></i>, <i class='fas fa-trash'></i> 和 <i class='fas fa-copy'></i> 選項。"
+        },
+        "SpellbooksTab": {
+          "Title": "法術書",
+          "Content": "根據你的法術來源或你如何配置法術書，你會在這裡看到多個標籤頁。你可以在它們之間切換以新增/修改/刪除法術。"
+        },
+        "SpellbooksConfiguration": {
+          "Title": "法術書配置",
+          "Content": "你可以通過點擊法術書右上角的 <i class='fas fa-cogs'></i> 圖標在這裡配置法術書。在這裡你可以根據需要調整法術書的許多選項。<br><br>如果你的法術書來自 <code>CompendiumBrowser</code> 中的施法者，除了一些微調（如術士的額外法術）外，它已經配置好了。"
+        },
+        "BiographyTab": {
+          "Title": "傳記標籤頁",
+          "Content": "這是一個自由文本欄位，你可以用它來寫角色的傳記、特長等。<br><br>唯一要記住的是，這裡的文本對<strong>所有具有 <code>受限</code> 權限的人都可見</strong>。"
+        },
+        "NotesTab": {
+          "Title": "筆記標籤頁",
+          "Content": "自由文本欄位，你可以用它來寫關於角色的筆記，如 NPC 戰術、背景故事（以避免劇透）等。"
+        },
+        "MagicItemsTable": {
+          "Title": "魔法物品",
+          "Content": "在這裡，GM 還可以看到角色的所有魔法物品列表，以及鑑定的 DC、學派和將其設置為已鑑定的快捷方式。"
+        },
+        "SettingsTab": {
+          "Title": "設置",
+          "Content": "在這裡你可以配置用於特定計算的屬性（例如不死生物使用<em>魅力</em>代替<em>體質</em>）以及法術書。<br><br>此外，你可以在任何時候使用 <code>購點計算器</code>，而不僅僅是在建立角色時。"
+        }
+      }
+    },
+    "Help": {
+      "Label": "文檔",
+      "GoForward": "點擊前進",
+      "GoBack": "點擊後退",
+      "GoHome": "點擊回到首頁"
+    },
+    "EnrichedText": {
+      "Add": "新增 {value}",
+      "Remove": "移除 {value}",
+      "Toggle": "切換 {value}",
+      "Browse": "瀏覽 {value}",
+      "AsSpeaker": "作為發言者行動",
+      "AsCard": "生成聊天卡片",
+      "Direct": "直接應用",
+      "Subject": "主題: {name}",
+      "Error": "錯誤",
+      "Condition": {
+        "Duration": "持續時間: {period} {unit}"
+      },
+      "Errors": {
+        "NoCategory": "未找到類別",
+        "ItemNotFound": "未找到指定物品。",
+        "UnsupportedItemType": "不支持的物品類型 \"{type}\"",
+        "NoItemInMessage": "在消息中未找到相關物品。",
+        "BrowserNotFound": "未找到 \"{category}\" 的合集包瀏覽器！",
+        "NoActors": "未找到有效角色。"
+      },
+      "Health": {
+        "Heal": "治療 {value} {NL}",
+        "Damage": "傷害 {value} {NL}",
+        "NL": "瘀傷"
+      }
+    },
+    "Chat": {
+      "FocusReference": "滾動到引用的消息",
+      "Visibility": {
+        "Public": "公開",
+        "Private": "私聊",
+        "Self": "自己",
+        "Blind": "暗骰"
+      }
+    },
+    "Calendar": {
+      "Label": "格拉利昂曆法",
+      "Months": {
+        "1": {
+          "Name": "阿巴迪烏斯 (Abadius)"
+        },
+        "2": {
+          "Name": "卡利斯垂爾 (Calistril)"
+        },
+        "3": {
+          "Name": "法拉斯瑪 (Pharast)"
+        },
+        "4": {
+          "Name": "葛茲蘭 (Gozran)"
+        },
+        "5": {
+          "Name": "得斯努斯 (Desnus)"
+        },
+        "6": {
+          "Name": "莎倫尼斯 (Sarenith)"
+        },
+        "7": {
+          "Name": "艾拉斯圖 (Erastus)"
+        },
+        "8": {
+          "Name": "奧羅登 (Arodus)"
+        },
+        "9": {
+          "Name": "洛瓦 (Rova)"
+        },
+        "10": {
+          "Name": "拉瑪什 (Lamashan)"
+        },
+        "11": {
+          "Name": "內斯 (Neth)"
+        },
+        "12": {
+          "Name": "庫松納 (Kuthona)"
+        }
+      },
+      "Days": {
+        "1": {
+          "Name": "月曜日 (Moonday)"
+        },
+        "2": {
+          "Name": "勞曜日 (Toilday)"
+        },
+        "3": {
+          "Name": "水曜日 (Wealday)"
+        },
+        "4": {
+          "Name": "誓曜日 (Oathday)"
+        },
+        "5": {
+          "Name": "火曜日 (Fireday)"
+        },
+        "6": {
+          "Name": "星曜日 (Starday)"
+        },
+        "7": {
+          "Name": "日曜日 (Sunday)"
+        }
+      }
+    },
+    "SETTINGS": {
+      "NoManeuvers": "無戰技",
+      "DisableLLV": {
+        "Label": "禁用昏暗視覺",
+        "Hint": "防止昏暗視覺影響此光源的半徑。"
+      },
+      "InitTiebreaker": {
+        "Label": "先攻決勝值",
+        "Hint": "附加總先攻除以 100 以打破先攻平局。"
+      },
+      "HealthDisplay": {
+        "Label": "生命值浮動文本權限",
+        "Hint": "在指示物上檢視健康相關（生命值、屬性傷害、負向等級等）浮動文本所需的最低權限級別。",
+        "AnyPermission": "任何，完全透明"
+      },
+      "Vision": {
+        "Sharing": "共享視野",
+        "SharingHint": "如何處理玩家之間的共享視野。",
+        "SharingWithoutSelection": "無需選定指示物",
+        "SharingWithSelection": "總是",
+        "Guaranteed": "基礎視覺權限",
+        "GuaranteedHint": "總是能從指示物看到的最低權限。Foundry 預設為觀察者。",
+        "PCDefault": "玩家角色視覺",
+        "PCDefaultHint": "玩家角色預設擁有指示物視覺，無論預設指示物設置如何。",
+        "SystemControl": "系統控制視覺",
+        "SystemControlHint": "使用生物的視覺配置來確定視覺，支持 PF 特定的概念，如昏暗視覺。如果禁用，視覺僅由 Foundry 的指示物設置確定。",
+        "RequiresSelection": "特殊視覺需要選中",
+        "RequiresSelectionHint": "選中後，未選中指示物的玩家將無法受益於其任何指示物的昏暗視覺或黑暗視覺。"
+      },
+      "VariantRules": {
+        "BackgroundSkills": "使用背景技能",
+        "BackgroundSkillsHint": "使用背景技能選用規則集",
+        "FractionalBaseBonuses": "使用分數基礎加值",
+        "FractionalBaseBonusesHint": "使用分數基礎加值選用規則集"
+      },
+      "Token": {
+        "PCDisposition": "玩家角色態度",
+        "PCDispositionHint": "覆蓋玩家角色的預設指示物態度。",
+        "NPCDisposition": "非玩家角色態度",
+        "NPCDispositionHint": "覆蓋非玩家角色的預設指示物態度"
+      },
+      "Canvas": {
+        "MeasureStyle": "使用 Pathfinder 測量樣式",
+        "MeasureStyleHint": "是否使用 Pathfinder 的測量樣式而不是 FoundryVTT 的預設樣式"
+      },
+      "HideTokenConditionsN": "隱藏指示物增益",
+      "HideTokenConditionsH": "增益是否應從指示物狀態效果中隱藏其圖標",
+      "CoreEffectsN": "預設指示物狀態",
+      "CoreEffectsH": "在指示物上僅顯示 PF1 狀態（未選中）或同時也顯示核心圖標（選中）",
+      "UnchainedActionEconomyN": "Unchained 動作經濟",
+      "UnchainedActionEconomyH": "是否使用 Unchained 動作經濟選用規則集。",
+      "Cybertech": "賽博科技",
+      "CybertechHint": "即使未安裝賽博科技，也啟用賽博科技功能，例如顯示植入容量。",
+      "CriticalConfirm": "重擊確認投骰",
+      "CriticalConfirmHint": "如果禁用，重擊確認投骰將替換為防禦 DC 顯示，用於護甲作為 DR 選用規則。",
+      "SkipActionDialogsN": "跳過動作提示",
+      "SkipActionDialogsH": "除非 Shift 點擊，否則跳過動作提示（例如來自攻擊和豁免的提示）",
+      "MeasureOnQuickUse": "快速使用時測量模板",
+      "MeasureOnQuickUseHint": "啟用在跳過動作提示時放置測量模板。",
+      "DualHealDefault": "預設雙重治療",
+      "DualHealDefaultHint": "在治療生命值時同時治療生命值和非致命傷害，根據規則，魔法和能力在治療正常生命值時同時治療兩者（因此休息不受影響）。",
+      "Sheet": {
+        "InvertFilters": "反轉庫存過濾器行為",
+        "InvertFiltersHint": "反轉（物品）部分中類型過濾器的 shift 點擊行為。"
+      },
+      "Houserules": {
+        "CoinDivisor": "錢幣重量除數",
+        "CoinDivisorHint": "多少枚硬幣重 1 磅。設置為零 (0) 以禁用錢幣重量。預設為 50。",
+        "SpellPointCost": "法力點預設消耗",
+        "SpellPointCostHint": "如果未按法術配置，使用法術點的法術的預設消耗。",
+        "AltReach": "替代觸及規則",
+        "AltReachHint": "從 10 尺觸及測量中隱藏外角",
+        "NPCProficiencies": "NPC 擅長",
+        "NPCProficienciesHint": "NPC 角色也使用擅長。禁用此選項（預設）時，根據 RAW，他們被視為擅長他們擁有的所有東西。"
+      },
+      "Chat": {
+        "ObscureInlineRolls": "混淆投骰",
+        "ObscureInlineRollsHint": "對沒有至少觀察者權限的人隱藏投骰加值和詳情。",
+        "ObscureSaveDCs": "混淆 DC",
+        "ObscureSaveDCsHint": "對玩家隱藏聊天卡片中的 DC 值。",
+        "AutoCollapse": "在聊天中摺疊物品卡片",
+        "AutoCollapseHint": "自動摺疊聊天記錄中的物品卡片描述",
+        "HideButtons": "隱藏聊天卡片按鈕",
+        "HideButtonsHint": "是否隱藏聊天卡片按鈕，例如攻擊檢定上的按鈕。",
+        "NoTargets": "禁用攻擊目標",
+        "NoTargetsHint": "禁止在攻擊卡片上顯示目標角色",
+        "ClearTargets": "攻擊後清除目標",
+        "ClearTargetsHint": "是否在攻擊檢定後取消選中所有目標。"
+      },
+      "DragRulerWalk": "行走",
+      "DragRulerDash": "衝刺",
+      "DragRulerRun": "奔跑",
+      "DragRulerUseElevationName": "使用高度來決定移動類型",
+      "DragRulerUseElevationHint": "使用指示物的高度決定在飛行或是掘地",
+      "Units": {
+        "System": "單位制",
+        "SystemHint": "在世界中使用的單位制",
+        "Imperial": "英制 (尺，磅)",
+        "ImperialDistance": "英制 (尺)",
+        "ImperialWeight": "英制 (磅)",
+        "Metric": "公制 (米，千克)",
+        "MetricDistance": "公制 (米)",
+        "MetricWeight": "公制 (千克)",
+        "Distance": "距離的單位制",
+        "DistanceHint": "覆蓋距離的單位制",
+        "Weight": "重量的單位制",
+        "WeightHint": "覆蓋重量的單位制"
+      },
+      "OverlandVariantN": "大陸速度變體",
+      "OverlandVariantL": "使用公制單位計算大陸移動速率的變體。",
+      "OverlandMetricRounded": "四捨五入（德國與法國）",
+      "OverlandMetricExact": "精確（西班牙）"
+    },
+    "PACKS": {
+      "classes": "職業",
+      "companion-features": "夥伴特性",
+      "mythic-paths": "神話道途",
+      "buffs": "通用增益",
+      "spells": "法術",
+      "feats": "專長",
+      "items": "物品",
+      "armors-and-shields": "護甲與盾牌",
+      "weapons-and-ammo": "武器與彈藥",
+      "technology": "科技",
+      "monster-abilities": "怪物能力",
+      "monsters": "基礎怪物",
+      "racial-hd": "種族 HD",
+      "races": "種族",
+      "class-abilities": "職業能力",
+      "monster-templates": "怪物模板",
+      "template-abilities": "模板能力",
+      "macros": "示例巨集",
+      "roll-tables": "隨機表",
+      "ultimate-equipment": "終極裝備",
+      "rules": "Pathfinder 1e 規則"
+    },
+    "Help/Actors": "# 角色\n\n## 普通角色類型\n\n- [角色](Help/Actors/Character)\n- [NPC](Help/Actors/NPC)\n\n## 雜項角色類型\n\n- [作祟](Help/Actors/Haunt)\n- [陷阱](Help/Actors/Trap)\n- [載具](Help/Actors/Vehicle)\n",
+    "Help/Enrichers": "# 文本增強器 (Enrichers)\n\n常見的輸入格式: `@Command[key;options]{label}`\n\n選項格式: 用分號 (`;`) 分隔的 `key=value` 對\n\n標籤為按鈕新增前綴，例如 `@Ability[str]{Flex}` 會顯示為 `Flex: Strength`。但有些增強器不遵循此規則。\n\n預設情況下，投骰資料來自卡片發言者。\n\n## 常用選項\n\n| 選項      | 示例                                      | 解釋                                                                                                                                                                                                          |\n| :-------- | :---------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |\n| `speaker` | `@Use[Cure Light Wounds;speaker]`         | 將啟用限制為卡片發言者。`as=speaker` 的別名。                                                                                                                                                                 |\n| `as`      | `@Use[Cure Light Wounds;as=speaker]`      | 限制或引導啟用。<br>目前僅 `speaker`、`sheet` 和 `auto` 是有效選項。Speaker 用於聊天卡片，sheet 用於角色卡，auto 嘗試自動選擇前者之一。 |\n| `bonus`   | `@Skill[per;bonus=15]`                    | 投骰加值。                                                                                                                                                                                                    |\n| `roll`    | `@Skill[dip;roll=10]`                     | 投骰替換，例如取 10 或幸運效果。                                                                                                                                                                              |\n| `vars`    | `@Heal[@attributes.hd.total;vars=target]` | 投骰資料來自發言者以外的對象。<br>`target` 是目前唯一的有效選項。                                                                                                                                             |\n",
+    "Help/Formulas": "# 公式\n\n本部分目前正在完善中 (WIP)。\n\n公式是 Pathfinder 1e 系統中的一個重要方面。它們可以簡單到一個數值，也可以複雜到一行代碼。它們在物品變更中起著重要作用。\n\n## 變量\n\n### 通用角色變量\n\n為了快速參考，你也可以在角色卡的工具提示中找到許多此類資訊。\n",
+    "Help/Home": "# Pathfinder 1 知識庫\n\n## 規則\n\n- [核心規則](Help/Rules)\n- [選用規則](Help/Rules/Optional)\n- [房規](Help/Rules/Homebrew)\n\n## 角色\n\n- [角色](Help/Actors/Character)\n- [NPC](Help/Actors/NPC)\n- [作祟](Help/Actors/Haunt)\n- [陷阱](Help/Actors/Trap)\n- [載具](Help/Actors/Vehicle)\n\n## 物品\n\n### 物品類型\n\n- [攻擊](Help/Items/Attacks)\n- [職業](Help/Items/Classes)\n- [消耗品](Help/Items/Consumables)\n- [容器](Help/Items/Containers)\n- [裝備](Help/Items/Equipment)\n- [戰利品](/Help/Items/Loot)\n- [武器](Help/Items/Weapons)\n\n### 概念\n\n- [描述](Help/Items/Description)\n- [改變](Help/Items/Changes)\n- [動作](Help/Items/Actions)\n- [標記](Help/Items/Flags)\n- [腳本呼叫](Help/Items/Script-Calls)\n\n## 特殊\n\n- [公式](Help/Formulas)\n- [增強器](Help/Enrichers)\n",
+    "Help/Items": "# 物品\n\n## 物理物品類型\n\n- [武器](Help/Items/Weapons)\n- [裝備](Help/Items/Equipment)\n- [消耗品](Help/Items/Consumables)\n- [容器](Help/Items/Containers)\n- [戰利品](Help/Items/Loot)\n\n## 其他\n\n- [攻擊](Help/Items/Attacks)\n",
+    "Help/Rules": "# 規則\n\n## 核心規則缺失\n\n以下規則不直接支持。它們需要手動操作才能按預期工作。\n\n- 變體職業 (Archetypes)\n  - 解決方法：手動修改現有的基礎職業。\n- 手部出力 (Hands of Effort)\n  - 解決方法：手動卸下多餘物品。\n- 匆忙穿戴 (Hasty Donning)\n- 武器和護甲的材料\n  - 解決方法：手動修改受影響的物品。\n- 超魔 (Metamagic)\n  - 解決方法：建立法術的修改副本。\n- 對立學派 (Opposition Schools)\n  - 解決方法：手動編輯每個法術的法術位消耗。\n- 魔法武器和護甲的特性 (Qualities)\n  - 解決方法：手動修改受影響的物品。\n- 種族武器擅長\n  - 例如矮人將任何名稱中帶有矮人的物品視為軍用武器\n  - 解決方法：在角色的相關物品上標記強制擅長。\n- 學派/領域法術位\n  - 支持插槽本身，但不支持自動知道哪些法術應該在其中。\n  - 解決方法：手動將受影響的法術標記為學派/領域。\n- 變形/多態/野性變身 (Shapeshifting / Polymorphing / Wild Shaping)\n- 攻城武器 (Siege Weapons)\n- 自發施法（牧師、德魯伊等替換已準備法術位的變體）\n- 不合適體型的武器 (Inappropriately Sized Weapons)\n",
+    "Help/Rules/Homebrew": "# 房規、家規和第三方規則\n\n這描述了系統設置中支持非標準規則的設置。\n\n## 法力點 (Spell Points)\n\n每個角色的法術書單獨啟用。\n\n預設法力點消耗可以在系統設置中配置。個別法術可以有自己的消耗。\n\n## NPC 擅長\n\n在系統設置中切換。\n\n預設情況下，系統實現的 NPC/怪物完全擅長一切。也就是說，他們缺乏擅長的情況被忽略。NPC 擅長切換允許他們遵循與 PC 相同的規則。\n\n## 錢幣重量\n\n系統設置中的錢幣重量除數。零表示禁用錢幣重量。\n",
+    "Help/Rules/Optional": "# 選用規則\n\n## 完全支持\n\n### 背景技能\n\n在系統設置中啟用。\n\n### 分數基礎加值\n\n在系統設置中啟用。\n\n### 創傷閾值\n\n在系統設置的生命值設置中啟用。\n\n由於 Paizo 未提供兩者如何交互的指南，因此與創傷與活力不兼容。\n\n### 修訂後的動作經濟\n\n在系統設置中啟用。\n\n## 部分支持\n\n### 護甲作為傷害減免 (DR)\n\n可以在系統設置中禁用重擊確認投骰以獲得部分支持。\n\n### 創傷與活力\n\n在系統設置的生命值設置中啟用。\n",
+    "Help/Items/Actions": "# 動作\n\n每個動作定義了使用物品的一種方式。雖然大多數可用物品只關聯一個動作，但有些可能有更多，例如匕首可能有刺和投擲動作。\n",
+    "Help/Items/Attacks": "# 攻擊\n\n攻擊是可以用來投擲各種類型攻擊的物品類型，無需物理武器。例子包括天生攻擊和從武器生成的攻擊。\n",
+    "Help/Items/Changes": "# 改變\n\n![改變示例](/Help/img/item-changes.webp)\n",
+    "Help/Items/Classes": "# 職業\n\n職業物品涵蓋基礎 PC 職業、NPC 職業、種族 HD、進階職業和神話道途。\n",
+    "Help/Items/Consumables": "# 消耗品\n\n消耗品代表具有有限使用次數的物理物品，如藥水、卷軸、毒素、藥物或魔杖。\n",
+    "Help/Items/Containers": "# 容器\n\n容器是可以包含其他物品的物品。\n",
+    "Help/Items/Description": "# 描述\n\n![描述示例](/Help/img/item-description.webp)\n",
+    "Help/Items/Equipment": "# 裝備\n\n裝備代表所有非武器的可裝備物品，包括護甲、盾牌、戒指和奇物。\n\n![裝備詳情](/Help/img/equipment-details.webp)\n",
+    "Help/Items/Flags": "# 標記\n\n標記可用於任意目的。\n",
+    "Help/Items/Loot": "# 戰利品\n\n戰利品物品是沒有特定物品類型的所有類型的物理物品，如貿易品和彈藥。\n",
+    "Help/Items/Script-Calls": "# 腳本呼叫\n\n大多數物品都有某些類別的腳本呼叫，這些是在該物品的特定事件下運行的巨集和內聯腳本的組合。\n",
+    "Help/Items/Weapons": "# 武器\n\n武器旨在代表角色可以持有的物理武器。\n\n![武器詳情](/Help/img/weapon-details.webp)\n",
+    "Help/Actors/Character": "# 角色\n\n幫助文件的這一部分正在完善中。\n",
+    "Help/Actors/Haunt": "# 作祟\n\n專門用於作祟的角色和角色卡，用於處理其獨特特性。\n",
+    "Help/Actors/NPC": "# NPCs\n\n[角色](Help/Actors/Character) 和 NPC 之間唯一顯著的區別是，NPC _給予_ 經驗值，而角色 _獲得_ 經驗值，這在他們角色卡的右上角表示。\n",
+    "Help/Actors/Trap": "# 陷阱\n\n專門用於陷阱的角色和角色卡，用於處理其獨特特性。\n",
+    "Help/Actors/Vehicle": "# 載具\n\n專門用於載具的角色和角色卡，用於處理其獨特特性。\n",
+    "Help/img/equipment-details": {
+      "webp": "help/en/img/equipment-details.webp"
+    },
+    "Help/img/item-changes": {
+      "webp": "help/en/img/item-changes.webp"
+    },
+    "Help/img/item-description": {
+      "webp": "help/en/img/item-description.webp"
+    },
+    "Help/img/weapon-details": {
+      "webp": "help/en/img/weapon-details.webp"
+    }
+  },
+  "TOKEN": {
+    "VisionLowLight": "昏暗視覺",
+    "VisionLowLightMultiplier": "昏暗視覺乘數"
+  },
+  "TYPES": {
+    "Actor": {
+      "character": "玩家角色 (PC)",
+      "npc": "非玩家角色 (NPC)",
+      "haunt": "作祟",
+      "trap": "陷阱",
+      "vehicle": "載具",
+      "basic": "基礎 (僅模組)"
+    },
+    "Item": {
+      "weapon": "武器",
+      "equipment": "裝備",
+      "consumable": "消耗品",
+      "loot": "戰利品",
+      "class": "職業",
+      "spell": "法術",
+      "feat": "特性",
+      "buff": "增益",
+      "attack": "攻擊",
+      "race": "種族",
+      "implant": "植入物",
+      "container": "容器"
+    }
+  },
+  "EFFECT": {
+    "StatusSwim": "游泳"
+  }
+}

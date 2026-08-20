@@ -1,0 +1,46 @@
+{
+  "id": "pf1-zhtw",
+  "title": "Translation: 正體中文 [PF1e 系統介面]",
+  "description": "為 Pathfinder 1e 系統介面增加正體中文（臺灣）。譯文以 xgg-mod-chn (MIT) 的簡體譯稿為基礎，經 OpenCC 字形轉換與人工審定的 PF1 術語校正而成。",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "果園瑪莉卡",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf1",
+        "type": "system",
+        "compatibility": {
+          "minimum": "11.0",
+          "verified": "11.11"
+        }
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "zh-tw",
+      "name": "正體中文",
+      "path": "lang/zh-tw.json",
+      "flags": {}
+    }
+  ],
+  "esmodules": [],
+  "scripts": [],
+  "styles": [],
+  "flags": {},
+  "url": "https://github.com/quasiidem-lab/pf1-zhtw",
+  "manifest": "https://github.com/quasiidem-lab/pf1-zhtw/releases/latest/download/module.json",
+  "download": "https://github.com/quasiidem-lab/pf1-zhtw/releases/latest/download/module.zip",
+  "readme": "https://github.com/quasiidem-lab/pf1-zhtw/blob/main/README.md",
+  "bugs": "https://github.com/quasiidem-lab/pf1-zhtw/issues",
+  "license": "MIT"
+}
