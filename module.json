@@ -2,7 +2,7 @@
   "id": "pf1-zhtw",
   "title": "Translation: 繁體中文 [PF1e 系統介面]",
   "description": "為 Pathfinder 1e 系統介面增加繁體中文（臺灣）。譯文以 xgg-mod-chn (MIT) 的簡體譯稿為基礎，經 OpenCC 字形轉換與人工審定的 PF1 術語校正而成。",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "compatibility": {
     "minimum": "12",
     "verified": "13"

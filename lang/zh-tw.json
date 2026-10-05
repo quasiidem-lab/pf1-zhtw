@@ -2025,8 +2025,8 @@
     "SpellRangeMediumMetric": "30 米 + 3 米/等級",
     "SpellRangeLongMetric": "120 米 + 12 米/等級",
     "Aura": {
-      "Single": "靈光",
-      "Plural": "靈光",
+      "Single": "靈氳",
+      "Plural": "靈氳",
       "Strength": {
         "faint": "微弱",
         "moderate": "中等",
