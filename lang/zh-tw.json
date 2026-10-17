@@ -59,7 +59,7 @@
       }
     },
     "SpellDescriptors": {
-      "acid": "強酸",
+      "acid": "酸蝕",
       "air": "氣",
       "chaotic": "混亂",
       "cold": "寒冷",
@@ -105,7 +105,7 @@
       "Vehicle": "載具",
       "Item": "通用物品",
       "Container": "容器",
-      "TextPage": "文本頁 (PF1)"
+      "TextPage": "內文頁 (PF1)"
     },
     "LevelUp": {
       "Add": "新增 {class}",
@@ -118,7 +118,7 @@
         "Label": "生命值",
         "Auto": {
           "Label": "自動",
-          "Desc": "你的生命值將根據預定義的比率 ({rate}%) 自動設置。"
+          "Desc": "你的生命值將根據預定義的比率 ({rate}%) 自動設定。"
         },
         "Static": {
           "Label": "固定",
@@ -174,7 +174,7 @@
         "Health": {
           "Header": "生命值",
           "Roll": "投擲結果: {add}",
-          "Manual": "手動設置: {add}",
+          "Manual": "手動設定: {add}",
           "Auto": "自動計算: {add}",
           "Static": "固定值: {add}"
         },
@@ -327,7 +327,7 @@
       "sickened": "噁心",
       "sleep": "睡眠",
       "squeezing": "擠壓",
-      "stable": "傷勢穩定",
+      "stable": "穩定",
       "staggered": "恍惚",
       "stunned": "震懾",
       "unconscious": "昏迷"
@@ -404,7 +404,7 @@
       "personal": "個人",
       "touch": "接觸",
       "melee": "近戰",
-      "reach": "長觸及",
+      "reach": "觸及",
       "close": "近距",
       "medium": "中距",
       "long": "遠距",
@@ -735,7 +735,7 @@
     "BuffTarThrownAttack": "投擲攻擊檢定",
     "BuffTarSpells": "法術",
     "BuffTarSpellEffect": "法術效果",
-    "SkillAcr": "特技動作",
+    "SkillAcr": "特技",
     "SkillApr": "估價",
     "SkillArt": "技藝",
     "SkillBlf": "唬騙",
@@ -882,10 +882,10 @@
       "Scatter": "散射",
       "SemiAutomatic": "半自動",
       "SlowFiring": "慢速射擊",
-      "Sunder": "破損",
+      "Sunder": "擊破",
       "Special": "特殊",
       "Thrown": "投擲",
-      "Trip": "絆摔"
+      "Trip": "摔絆"
     },
     "WeaponSubtype": "武器子類型",
     "WeaponSubtypeLight": "輕型",
@@ -1182,7 +1182,7 @@
       "NoMultiLink": "無法多次連結同一物品。",
       "NoCombatantFound": "未找到戰鬥人員",
       "FormulaMustBeDeterministic": "公式必須是確定性的（無骰子投擲或其他隨機元素）。",
-      "FormulaMustBeSimple": "公式必須簡單（無變量、骰子投擲或其他非數學元素）。",
+      "FormulaMustBeSimple": "公式必須簡單（無變數、骰子投擲或其他非數學元素）。",
       "InvalidInput": "無效值"
     },
     "NotificationCreatedAttack": "已為 {item} 建立攻擊",
@@ -1302,7 +1302,7 @@
       "fey": "精類",
       "humanoid": "類人生物",
       "magicalBeast": "魔法獸",
-      "monstrousHumanoid": "類人怪物",
+      "monstrousHumanoid": "人形怪物",
       "ooze": "泥怪",
       "outsider": "異界生物",
       "plant": "植物",
@@ -1315,7 +1315,7 @@
       "adlet": "狼妖",
       "aeon": "御衡者",
       "aether": "以太",
-      "agathion": "衛使",
+      "agathion": "福使",
       "air": "氣",
       "android": "仿生人",
       "angel": "天使",
@@ -1336,9 +1336,9 @@
       "daemon": "邪魔",
       "darkFolk": "幽暗之民",
       "deepOne": "深潛者",
-      "demodand": "神孽",
+      "demodand": "魔孽",
       "demon": "惡魔",
-      "derro": "迪洛人",
+      "derro": "德洛人",
       "devil": "魔鬼",
       "div": "妖靈",
       "dwarf": "矮人",
@@ -1395,7 +1395,7 @@
       "vanara": "靈猴族",
       "vishkanya": "蝮血裔",
       "water": "水",
-      "wayang": "皮影人",
+      "wayang": "剪影人",
       "wildHunt": "狂獵"
     },
     "RestoreHealth": "恢復生命值",
@@ -1486,7 +1486,7 @@
         "Label": "音波"
       },
       "acid": {
-        "Label": "強酸"
+        "Label": "酸蝕"
       },
       "force": {
         "Label": "力場"
@@ -1704,7 +1704,7 @@
       "Create": "建立嵌入式腳本呼叫",
       "Use": {
         "Name": "使用",
-        "Info": "在物品被'使用'（攻擊、喝藥水等）時呼叫。包含額外的數組變量 <code>attacks</code>，其中包含動作的攻擊檢定（如果有）。"
+        "Info": "在物品被'使用'（攻擊、喝藥水等）時呼叫。包含額外的數組變數 <code>attacks</code>，其中包含動作的攻擊檢定（如果有）。"
       },
       "PostUse": {
         "Name": "使用後",
@@ -1712,23 +1712,23 @@
       },
       "Equip": {
         "Name": "裝備",
-        "Info": "在物品被裝備或卸下時呼叫。包含額外的布林變量 <code>equipped</code>。"
+        "Info": "在物品被裝備或卸下時呼叫。包含額外的布林變數 <code>equipped</code>。"
       },
       "Implant": {
         "Name": "植入",
-        "Info": "在物品被植入或移除時呼叫。包含額外的布林變量 <code>implanted</code>。"
+        "Info": "在物品被植入或移除時呼叫。包含額外的布林變數 <code>implanted</code>。"
       },
       "Toggle": {
         "Name": "切換",
-        "Info": "在物品被啟用或禁用時呼叫。包含額外的布林變量 <code>state</code>。"
+        "Info": "在物品被啟用或禁用時呼叫。包含額外的布林變數 <code>state</code>。"
       },
       "ChangeQuantity": {
         "Name": "更改數量",
-        "Info": "在物品數量更改時呼叫。包含額外的數字變量 <code>quantity.previous</code> 和 <code>quantity.new</code>。"
+        "Info": "在物品數量更改時呼叫。包含額外的數字變數 <code>quantity.previous</code> 和 <code>quantity.new</code>。"
       },
       "ChangeLevel": {
         "Name": "更改等級",
-        "Info": "在物品等級更改時呼叫。包含額外的數字變量 <code>level.previous</code> 和 <code>level.new</code>。"
+        "Info": "在物品等級更改時呼叫。包含額外的數字變數 <code>level.previous</code> 和 <code>level.new</code>。"
       }
     },
     "Abundant": "豐富",
@@ -1803,7 +1803,7 @@
       }
     },
     "HealthPerTier": "每階層生命值",
-    "CustomHitDice": "自定義生命骰",
+    "CustomHitDice": "自訂生命骰",
     "CustomHitDiceHint": "輸入公式，例如 floor(@item.level / 2)",
     "DieSize": "d{size}",
     "InfoShort": "資訊",
@@ -1944,7 +1944,7 @@
     "AbilityScoreLinks": "屬性值連結",
     "KeyAbility": "關鍵屬性",
     "KeyAbilityRef": "關鍵屬性 ({ability})",
-    "BaseSetup": "基礎設置",
+    "BaseSetup": "基礎設定",
     "UtilityFunctions": "實用功能",
     "SavingThrow": "豁免檢定",
     "SavingThrowPlural": "豁免檢定",
@@ -2090,12 +2090,12 @@
     "ExtraAttacks": {
       "Label": "額外攻擊",
       "Standard": "迭代攻擊",
-      "Advanced": "迭代 + 自定義",
+      "Advanced": "迭代 + 自訂",
       "Flurry": "疾風連擊 (Chained)",
       "UnFlurry": "疾風連擊 (Unchained)",
       "FlurryFlavor": "疾風",
       "FlurryAttack": "疾風 #{0}",
-      "Custom": "自定義",
+      "Custom": "自訂",
       "Add": "新增額外攻擊",
       "ModifierFormula": "攻擊調整值公式",
       "ModifierTooltip": "<code>@formulaicAttack</code> 可用於引用這是序列中的第幾次攻擊。",
@@ -2161,7 +2161,7 @@
     "Transferred": "已轉移",
     "BGSkillRanks": "背景技能等級",
     "BGUsed": "背景已用",
-    "SeeText": "見文本",
+    "SeeText": "見文字",
     "DC": "DC",
     "DifficultyClass": "難度等級",
     "SpellDC": "法術 DC",
@@ -2206,9 +2206,9 @@
     "Manual": "手動",
     "Override": "覆蓋",
     "NoOverride": "無覆蓋",
-    "CustomColor": "自定義顏色",
-    "CustomTexture": "自定義紋理",
-    "CustomSkill": "自定義技能",
+    "CustomColor": "自訂顏色",
+    "CustomTexture": "自訂紋理",
+    "CustomSkill": "自訂技能",
     "FromSources": "來源",
     "UnidentifiedName": "未鑑定名稱",
     "UnidentifiedPriceShort": "未鑑價格",
@@ -2233,7 +2233,7 @@
     "FullAttack": "全力攻擊",
     "Use": "使用",
     "Regeneration": "再生",
-    "FastHealing": "快速醫療",
+    "FastHealing": "快速治療",
     "Links": "連結",
     "Confirm": "確認",
     "CROffset": "挑戰等級偏移",
@@ -2269,12 +2269,12 @@
     "ChargeSource": "充能源",
     "MaximumUsesFormula": "最大使用次數公式",
     "RechargeFormula": "再充能公式",
-    "RechargeFormulaHint": "再充能將當前充能設置為公式的結果。對於相對再充能，請使用當前充能值 <code>@item.uses.value</code> 作為公式的一部分。",
+    "RechargeFormulaHint": "再充能將當前充能設定為公式的結果。對於相對再充能，請使用當前充能值 <code>@item.uses.value</code> 作為公式的一部分。",
     "Value": "價值",
     "SellValue": "出售價值",
     "TotalItems": "{count} 總物品",
     "FilteredItems": "{count} 過濾後物品",
-    "SearchFilterPlaceholder": "搜索過濾器…",
+    "SearchFilterPlaceholder": "搜尋過濾器…",
     "FilterPrepared": "過濾未準備的。",
     "FilterEmpty": "過濾空的部分。",
     "QuickActions": "快捷動作",
@@ -2282,7 +2282,7 @@
     "SoundEffect": "音效",
     "Classes": "職業",
     "Races": "種族",
-    "SetTo": "設置為 {value}",
+    "SetTo": "設定為 {value}",
     "Feats": "專長",
     "ByLevel": "按等級",
     "ByBonus": "按獎勵",
@@ -2292,8 +2292,8 @@
     "Missing": "缺失",
     "Excess": "過量",
     "BonusFeatFormula": "獎勵專長公式",
-    "CustomBonus": "自定義加值",
-    "CustomBonusType": "自定義加值 ({type})",
+    "CustomBonus": "自訂加值",
+    "CustomBonusType": "自訂加值 ({type})",
     "Advanced": "高級",
     "LeftToPrepare": "剩餘準備數量",
     "SpellsTotalEachDay": "每日法術總數",
@@ -2316,7 +2316,7 @@
     "Timeworn": "老舊",
     "Artifact": "神器",
     "Compendium": "合集包",
-    "Custom": "自定義",
+    "Custom": "自訂",
     "RecoverChancePercentage": "回收幾率 %",
     "RecoverAmmunition": "回收彈藥",
     "RecoveredAmmo": "回收了 {count} 發彈藥",
@@ -2368,7 +2368,7 @@
     "OpenAssociatedCompendiumEntry": "打開關聯的合集包條目",
     "Tier": "階層",
     "ReducedMovementSpeed": "移動速度降低",
-    "Settings": "設置",
+    "Settings": "設定",
     "SpellbookUsage": "法術書用途",
     "SpellSlotAbilityBonus": "法術位屬性加值",
     "SpellbookName": "法術書名稱",
@@ -2376,9 +2376,9 @@
     "StaticSizeHint": "如果啟用，指示物尺寸和縮放不會自動調整以匹配角色體型。",
     "CustomVisionRules": {
       "Label": "禁用系統控制視覺",
-      "Description": "阻止系統控制視覺，允許你自定義它。",
+      "Description": "阻止系統控制視覺，允許你自訂它。",
       "ConfigHint": "系統控制的感官在角色卡的屬性標籤頁配置。",
-      "Warning": "如果在全局或指示物中禁用了系統控制視覺，此配置無效。如果你希望繼續使用此功能，請禁用兩者。"
+      "Warning": "如果在全域或指示物中禁用了系統控制視覺，此配置無效。如果你希望繼續使用此功能，請禁用兩者。"
     },
     "DomainSlotValue": "領域/學派槽",
     "DomainSlotValueDesc": "領域/學派法術每個法術等級擁有的額外法術位數量。",
@@ -2551,8 +2551,8 @@
         "TitleOwned": "{item} – {actor} – {title}"
       },
       "TraitSelector": {
-        "NoCustomEntries": "無自定義條目。",
-        "CustomPlaceholder": "輸入自定義條目",
+        "NoCustomEntries": "無自訂條目。",
+        "CustomPlaceholder": "輸入自訂條目",
         "CustomHint": "用回車或分號 (;) 新增新條目。在輸入為空時按兩次退格鍵刪除最後一項。"
       },
       "DamageResistanceSelector": {
@@ -2575,9 +2575,9 @@
           "Add": "調整",
           "AddVerb": "調整",
           "AddHint": "通過公式調整目標屬性",
-          "Set": "設置",
-          "SetVerb": "設置",
-          "SetHint": "將目標屬性設置為公式",
+          "Set": "設定",
+          "SetVerb": "設定",
+          "SetHint": "將目標屬性設定為公式",
           "InvalidHint": "未知運算符。"
         },
         "Help": {
@@ -2587,7 +2587,7 @@
           "Roll": "投骰",
           "RollHint": "支持骰子投擲等隨機元素。",
           "Simple": "簡單",
-          "SimpleHint": "僅支持數字項，無變量或骰子投擲。"
+          "SimpleHint": "僅支持數字項，無變數或骰子投擲。"
         },
         "AsType": "作為"
       },
@@ -2616,13 +2616,13 @@
         },
         "Performance": {
           "Title": "性能配置",
-          "Button": "性能設置",
-          "Hint": "調整影響性能的設置。",
+          "Button": "性能設定",
+          "Hint": "調整影響性能的設定。",
           "Reset": "重置性能配置為預設值。",
           "Options": {
             "reachLimit": {
               "Label": "觸及高亮限制",
-              "Hint": "繪製觸及高亮的最大範圍（以格為單位）。預設為 60 (300 尺)。無論此設置如何，第一個增量始終完全顯示。低於 10 的值將完全禁用觸及高亮。"
+              "Hint": "繪製觸及高亮的最大範圍（以格為單位）。預設為 60 (300 尺)。無論此設定如何，第一個增量始終完全顯示。低於 10 的值將完全禁用觸及高亮。"
             }
           }
         },
@@ -2680,10 +2680,10 @@
               "Slow": "慢速",
               "Medium": "中速",
               "Fast": "快速",
-              "Custom": "自定義"
+              "Custom": "自訂"
             },
             "CustomPlaceholder": "例如 '@level * 1000'",
-            "CustomUsage": "自定義經驗公式是累積的。例如，要模仿 PF2 風格的經驗，你只需輸入 <code>1000</code>，因為每一級都需要 1000 經驗，而將其設置為 <code>@level * 1000</code> 將意味著每一級都比上一級多需要一千。使用角色的普通投骰資料並新增 <code>@level</code> 作為要達到的等級。"
+            "CustomUsage": "自訂經驗公式是累積的。例如，要模仿 PF2 風格的經驗，你只需輸入 <code>1000</code>，因為每一級都需要 1000 經驗，而將其設定為 <code>@level * 1000</code> 將意味著每一級都比上一級多需要一千。使用角色的普通投骰資料並新增 <code>@level</code> 作為要達到的等級。"
           },
           "Disable": "禁用經驗值追蹤",
           "DisableHint": "禁用系統的經驗值追蹤功能，如經驗條、升級檢測、XP 閾值等。",
@@ -2697,7 +2697,7 @@
       },
       "PointBuy": {
         "Title": "購點計算器",
-        "SetupHint": "購點計算器僅在此處臨時可用。你可以隨時從設置標籤頁訪問它。",
+        "SetupHint": "購點計算器僅在此處臨時可用。你可以隨時從設定標籤頁訪問它。",
         "Warning": "購點計算器將**覆蓋**角色的基礎屬性值。",
         "InvalidPoints": "無效的點數使用。",
         "Spent": "已花費點數",
@@ -2750,7 +2750,7 @@
       "Steps": {
         "Label": "步驟",
         "Foundry": "閱讀 Foundry 的 {link}。",
-        "FoundryLink": "用戶文檔",
+        "FoundryLink": "使用者文檔",
         "Help": "檢查 {link}，通常位於疑難解答按鈕附近。",
         "HelpLink": "系統文檔",
         "FAQ": "檢視常見問題 (FAQ)",
@@ -2758,7 +2758,7 @@
         "Modules": "確保不是模組引起的問題。",
         "DisableModules": "以安全模式啟動是禁用所有模組的快速方法。",
         "ModuleSuggest": "{link} 也可以加快排除模組的過程。",
-        "Discord": "訪問 {link} Discord 服務器。",
+        "Discord": "訪問 {link} Discord 伺服器。",
         "DiscordChannel": "<code>{channel}</code> 頻道用於滿足你的 Pathfinder 1e 需求。",
         "DiscordHint": "頻道置頂消息通常包含任何相關資訊。",
         "Report": "考慮 {reportlink} 作為錯誤或功能請求。",
@@ -2769,9 +2769,9 @@
         "UnlockPacks": "解鎖合集包以進行遷移。鎖定的合集包將被忽略。",
         "Reprocess": "處理所有文檔，無論它們是否已遷移。",
         "MigrateWorld": "遷移世界",
-        "MigrateWorldHint": "通常，每當 PF1 更新且 GM 首次登錄時，如果有相關的掛起遷移，遷移會自動運行。<br>手動運行遷移有時可以解決問題，例如從以前未遷移的來源導入的文檔。",
+        "MigrateWorldHint": "通常，每當 PF1 更新且 GM 首次登錄時，如果有相關的掛起遷移，遷移會自動執行。<br>手動執行遷移有時可以解決問題，例如從以前未遷移的來源匯入的文檔。",
         "MigrateModules": "遷移模組包",
-        "MigrateModulesHint": "如果你擁有的模組包含的合集包尚未在其端進行遷移以完全兼容當前版本。"
+        "MigrateModulesHint": "如果你擁有的模組包含的合集包尚未在其端進行遷移以完全相容當前版本。"
       }
     },
     "Tours": {
@@ -2796,11 +2796,11 @@
         },
         "RollButtons": {
           "Title": "投骰按鈕",
-          "Content": "請留意圖標 <i class='fas fa-dice-d20'></i> 和 <i class='fas fa-dice'></i>。<br>它們遍佈角色卡，你可以點擊它們來投擲豁免、攻擊、顯示防禦等..."
+          "Content": "請留意圖示 <i class='fas fa-dice-d20'></i> 和 <i class='fas fa-dice'></i>。<br>它們遍佈角色卡，你可以點擊它們來投擲豁免、攻擊、顯示防禦等..."
         },
         "OtherCommonButtons": {
           "Title": "其他常用按鈕",
-          "Content": "還要留意以下按鈕，因為它們在角色卡上共享通用的<em>物品</em>（種族、職業、武器、專長、職業能力...）功能。如果你不是 GM，你將無法在<strong>此特定角色卡</strong>中看到這些圖標。<br><ul class='pf1-tour'><li><i class='fas fa-folder-plus'></i> 在 <code>CompendiumBrowser</code> 中搜索<em>物品</em>。</li><li><i class='fas fa-edit'></i> 編輯<em>物品</em>。</li><li><i class='fas fa-trash'></i> 刪除<em>物品</em>。</li><li><i class='fas fa-copy'></i> 克隆<em>物品</em>。</li><li><i class='fas fa-plus'></i> 從頭新增<em>物品</em>。</li></ul>"
+          "Content": "還要留意以下按鈕，因為它們在角色卡上共享通用的<em>物品</em>（種族、職業、武器、專長、職業能力...）功能。如果你不是 GM，你將無法在<strong>此特定角色卡</strong>中看到這些圖示。<br><ul class='pf1-tour'><li><i class='fas fa-folder-plus'></i> 在 <code>CompendiumBrowser</code> 中搜尋<em>物品</em>。</li><li><i class='fas fa-edit'></i> 編輯<em>物品</em>。</li><li><i class='fas fa-trash'></i> 刪除<em>物品</em>。</li><li><i class='fas fa-copy'></i> 克隆<em>物品</em>。</li><li><i class='fas fa-plus'></i> 從頭新增<em>物品</em>。</li></ul>"
         },
         "SheetTabs": {
           "Title": "角色卡標籤頁",
@@ -2820,7 +2820,7 @@
         },
         "Race": {
           "Title": "種族",
-          "Content": "這裡顯示種族。<br>當角色還沒有種族時，你可以點擊 <i class='fas fa-folder-plus'></i> 從 <code>CompendiumBrowser</code> 中選擇一個，或者點擊 <i class='fas fa-plus'></i> 建立自定義種族。<br><br>此外，你可以編輯種族並在需要時新增缺失的部分（例如人類的任意屬性 +2），方法是點擊 <i class='fas fa-edit'></i>，或者點擊 <i class='fas fa-trash'></i> 刪除它。"
+          "Content": "這裡顯示種族。<br>當角色還沒有種族時，你可以點擊 <i class='fas fa-folder-plus'></i> 從 <code>CompendiumBrowser</code> 中選擇一個，或者點擊 <i class='fas fa-plus'></i> 建立自訂種族。<br><br>此外，你可以編輯種族並在需要時新增缺失的部分（例如人類的任意屬性 +2），方法是點擊 <i class='fas fa-edit'></i>，或者點擊 <i class='fas fa-trash'></i> 刪除它。"
         },
         "HitPointsAndSpeed": {
           "Title": "生命值和速度",
@@ -2828,7 +2828,7 @@
         },
         "QuickActionsInSummary": {
           "Title": "快捷動作和投骰",
-          "Content": "你可以點擊這裡帶有 <i class='fas fa-dice'></i> 圖標的所有內容進行投骰，以及任何快捷動作。"
+          "Content": "你可以點擊這裡帶有 <i class='fas fa-dice'></i> 圖示的所有內容進行投骰，以及任何快捷動作。"
         },
         "Classes": {
           "Title": "職業",
@@ -2864,11 +2864,11 @@
         },
         "ItemsDetails": {
           "Title": "物品詳情和選項",
-          "Content": "你可以將滑鼠懸停在分組標題中的每個圖標上 (<i class='icon-pf text-icon icon-inventory-slot'></i>, <i class='icon-pf text-icon icon-gears'></i>, <i class='icon-pf text-icon icon-weight'></i>, <i class='icon-pf text-icon icon-quill-ink'></i>, ...) 以查找有關它們含義的更多資訊。"
+          "Content": "你可以將滑鼠懸停在分組標題中的每個圖示上 (<i class='icon-pf text-icon icon-inventory-slot'></i>, <i class='icon-pf text-icon icon-gears'></i>, <i class='icon-pf text-icon icon-weight'></i>, <i class='icon-pf text-icon icon-quill-ink'></i>, ...) 以查找有關它們含義的更多資訊。"
         },
         "FeaturesTab": {
           "Title": "專長與職業能力標籤頁",
-          "Content": "所有與專長或由職業、種族骰或其他效果賦予的能力都可以在這裡找到。<br><br>和以前一樣，你會在頂部找到過濾器以及 <i class='fas fa-folder-plus'></i>, <i class='fas fa-plus'></i>, <i class='fas fa-edit'></i>, <i class='fas fa-trash'></i> 和 <i class='fas fa-copy'></i> 選項。<br><br>你也可以懸停圖標以獲取資訊。"
+          "Content": "所有與專長或由職業、種族骰或其他效果賦予的能力都可以在這裡找到。<br><br>和以前一樣，你會在頂部找到過濾器以及 <i class='fas fa-folder-plus'></i>, <i class='fas fa-plus'></i>, <i class='fas fa-edit'></i>, <i class='fas fa-trash'></i> 和 <i class='fas fa-copy'></i> 選項。<br><br>你也可以懸停圖示以獲取資訊。"
         },
         "Charges": {
           "Title": "充能",
@@ -2876,11 +2876,11 @@
         },
         "SkillsTab": {
           "Title": "技能標籤頁",
-          "Content": "這裡列出了所有 Pathfinder 技能。<br>如果你將滑鼠懸停在其中任何一個上，它將顯示一個 <i class='fas fa-book'></i> 圖標，該圖標將打開該技能的合集包條目。<br><br>此外，你可以通過點擊列表底部的 <code><i class='fas fa-plus'></i> 新增技能</code> 來新增自定義技能。"
+          "Content": "這裡列出了所有 Pathfinder 技能。<br>如果你將滑鼠懸停在其中任何一個上，它將顯示一個 <i class='fas fa-book'></i> 圖示，該圖示將打開該技能的合集包條目。<br><br>此外，你可以通過點擊列表底部的 <code><i class='fas fa-plus'></i> 新增技能</code> 來新增自訂技能。"
         },
         "UnlockSkills": {
           "Title": "解鎖技能以編輯",
-          "Content": "你可以通過點擊 <i class='fas fa-lock'></i> 解鎖技能進行編輯。<br>之後你會看到 <i class='fas fa-edit'></i> 圖標。你也可以通過點擊 <i class='fas fa-lock-open'></i> 再次鎖定技能。"
+          "Content": "你可以通過點擊 <i class='fas fa-lock'></i> 解鎖技能進行編輯。<br>之後你會看到 <i class='fas fa-edit'></i> 圖示。你也可以通過點擊 <i class='fas fa-lock-open'></i> 再次鎖定技能。"
         },
         "AddSubskill": {
           "Title": "新增子技能",
@@ -2888,11 +2888,11 @@
         },
         "BuffsTab": {
           "Title": "增益與狀態標籤頁",
-          "Content": "所有的狀態和增益都可以在這裡找到。<br>新增增益後，你會看到 <i class='fas fa-edit'></i>, <i class='fas fa-trash'></i> 和 <i class='fas fa-copy'></i> 選項。你也可以使用 <i class='fas fa-folder-plus'></i> 和 <i class='fas fa-plus'></i> 選項建立一個。<br><br>大多數 Pathfinder 1e 狀態都顯示在上面，如果沒有，你可以在 <code>CompendiumBrowser</code> 中搜索它們。"
+          "Content": "所有的狀態和增益都可以在這裡找到。<br>新增增益後，你會看到 <i class='fas fa-edit'></i>, <i class='fas fa-trash'></i> 和 <i class='fas fa-copy'></i> 選項。你也可以使用 <i class='fas fa-folder-plus'></i> 和 <i class='fas fa-plus'></i> 選項建立一個。<br><br>大多數 Pathfinder 1e 狀態都顯示在上面，如果沒有，你可以在 <code>CompendiumBrowser</code> 中搜尋它們。"
         },
         "ConditionDuration": {
           "Title": "狀態持續時間",
-          "Content": "正如預期的那樣，你可以通過點擊圖標來啟用/停用狀態。<br><br>你也可以通過<em>右鍵點擊</em>它們來設置狀態的持續時間。"
+          "Content": "正如預期的那樣，你可以通過點擊圖示來啟用/停用狀態。<br><br>你也可以通過<em>右鍵點擊</em>它們來設定狀態的持續時間。"
         },
         "SpellsTab": {
           "Title": "法術標籤頁",
@@ -2904,22 +2904,22 @@
         },
         "SpellbooksConfiguration": {
           "Title": "法術書配置",
-          "Content": "你可以通過點擊法術書右上角的 <i class='fas fa-cogs'></i> 圖標在這裡配置法術書。在這裡你可以根據需要調整法術書的許多選項。<br><br>如果你的法術書來自 <code>CompendiumBrowser</code> 中的施法者，除了一些微調（如術士的額外法術）外，它已經配置好了。"
+          "Content": "你可以通過點擊法術書右上角的 <i class='fas fa-cogs'></i> 圖示在這裡配置法術書。在這裡你可以根據需要調整法術書的許多選項。<br><br>如果你的法術書來自 <code>CompendiumBrowser</code> 中的施法者，除了一些微調（如術士的額外法術）外，它已經配置好了。"
         },
         "BiographyTab": {
           "Title": "傳記標籤頁",
-          "Content": "這是一個自由文本欄位，你可以用它來寫角色的傳記、特長等。<br><br>唯一要記住的是，這裡的文本對<strong>所有具有 <code>受限</code> 權限的人都可見</strong>。"
+          "Content": "這是一個自由文字欄位，你可以用它來寫角色的傳記、特長等。<br><br>唯一要記住的是，這裡的文字對<strong>所有具有 <code>受限</code> 權限的人都可見</strong>。"
         },
         "NotesTab": {
           "Title": "筆記標籤頁",
-          "Content": "自由文本欄位，你可以用它來寫關於角色的筆記，如 NPC 戰術、背景故事（以避免劇透）等。"
+          "Content": "自由文字欄位，你可以用它來寫關於角色的筆記，如 NPC 戰術、背景故事（以避免劇透）等。"
         },
         "MagicItemsTable": {
           "Title": "魔法物品",
-          "Content": "在這裡，GM 還可以看到角色的所有魔法物品列表，以及鑑定的 DC、學派和將其設置為已鑑定的快捷方式。"
+          "Content": "在這裡，GM 還可以看到角色的所有魔法物品列表，以及鑑定的 DC、學派和將其設定為已鑑定的快捷方式。"
         },
         "SettingsTab": {
-          "Title": "設置",
+          "Title": "設定",
           "Content": "在這裡你可以配置用於特定計算的屬性（例如不死生物使用<em>魅力</em>代替<em>體質</em>）以及法術書。<br><br>此外，你可以在任何時候使用 <code>購點計算器</code>，而不僅僅是在建立角色時。"
         }
       }
@@ -3041,8 +3041,8 @@
         "Hint": "附加總先攻除以 100 以打破先攻平局。"
       },
       "HealthDisplay": {
-        "Label": "生命值浮動文本權限",
-        "Hint": "在指示物上檢視健康相關（生命值、屬性傷害、負向等級等）浮動文本所需的最低權限級別。",
+        "Label": "生命值浮動文字權限",
+        "Hint": "在指示物上檢視健康相關（生命值、屬性傷害、負向等級等）浮動文字所需的最低權限級別。",
         "AnyPermission": "任何，完全透明"
       },
       "Vision": {
@@ -3053,9 +3053,9 @@
         "Guaranteed": "基礎視覺權限",
         "GuaranteedHint": "總是能從指示物看到的最低權限。Foundry 預設為觀察者。",
         "PCDefault": "玩家角色視覺",
-        "PCDefaultHint": "玩家角色預設擁有指示物視覺，無論預設指示物設置如何。",
+        "PCDefaultHint": "玩家角色預設擁有指示物視覺，無論預設指示物設定如何。",
         "SystemControl": "系統控制視覺",
-        "SystemControlHint": "使用生物的視覺配置來確定視覺，支持 PF 特定的概念，如昏暗視覺。如果禁用，視覺僅由 Foundry 的指示物設置確定。",
+        "SystemControlHint": "使用生物的視覺配置來確定視覺，支持 PF 特定的概念，如昏暗視覺。如果禁用，視覺僅由 Foundry 的指示物設定確定。",
         "RequiresSelection": "特殊視覺需要選中",
         "RequiresSelectionHint": "選中後，未選中指示物的玩家將無法受益於其任何指示物的昏暗視覺或黑暗視覺。"
       },
@@ -3076,9 +3076,9 @@
         "MeasureStyleHint": "是否使用 Pathfinder 的測量樣式而不是 FoundryVTT 的預設樣式"
       },
       "HideTokenConditionsN": "隱藏指示物增益",
-      "HideTokenConditionsH": "增益是否應從指示物狀態效果中隱藏其圖標",
+      "HideTokenConditionsH": "增益是否應從指示物狀態效果中隱藏其圖示",
       "CoreEffectsN": "預設指示物狀態",
-      "CoreEffectsH": "在指示物上僅顯示 PF1 狀態（未選中）或同時也顯示核心圖標（選中）",
+      "CoreEffectsH": "在指示物上僅顯示 PF1 狀態（未選中）或同時也顯示核心圖示（選中）",
       "UnchainedActionEconomyN": "Unchained 動作經濟",
       "UnchainedActionEconomyH": "是否使用 Unchained 動作經濟選用規則集。",
       "Cybertech": "賽博科技",
@@ -3097,7 +3097,7 @@
       },
       "Houserules": {
         "CoinDivisor": "錢幣重量除數",
-        "CoinDivisorHint": "多少枚硬幣重 1 磅。設置為零 (0) 以禁用錢幣重量。預設為 50。",
+        "CoinDivisorHint": "多少枚硬幣重 1 磅。設定為零 (0) 以禁用錢幣重量。預設為 50。",
         "SpellPointCost": "法力點預設消耗",
         "SpellPointCostHint": "如果未按法術配置，使用法術點的法術的預設消耗。",
         "AltReach": "替代觸及規則",
@@ -3167,13 +3167,13 @@
       "rules": "Pathfinder 1e 規則"
     },
     "Help/Actors": "# 角色\n\n## 普通角色類型\n\n- [角色](Help/Actors/Character)\n- [NPC](Help/Actors/NPC)\n\n## 雜項角色類型\n\n- [作祟](Help/Actors/Haunt)\n- [陷阱](Help/Actors/Trap)\n- [載具](Help/Actors/Vehicle)\n",
-    "Help/Enrichers": "# 文本增強器 (Enrichers)\n\n常見的輸入格式: `@Command[key;options]{label}`\n\n選項格式: 用分號 (`;`) 分隔的 `key=value` 對\n\n標籤為按鈕新增前綴，例如 `@Ability[str]{Flex}` 會顯示為 `Flex: Strength`。但有些增強器不遵循此規則。\n\n預設情況下，投骰資料來自卡片發言者。\n\n## 常用選項\n\n| 選項      | 示例                                      | 解釋                                                                                                                                                                                                          |\n| :-------- | :---------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |\n| `speaker` | `@Use[Cure Light Wounds;speaker]`         | 將啟用限制為卡片發言者。`as=speaker` 的別名。                                                                                                                                                                 |\n| `as`      | `@Use[Cure Light Wounds;as=speaker]`      | 限制或引導啟用。<br>目前僅 `speaker`、`sheet` 和 `auto` 是有效選項。Speaker 用於聊天卡片，sheet 用於角色卡，auto 嘗試自動選擇前者之一。 |\n| `bonus`   | `@Skill[per;bonus=15]`                    | 投骰加值。                                                                                                                                                                                                    |\n| `roll`    | `@Skill[dip;roll=10]`                     | 投骰替換，例如取 10 或幸運效果。                                                                                                                                                                              |\n| `vars`    | `@Heal[@attributes.hd.total;vars=target]` | 投骰資料來自發言者以外的對象。<br>`target` 是目前唯一的有效選項。                                                                                                                                             |\n",
-    "Help/Formulas": "# 公式\n\n本部分目前正在完善中 (WIP)。\n\n公式是 Pathfinder 1e 系統中的一個重要方面。它們可以簡單到一個數值，也可以複雜到一行代碼。它們在物品變更中起著重要作用。\n\n## 變量\n\n### 通用角色變量\n\n為了快速參考，你也可以在角色卡的工具提示中找到許多此類資訊。\n",
+    "Help/Enrichers": "# 文字增強器 (Enrichers)\n\n常見的輸入格式: `@Command[key;options]{label}`\n\n選項格式: 用分號 (`;`) 分隔的 `key=value` 對\n\n標籤為按鈕新增前綴，例如 `@Ability[str]{Flex}` 會顯示為 `Flex: Strength`。但有些增強器不遵循此規則。\n\n預設情況下，投骰資料來自卡片發言者。\n\n## 常用選項\n\n| 選項      | 示例                                      | 解釋                                                                                                                                                                                                          |\n| :-------- | :---------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |\n| `speaker` | `@Use[Cure Light Wounds;speaker]`         | 將啟用限制為卡片發言者。`as=speaker` 的別名。                                                                                                                                                                 |\n| `as`      | `@Use[Cure Light Wounds;as=speaker]`      | 限制或引導啟用。<br>目前僅 `speaker`、`sheet` 和 `auto` 是有效選項。Speaker 用於聊天卡片，sheet 用於角色卡，auto 嘗試自動選擇前者之一。 |\n| `bonus`   | `@Skill[per;bonus=15]`                    | 投骰加值。                                                                                                                                                                                                    |\n| `roll`    | `@Skill[dip;roll=10]`                     | 投骰替換，例如取 10 或幸運效果。                                                                                                                                                                              |\n| `vars`    | `@Heal[@attributes.hd.total;vars=target]` | 投骰資料來自發言者以外的對象。<br>`target` 是目前唯一的有效選項。                                                                                                                                             |\n",
+    "Help/Formulas": "# 公式\n\n本部分目前正在完善中 (WIP)。\n\n公式是 Pathfinder 1e 系統中的一個重要方面。它們可以簡單到一個數值，也可以複雜到一行程式碼。它們在物品變更中起著重要作用。\n\n## 變數\n\n### 通用角色變數\n\n為了快速參考，你也可以在角色卡的工具提示中找到許多此類資訊。\n",
     "Help/Home": "# Pathfinder 1 知識庫\n\n## 規則\n\n- [核心規則](Help/Rules)\n- [選用規則](Help/Rules/Optional)\n- [房規](Help/Rules/Homebrew)\n\n## 角色\n\n- [角色](Help/Actors/Character)\n- [NPC](Help/Actors/NPC)\n- [作祟](Help/Actors/Haunt)\n- [陷阱](Help/Actors/Trap)\n- [載具](Help/Actors/Vehicle)\n\n## 物品\n\n### 物品類型\n\n- [攻擊](Help/Items/Attacks)\n- [職業](Help/Items/Classes)\n- [消耗品](Help/Items/Consumables)\n- [容器](Help/Items/Containers)\n- [裝備](Help/Items/Equipment)\n- [戰利品](/Help/Items/Loot)\n- [武器](Help/Items/Weapons)\n\n### 概念\n\n- [描述](Help/Items/Description)\n- [改變](Help/Items/Changes)\n- [動作](Help/Items/Actions)\n- [標記](Help/Items/Flags)\n- [腳本呼叫](Help/Items/Script-Calls)\n\n## 特殊\n\n- [公式](Help/Formulas)\n- [增強器](Help/Enrichers)\n",
     "Help/Items": "# 物品\n\n## 物理物品類型\n\n- [武器](Help/Items/Weapons)\n- [裝備](Help/Items/Equipment)\n- [消耗品](Help/Items/Consumables)\n- [容器](Help/Items/Containers)\n- [戰利品](Help/Items/Loot)\n\n## 其他\n\n- [攻擊](Help/Items/Attacks)\n",
     "Help/Rules": "# 規則\n\n## 核心規則缺失\n\n以下規則不直接支持。它們需要手動操作才能按預期工作。\n\n- 變體職業 (Archetypes)\n  - 解決方法：手動修改現有的基礎職業。\n- 手部出力 (Hands of Effort)\n  - 解決方法：手動卸下多餘物品。\n- 匆忙穿戴 (Hasty Donning)\n- 武器和護甲的材料\n  - 解決方法：手動修改受影響的物品。\n- 超魔 (Metamagic)\n  - 解決方法：建立法術的修改副本。\n- 對立學派 (Opposition Schools)\n  - 解決方法：手動編輯每個法術的法術位消耗。\n- 魔法武器和護甲的特性 (Qualities)\n  - 解決方法：手動修改受影響的物品。\n- 種族武器擅長\n  - 例如矮人將任何名稱中帶有矮人的物品視為軍用武器\n  - 解決方法：在角色的相關物品上標記強制擅長。\n- 學派/領域法術位\n  - 支持插槽本身，但不支持自動知道哪些法術應該在其中。\n  - 解決方法：手動將受影響的法術標記為學派/領域。\n- 變形/多態/野性變身 (Shapeshifting / Polymorphing / Wild Shaping)\n- 攻城武器 (Siege Weapons)\n- 自發施法（牧師、德魯伊等替換已準備法術位的變體）\n- 不合適體型的武器 (Inappropriately Sized Weapons)\n",
-    "Help/Rules/Homebrew": "# 房規、家規和第三方規則\n\n這描述了系統設置中支持非標準規則的設置。\n\n## 法力點 (Spell Points)\n\n每個角色的法術書單獨啟用。\n\n預設法力點消耗可以在系統設置中配置。個別法術可以有自己的消耗。\n\n## NPC 擅長\n\n在系統設置中切換。\n\n預設情況下，系統實現的 NPC/怪物完全擅長一切。也就是說，他們缺乏擅長的情況被忽略。NPC 擅長切換允許他們遵循與 PC 相同的規則。\n\n## 錢幣重量\n\n系統設置中的錢幣重量除數。零表示禁用錢幣重量。\n",
-    "Help/Rules/Optional": "# 選用規則\n\n## 完全支持\n\n### 背景技能\n\n在系統設置中啟用。\n\n### 分數基礎加值\n\n在系統設置中啟用。\n\n### 創傷閾值\n\n在系統設置的生命值設置中啟用。\n\n由於 Paizo 未提供兩者如何交互的指南，因此與創傷與活力不兼容。\n\n### 修訂後的動作經濟\n\n在系統設置中啟用。\n\n## 部分支持\n\n### 護甲作為傷害減免 (DR)\n\n可以在系統設置中禁用重擊確認投骰以獲得部分支持。\n\n### 創傷與活力\n\n在系統設置的生命值設置中啟用。\n",
+    "Help/Rules/Homebrew": "# 房規、家規和第三方規則\n\n這描述了系統設定中支持非標準規則的設定。\n\n## 法力點 (Spell Points)\n\n每個角色的法術書單獨啟用。\n\n預設法力點消耗可以在系統設定中配置。個別法術可以有自己的消耗。\n\n## NPC 擅長\n\n在系統設定中切換。\n\n預設情況下，系統實現的 NPC/怪物完全擅長一切。也就是說，他們缺乏擅長的情況被忽略。NPC 擅長切換允許他們遵循與 PC 相同的規則。\n\n## 錢幣重量\n\n系統設定中的錢幣重量除數。零表示禁用錢幣重量。\n",
+    "Help/Rules/Optional": "# 選用規則\n\n## 完全支持\n\n### 背景技能\n\n在系統設定中啟用。\n\n### 分數基礎加值\n\n在系統設定中啟用。\n\n### 創傷閾值\n\n在系統設定的生命值設定中啟用。\n\n由於 Paizo 未提供兩者如何交互的指南，因此與創傷與活力不相容。\n\n### 修訂後的動作經濟\n\n在系統設定中啟用。\n\n## 部分支持\n\n### 護甲作為傷害減免 (DR)\n\n可以在系統設定中禁用重擊確認投骰以獲得部分支持。\n\n### 創傷與活力\n\n在系統設定的生命值設定中啟用。\n",
     "Help/Items/Actions": "# 動作\n\n每個動作定義了使用物品的一種方式。雖然大多數可用物品只關聯一個動作，但有些可能有更多，例如匕首可能有刺和投擲動作。\n",
     "Help/Items/Attacks": "# 攻擊\n\n攻擊是可以用來投擲各種類型攻擊的物品類型，無需物理武器。例子包括天生攻擊和從武器生成的攻擊。\n",
     "Help/Items/Changes": "# 改變\n\n![改變示例](/Help/img/item-changes.webp)\n",
@@ -3184,7 +3184,7 @@
     "Help/Items/Equipment": "# 裝備\n\n裝備代表所有非武器的可裝備物品，包括護甲、盾牌、戒指和奇物。\n\n![裝備詳情](/Help/img/equipment-details.webp)\n",
     "Help/Items/Flags": "# 標記\n\n標記可用於任意目的。\n",
     "Help/Items/Loot": "# 戰利品\n\n戰利品物品是沒有特定物品類型的所有類型的物理物品，如貿易品和彈藥。\n",
-    "Help/Items/Script-Calls": "# 腳本呼叫\n\n大多數物品都有某些類別的腳本呼叫，這些是在該物品的特定事件下運行的巨集和內聯腳本的組合。\n",
+    "Help/Items/Script-Calls": "# 腳本呼叫\n\n大多數物品都有某些類別的腳本呼叫，這些是在該物品的特定事件下執行的巨集和內聯腳本的組合。\n",
     "Help/Items/Weapons": "# 武器\n\n武器旨在代表角色可以持有的物理武器。\n\n![武器詳情](/Help/img/weapon-details.webp)\n",
     "Help/Actors/Character": "# 角色\n\n幫助文件的這一部分正在完善中。\n",
     "Help/Actors/Haunt": "# 作祟\n\n專門用於作祟的角色和角色卡，用於處理其獨特特性。\n",
