@@ -27,7 +27,7 @@ Robot	種族／生物類型	機體	機器人	—	pf1-zhtw 1／mods 1／compendiu
 Leshy	種族／生物類型	萊西	勒席	—	pf1-zhtw 1／mods 1／compendium 0	萊西	CHM v2.33.0 寫「萊西（Leshy）」2 次。
 Ratfolk	種族／生物類型	鼠族	—	鼠人	pf1-zhtw 1／mods 0／compendium 1	鼠族	CHM v2.33.0 寫「鼠族（Ratfolk）」19 次。
 Azata	種族／生物類型	靈使	愛塔天族	—	pf1-zhtw 1／mods 1／compendium 0	靈使	CHM v2.33.0 寫「靈使（Azata）」10 次。
-Archon	種族／生物類型	聖使	亞空天族	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	待再確認：回覆選「神使」，但 CHM v2.28.5 的更新紀錄寫「亞空→聖使（Archon）」，是全書統一的定名；CHM 裡的「神使」集中在「神賜」頁，像是漏改。要「神使」還是「聖使」，請再確認。
+Archon	種族／生物類型	聖使	亞空天族	—	pf1-zhtw 1／mods 1／compendium 0	聖使	已裁定，照 CHM（v2.28.5 全書統一「亞空→聖使」）。果園論壇要登入才能看，沒查到論壇用法。CHM「神賜」頁還有 9 處舊的「神使（archons）」，要回報 CHM 補改。
 Agathion	種族／生物類型	衛使	蓋丁天族	—	pf1-zhtw 1／mods 1／compendium 0	福使	已裁定，跟 CHM 一致。
 Div	種族／生物類型	妖靈	迪瓦	—	pf1-zhtw 1／mods 1／compendium 0	妖靈	CHM v2.33.0 寫「妖靈（Div）」22 次。
 Derro	種族／生物類型	迪洛人	迪洛矮人	—	pf1-zhtw 1／mods 1／compendium 0	德洛人	已裁定。CHM 寫「德洛人」13 次；另一個候選「癲儒」在 CHM 和三個倉庫都沒出現過，所以選「德洛人」。
@@ -46,14 +46,14 @@ Maneuver Mastery	職業能力名	—	—	戰技熟稔×2；戰技精通	pf1-zhtw
 Unarmed Strike	職業能力名	—	—	徒手擊打；徒手打擊	pf1-zhtw 0／mods 0／compendium 2	徒手打擊	CHM v2.33.0 寫「徒手打擊（Unarmed Strike）」22 次。
 Increased Damage Reduction	職業能力名	—	—	傷害減免；增強傷害減免	pf1-zhtw 0／mods 0／compendium 2	增強傷害減免	CHM v2.33.0 寫「增強傷害減免（Increased Damage Reduction）」20 次。
 Channel	職業能力名	—	—	引導能量；能量引導	pf1-zhtw 0／mods 0／compendium 2	引導能量	CHM 內文寫「引導能量」759 次、「能量引導」40 次。
-Spirit	職業能力名	—	精魂	魂域	pf1-zhtw 0／mods 1／compendium 1	魂域	查過 CHM：薩滿的 Spirit 寫「魂域」，通靈者的 Spirit 寫「英靈」，巫婆庇護主的 Spirits 寫「精魂」，是三個不同東西。這裡兩處（SBC 的施法特性、合集包的職業能力）都是薩滿的，所以建議「魂域」。
+Spirit	職業能力名	—	精魂	魂域	pf1-zhtw 0／mods 1／compendium 1	魂域	已裁定。查過 CHM：薩滿的 Spirit 寫「魂域」，通靈者的 Spirit 寫「英靈」，巫婆庇護主的 Spirits 寫「精魂」，是三個不同東西。這裡兩處（SBC 的施法特性、合集包的職業能力）都是薩滿的，所以建議「魂域」。
 Low-Light Vision	職業能力名	—	—	低光視力；昏暗視覺	pf1-zhtw 0／mods 0／compendium 2	昏暗視覺	CHM v2.33.0 寫「昏暗視覺（Low-Light Vision）」102 次。
 Breath Weapon	職業能力名	—	—	噴吐武器；噴吐龍息	pf1-zhtw 0／mods 0／compendium 2	噴吐武器	CHM v2.33.0 寫「噴吐武器（Breath Weapon）」6 次。
 Wings	職業能力名	—	—	翅膀；龍翼	pf1-zhtw 0／mods 0／compendium 2	待裁定	「翅膀」是一般用字，CHM 也沒有明確定名；龍族血統版叫「龍翼」可能是刻意區分，需要人來決定。
 Evasion	職業能力名	—	—	忍法·無常步；反射閃避	pf1-zhtw 0／mods 0／compendium 2	反射閃避	CHM v2.33.0 寫「反射閃避（Evasion）」20 次；CHM 裡找不到「忍法·」這種寫法。
 Mystery	職業能力名	—	秘示	秘示域	pf1-zhtw 0／mods 1／compendium 1	秘示域	CHM v2.33.0 寫「秘示域（Mystery）」12 次。
 Knockback	職業能力名	—	—	一擊即飛；擊飛	pf1-zhtw 0／mods 0／compendium 2	擊飛	CHM v2.33.0 寫「擊飛（Knockback）」8 次。
-Elemental Body	職業能力名	—	—	元素之軀；元素身軀	pf1-zhtw 0／mods 0／compendium 2	元素形態	已裁定。回覆寫的是「元素型態」，但 CHM 寫「元素形態」99 次、「元素型態」0 次，先照 CHM 記「形態」，要用「型態」請再說。
+Elemental Body	職業能力名	—	—	元素之軀；元素身軀	pf1-zhtw 0／mods 0／compendium 2	元素形態	已裁定，跟 CHM 一致（CHM 寫「元素形態」99 次）。
 Superstition	職業能力名	—	—	神秘迷信；迷信	pf1-zhtw 0／mods 0／compendium 2	迷信	CHM v2.33.0 寫「迷信（Superstition）」14 次。
 Abundant Step	職業能力名	—	—	天遁術；遁術	pf1-zhtw 0／mods 0／compendium 2	遁術	CHM v2.33.0 寫「遁術（Abundant Step）」4 次。
 Major Magic	職業能力名	—	—	高等魔法；高級魔法	pf1-zhtw 0／mods 0／compendium 2	高級魔法	CHM v2.33.0 寫「高級魔法（Major Magic）」22 次。
@@ -132,7 +132,7 @@ Smasher	職業能力名	—	—	破壞者；野蠻破壞	pf1-zhtw 0／mods 0／c
 （批量）	對岸用語	—	批量×2	—	pf1-zhtw 0／mods 2／compendium 0	批次	已裁定（只改繁體版）。台灣寫「批次」。
 （攝像機）	對岸用語	—	攝像機×2	—	pf1-zhtw 0／mods 2／compendium 0	攝影機	已裁定（只改繁體版）。台灣寫「攝影機」。
 （粘貼）	對岸用語	—	粘貼×2	—	pf1-zhtw 0／mods 2／compendium 0	貼上	對岸用語；台灣寫「貼上」，mods、compendium 已經這樣用。
-（刷新）	對岸用語	—	—	刷新×2	pf1-zhtw 0／mods 0／compendium 2	待裁定	這裡是「刷新持續時間」（重新計時），介面用的「重新整理」不適用，需要人看語境。
+（刷新）	對岸用語	—	—	刷新×2	pf1-zhtw 0／mods 0／compendium 2	重置	已裁定（只改繁體版）。「刷新持續時間」→「重置持續時間」、「刷新時效」→「重置時效」。
 （钟）	簡體字	—	—	钟×2	pf1-zhtw 0／mods 0／compendium 2	鐘	「钟」是簡體字，同一個詞在倉庫其他地方已經寫成「鐘」。
 （導入）	對岸用語	導入×1	—	—	pf1-zhtw 1／mods 0／compendium 0	匯入	對岸用語；台灣寫「匯入」，mods 已經這樣用。
 （服務器）	對岸用語	服務器×1	—	—	pf1-zhtw 1／mods 0／compendium 0	伺服器	已裁定（只改繁體版）。台灣寫「伺服器」。
