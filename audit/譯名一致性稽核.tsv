@@ -1,39 +1,39 @@
 英文	類別	pf1-zhtw 譯法	mods 譯法	compendium 譯法	各倉出現次數	建議採用	建議理由
 Blind	狀態	目盲	盲目	目盲	pf1-zhtw 1／mods 1／compendium 1	目盲	CHM v2.33.0 寫「目盲（Blind）」13 次。
 Stable	狀態	傷勢穩定	傷勢穩定	穩定	pf1-zhtw 1／mods 1／compendium 1	穩定	CHM 的「狀態」頁寫「穩定（Stable）」。
-Energy Drained	狀態	能量流失	能量流失	能量汲取	pf1-zhtw 1／mods 1／compendium 1	待裁定	CHM 的「狀態」頁寫「能量吸取（Energy Drained）」，三個倉庫都沒用這個寫法；要不要改成 CHM 的說法，需要人來決定。
+Energy Drained	狀態	能量流失	能量流失	能量汲取	pf1-zhtw 1／mods 1／compendium 1	能量流失	已裁定。CHM 目前寫「能量吸取」（全文約 127 處），也要跟著改。
 Prone	狀態	俯臥	—	倒地	pf1-zhtw 1／mods 0／compendium 1	俯臥	CHM 的「狀態」頁寫「俯臥（Prone）」。
 Acrobatics	技能	特技動作	—	特技	pf1-zhtw 1／mods 0／compendium 1	特技	CHM v2.33.0 寫「特技（Acrobatics）」20 次。
 Temporary Hit Points	核心規則	臨時生命值	臨時生命	—	pf1-zhtw 1／mods 1／compendium 0	臨時生命值	CHM v2.33.0 寫「臨時生命值（Temporary Hit Points）」2 次。
-Reach	核心規則	長觸及；觸及	—	—	pf1-zhtw 2／mods 0／compendium 0	待裁定	CHM 兩種都有（「觸及（Reach）」與「長觸及（Reach）」），系統介面裡兩個 Reach 是不同欄位，需要人看語境決定。
+Reach	核心規則	長觸及；觸及	—	—	pf1-zhtw 2／mods 0／compendium 0	觸及	已裁定。
 Aid Another	核心規則	—	協助他人；援助他人	—	pf1-zhtw 0／mods 2／compendium 0	協助他人	CHM v2.33.0 寫「協助他人（Aid Another）」4 次。
 Finesse	武器／護甲	靈巧	嫻熟；強制嫻熟；嫻熟目標	—	pf1-zhtw 1／mods 3／compendium 0	靈巧	CHM v2.33.0 寫「靈巧（Finesse）」8 次。
-Sunder	武器／護甲	破損	破武	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	CHM 寫「擊破」，三個倉庫都沒用；另外系統介面的「破損」會跟 Broken（破損狀態）撞名，至少那個要改。
+Sunder	武器／護甲	破損	破武	—	pf1-zhtw 1／mods 1／compendium 0	擊破	已裁定，跟 CHM 一致（CHM v2.28.5 已把「破武」統一成「擊破」）。
 Armor Focus	專長名	—	護甲專攻×3	盔甲專攻	pf1-zhtw 0／mods 3／compendium 1	護甲專攻	「護甲專攻」用了 3 次，另一種只有 1 次，照多數。
 Gang Up	專長名	—	一擁而上×2；聯手	一擁而上	pf1-zhtw 0／mods 3／compendium 1	一擁而上	CHM v2.33.0 寫「一擁而上（Gang Up）」4 次。
 Furious Focus	專長名	—	沉著暴怒×2；猛力專攻	沉著暴怒	pf1-zhtw 0／mods 3／compendium 1	沉著暴怒	CHM v2.33.0 寫「沉著暴怒（Furious Focus）」4 次。
 Outflank	專長名	—	包抄×2；側面包抄	包抄	pf1-zhtw 0／mods 3／compendium 1	包抄	CHM v2.33.0 寫「包抄（Outflank）」8 次。
 Snake Sidewind	專長名	—	蛇形步×2；蛇行	蛇行	pf1-zhtw 0／mods 3／compendium 1	蛇行	CHM v2.33.0 寫「蛇行（Snake Sidewind）」4 次。
-Martial Focus	專長名	—	武器專家×2；武術專攻	武器專家	pf1-zhtw 0／mods 3／compendium 1	待裁定	CHM 寫「武術專精」，三個倉庫都沒用這個寫法；需要人來決定要不要改成 CHM 的說法。
+Martial Focus	專長名	—	武器專家×2；武術專攻	武器專家	pf1-zhtw 0／mods 3／compendium 1	武術專精	已裁定，跟 CHM 一致。
 Focused Inspiration	專長名	—	專注靈感；靈感專注	靈感專注	pf1-zhtw 0／mods 2／compendium 1	靈感專注	2 個倉庫都用「靈感專注」，只有 mods 另有寫法。
-Improved Armor Focus	專長名	—	精通護甲專攻	進階盔甲專攻	pf1-zhtw 0／mods 1／compendium 1	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
+Improved Armor Focus	專長名	—	精通護甲專攻	進階盔甲專攻	pf1-zhtw 0／mods 1／compendium 1	精通護甲專攻	已裁定。
 Ooze	種族／生物類型	泥怪	泥怪	泥形生物	pf1-zhtw 1／mods 1／compendium 1	泥怪	CHM v2.33.0 寫「泥怪（Ooze）」8 次。
 Monstrous Humanoid	種族／生物類型	類人怪物	類人怪物	人形怪物	pf1-zhtw 1／mods 1／compendium 1	人形怪物	CHM v2.33.0 寫「人形怪物（Monstrous Humanoid）」7 次。
 Kami	種族／生物類型	神靈	神	—	pf1-zhtw 1／mods 1／compendium 0	神靈	CHM v2.33.0 寫「神靈（Kami）」6 次。
-Extraplanar	種族／生物類型	跨位面	異界	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	CHM 沒有附英文的定名；「異界」也出現在「異界生物」（Outsider）裡，次數會灌水，需要人來決定。
+Extraplanar	種族／生物類型	跨位面	異界	—	pf1-zhtw 1／mods 1／compendium 0	跨位面	已裁定。
 Wayang	種族／生物類型	皮影人	—	剪影人	pf1-zhtw 1／mods 0／compendium 1	剪影人	CHM v2.33.0 寫「剪影人（Wayang）」6 次。
-Troop	種族／生物類型	部隊	軍隊	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	CHM 沒有附英文的定名；「軍隊」是一般用字，次數不能當證據，需要人來決定。
+Troop	種族／生物類型	部隊	軍隊	—	pf1-zhtw 1／mods 1／compendium 0	部隊	已裁定。
 Robot	種族／生物類型	機體	機器人	—	pf1-zhtw 1／mods 1／compendium 0	機器人	CHM v2.33.0 寫「機器人（Robot）」2 次。
 Leshy	種族／生物類型	萊西	勒席	—	pf1-zhtw 1／mods 1／compendium 0	萊西	CHM v2.33.0 寫「萊西（Leshy）」2 次。
 Ratfolk	種族／生物類型	鼠族	—	鼠人	pf1-zhtw 1／mods 0／compendium 1	鼠族	CHM v2.33.0 寫「鼠族（Ratfolk）」19 次。
 Azata	種族／生物類型	靈使	愛塔天族	—	pf1-zhtw 1／mods 1／compendium 0	靈使	CHM v2.33.0 寫「靈使（Azata）」10 次。
-Archon	種族／生物類型	聖使	亞空天族	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	CHM 多寫「神使」（9 次），三個倉庫都沒用這個寫法；現有寫法裡「聖使」在 CHM 出現 2 次。需要人來決定。
-Agathion	種族／生物類型	衛使	蓋丁天族	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	CHM 寫「福使」，三個倉庫都沒用這個寫法；需要人來決定要不要改成 CHM 的說法。
+Archon	種族／生物類型	聖使	亞空天族	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	待再確認：回覆選「神使」，但 CHM v2.28.5 的更新紀錄寫「亞空→聖使（Archon）」，是全書統一的定名；CHM 裡的「神使」集中在「神賜」頁，像是漏改。要「神使」還是「聖使」，請再確認。
+Agathion	種族／生物類型	衛使	蓋丁天族	—	pf1-zhtw 1／mods 1／compendium 0	福使	已裁定，跟 CHM 一致。
 Div	種族／生物類型	妖靈	迪瓦	—	pf1-zhtw 1／mods 1／compendium 0	妖靈	CHM v2.33.0 寫「妖靈（Div）」22 次。
-Derro	種族／生物類型	迪洛人	迪洛矮人	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	CHM 寫「德洛人」，三個倉庫都沒用這個寫法；需要人來決定要不要改成 CHM 的說法。
-Dark Folk	種族／生物類型	幽暗之民	暗黑民	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
-Demodand	種族／生物類型	神孽	泰坦神孽	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	CHM 寫「魔孽」，三個倉庫都沒用這個寫法；需要人來決定要不要改成 CHM 的說法。
-Spawn of Rovagug	種族／生物類型	拉瓦古格之嗣	拉瓦古格之子	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
+Derro	種族／生物類型	迪洛人	迪洛矮人	—	pf1-zhtw 1／mods 1／compendium 0	德洛人	已裁定。CHM 寫「德洛人」13 次；另一個候選「癲儒」在 CHM 和三個倉庫都沒出現過，所以選「德洛人」。
+Dark Folk	種族／生物類型	幽暗之民	暗黑民	—	pf1-zhtw 1／mods 1／compendium 0	幽暗之民	已裁定。
+Demodand	種族／生物類型	神孽	泰坦神孽	—	pf1-zhtw 1／mods 1／compendium 0	魔孽	已裁定，跟 CHM 一致。
+Spawn of Rovagug	種族／生物類型	拉瓦古格之嗣	拉瓦古格之子	—	pf1-zhtw 1／mods 1／compendium 0	拉瓦古格之嗣	已裁定。
 Bonus Feats	職業能力名	—	—	獎勵專長×5；額外專長	pf1-zhtw 0／mods 0／compendium 6	獎勵專長	CHM v2.33.0 寫「獎勵專長（Bonus Feats）」89 次。
 Ki Pool	職業能力名	—	—	氣池×3；氣運丹田	pf1-zhtw 0／mods 0／compendium 4	氣池	CHM v2.33.0 寫「氣池（Ki Pool）」8 次。
 Feat	職業能力名	—	—	專長×2；忍法·心技體	pf1-zhtw 0／mods 0／compendium 3	專長	CHM v2.33.0 寫「專長（Feat）」172 次；CHM 裡找不到「忍法·」這種寫法。
@@ -46,14 +46,14 @@ Maneuver Mastery	職業能力名	—	—	戰技熟稔×2；戰技精通	pf1-zhtw
 Unarmed Strike	職業能力名	—	—	徒手擊打；徒手打擊	pf1-zhtw 0／mods 0／compendium 2	徒手打擊	CHM v2.33.0 寫「徒手打擊（Unarmed Strike）」22 次。
 Increased Damage Reduction	職業能力名	—	—	傷害減免；增強傷害減免	pf1-zhtw 0／mods 0／compendium 2	增強傷害減免	CHM v2.33.0 寫「增強傷害減免（Increased Damage Reduction）」20 次。
 Channel	職業能力名	—	—	引導能量；能量引導	pf1-zhtw 0／mods 0／compendium 2	引導能量	CHM 內文寫「引導能量」759 次、「能量引導」40 次。
-Spirit	職業能力名	—	精魂	魂域	pf1-zhtw 0／mods 1／compendium 1	待裁定	CHM 多寫「英靈」（24 次），三個倉庫都沒用這個寫法；現有寫法裡「魂域」在 CHM 出現 4 次。需要人來決定。
+Spirit	職業能力名	—	精魂	魂域	pf1-zhtw 0／mods 1／compendium 1	魂域	查過 CHM：薩滿的 Spirit 寫「魂域」，通靈者的 Spirit 寫「英靈」，巫婆庇護主的 Spirits 寫「精魂」，是三個不同東西。這裡兩處（SBC 的施法特性、合集包的職業能力）都是薩滿的，所以建議「魂域」。
 Low-Light Vision	職業能力名	—	—	低光視力；昏暗視覺	pf1-zhtw 0／mods 0／compendium 2	昏暗視覺	CHM v2.33.0 寫「昏暗視覺（Low-Light Vision）」102 次。
 Breath Weapon	職業能力名	—	—	噴吐武器；噴吐龍息	pf1-zhtw 0／mods 0／compendium 2	噴吐武器	CHM v2.33.0 寫「噴吐武器（Breath Weapon）」6 次。
 Wings	職業能力名	—	—	翅膀；龍翼	pf1-zhtw 0／mods 0／compendium 2	待裁定	「翅膀」是一般用字，CHM 也沒有明確定名；龍族血統版叫「龍翼」可能是刻意區分，需要人來決定。
 Evasion	職業能力名	—	—	忍法·無常步；反射閃避	pf1-zhtw 0／mods 0／compendium 2	反射閃避	CHM v2.33.0 寫「反射閃避（Evasion）」20 次；CHM 裡找不到「忍法·」這種寫法。
 Mystery	職業能力名	—	秘示	秘示域	pf1-zhtw 0／mods 1／compendium 1	秘示域	CHM v2.33.0 寫「秘示域（Mystery）」12 次。
 Knockback	職業能力名	—	—	一擊即飛；擊飛	pf1-zhtw 0／mods 0／compendium 2	擊飛	CHM v2.33.0 寫「擊飛（Knockback）」8 次。
-Elemental Body	職業能力名	—	—	元素之軀；元素身軀	pf1-zhtw 0／mods 0／compendium 2	待裁定	CHM 寫「元素形態」，三個倉庫都沒用這個寫法；需要人來決定要不要改成 CHM 的說法。
+Elemental Body	職業能力名	—	—	元素之軀；元素身軀	pf1-zhtw 0／mods 0／compendium 2	元素形態	已裁定。回覆寫的是「元素型態」，但 CHM 寫「元素形態」99 次、「元素型態」0 次，先照 CHM 記「形態」，要用「型態」請再說。
 Superstition	職業能力名	—	—	神秘迷信；迷信	pf1-zhtw 0／mods 0／compendium 2	迷信	CHM v2.33.0 寫「迷信（Superstition）」14 次。
 Abundant Step	職業能力名	—	—	天遁術；遁術	pf1-zhtw 0／mods 0／compendium 2	遁術	CHM v2.33.0 寫「遁術（Abundant Step）」4 次。
 Major Magic	職業能力名	—	—	高等魔法；高級魔法	pf1-zhtw 0／mods 0／compendium 2	高級魔法	CHM v2.33.0 寫「高級魔法（Major Magic）」22 次。
@@ -62,11 +62,11 @@ Order of the Beast	職業能力名	—	—	獸之騎士團；狂獸騎士團	pf1
 Resiliency	職業能力名	—	—	堅韌身軀；韌性	pf1-zhtw 0／mods 0／compendium 2	韌性	CHM v2.33.0 寫「韌性（Resiliency）」6 次。
 Acid Dart	職業能力名	—	—	強酸鏢；酸鏢	pf1-zhtw 0／mods 0／compendium 2	待裁定	「酸鏢」是「強酸鏢」的一部分，內文次數沒辦法公平比較，需要人來決定。
 Intimidating Glare	職業能力名	—	—	威嚇凝視；威嚇怒視	pf1-zhtw 0／mods 0／compendium 2	威嚇凝視	CHM v2.33.0 寫「威嚇凝視（Intimidating Glare）」18 次。
-Smoke Bomb	職業能力名	—	—	忍法·迷蹤；煙霧炸彈	pf1-zhtw 0／mods 0／compendium 2	待裁定	CHM 寫「煙霧彈」，三個倉庫都沒用這個寫法；需要人來決定要不要改成 CHM 的說法。
+Smoke Bomb	職業能力名	—	—	忍法·迷蹤；煙霧炸彈	pf1-zhtw 0／mods 0／compendium 2	煙霧彈	已裁定，跟 CHM 一致。
 Guarded Stance	職業能力名	—	—	守衛姿態；防衛戰姿	pf1-zhtw 0／mods 0／compendium 2	守衛姿態	CHM v2.33.0 寫「守衛姿態（Guarded Stance）」10 次。
 Terrifying Howl	職業能力名	—	—	可怖狂嚎；怖懼狂嚎	pf1-zhtw 0／mods 0／compendium 2	怖懼狂嚎	CHM v2.33.0 寫「怖懼狂嚎（Terrifying Howl）」10 次。
 Animal Fury	職業能力名	—	—	獸性之怒；野性之怒	pf1-zhtw 0／mods 0／compendium 2	野性之怒	CHM v2.33.0 寫「野性之怒（Animal Fury）」28 次。
-Aura of Despair	職業能力名	—	—	絕望光環；絕望靈光	pf1-zhtw 0／mods 0／compendium 2	待裁定	CHM 寫「絕望靈氳」，兩種現有寫法都不是；系統介面 v0.1.4 也已把 aura 統一成「靈氳」，可以考慮跟上。
+Aura of Despair	職業能力名	—	—	絕望光環；絕望靈光	pf1-zhtw 0／mods 0／compendium 2	絕望靈氳	已裁定，跟 CHM 及系統介面的「靈氳」一致。
 Auspicious Mark	職業能力名	—	—	吉祥印記；吉祥烙記	pf1-zhtw 0／mods 0／compendium 2	吉祥烙記	CHM v2.33.0 寫「吉祥烙記（Auspicious Mark）」2 次。
 Deadly Accuracy	職業能力名	—	—	死亡精準；致命精確	pf1-zhtw 0／mods 0／compendium 2	致命精確	CHM v2.33.0 寫「致命精確（Deadly Accuracy）」4 次。
 High Jump	職業能力名	—	—	輕功；輕身縱	pf1-zhtw 0／mods 0／compendium 2	輕功	CHM v2.33.0 寫「輕功（High Jump）」2 次。
@@ -102,39 +102,39 @@ Quick Reflexes	職業能力名	—	—	快速反射；超速反射	pf1-zhtw 0／
 Roused Anger	職業能力名	—	—	無邊怒火；激發怒意	pf1-zhtw 0／mods 0／compendium 2	無邊怒火	CHM v2.33.0 寫「無邊怒火（Roused Anger）」10 次。
 Slowing Strike	職業能力名	—	—	延緩打擊；遲緩一擊	pf1-zhtw 0／mods 0／compendium 2	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
 Smasher	職業能力名	—	—	破壞者；野蠻破壞	pf1-zhtw 0／mods 0／compendium 2	破壞者	CHM v2.33.0 寫「破壞者（Smasher）」4 次。
-（文本）	對岸用語	文本×8	文本×8	文本×384	pf1-zhtw 8／mods 8／compendium 384	待裁定	合集包多是法術欄位的「見文本」（see text），系統介面是「文本頁」；台灣一般說「內文」，但倉庫裡還沒有現成寫法。
+（文本）	對岸用語	文本×8	文本×8	文本×384	pf1-zhtw 8／mods 8／compendium 384	內文	已裁定（只改繁體版）。法術欄位的「見文本」改成「見內文」，介面的「文本頁」改成「內文頁」。
 （信息）	對岸用語	—	—	信息×211	pf1-zhtw 0／mods 0／compendium 211	訊息	對岸用語；台灣寫「訊息」，mods、compendium 已經這樣用。
 （激活）	對岸用語	—	—	激活×59	pf1-zhtw 0／mods 0／compendium 59	啟動	全是合集包內文的「激活某能力」；合集包已有 197 處寫「啟動」。
 （圖標）	對岸用語	圖標×12	圖標×25	圖標×3	pf1-zhtw 12／mods 25／compendium 3	圖示	對岸用語；台灣寫「圖示」，mods 已經這樣用。
 （設置）	對岸用語	設置×33	—	—	pf1-zhtw 33／mods 0／compendium 0	設定	對岸用語；台灣寫「設定」，mods、compendium 已經這樣用。
-（添加）	對岸用語	—	—	添加×29	pf1-zhtw 0／mods 0／compendium 29	待裁定	這些是規則內文的「添加到加值上」，改不改看語氣；介面上的「添加」早就統一成「新增」了。
+（添加）	對岸用語	—	—	添加×29	pf1-zhtw 0／mods 0／compendium 29	加到	已裁定（只改繁體版）。依句子改成「加到」或「加上」，例如「添加到豁免加值上」→「加到豁免加值上」。
 （复）	簡體字	—	—	复×27	pf1-zhtw 0／mods 0／compendium 27	復	「复」是簡體字，同一個詞在倉庫其他地方已經寫成「復」。
 （數據）	對岸用語	—	數據×2	數據×23	pf1-zhtw 0／mods 2／compendium 23	資料	對岸用語；台灣寫「資料」，pf1-zhtw、mods、compendium 已經這樣用。
 （鏈接）	對岸用語	—	—	鏈接×25	pf1-zhtw 0／mods 0／compendium 25	連結	對岸用語；台灣寫「連結」，pf1-zhtw、mods、compendium 已經這樣用。
 （質量）	對岸用語	—	—	質量×24	pf1-zhtw 0／mods 0／compendium 24	品質	對岸用語；台灣寫「品質」，compendium 已經這樣用。
-（界面）	對岸用語	—	界面×21	界面×2	pf1-zhtw 0／mods 21／compendium 2	待裁定	對岸用語；台灣一般寫「介面」，但三個倉庫都還沒有這個寫法可對照。
+（界面）	對岸用語	—	界面×21	界面×2	pf1-zhtw 0／mods 21／compendium 2	介面	已裁定（只改繁體版）。台灣寫「介面」。
 （拖拽）	對岸用語	—	拖拽×22	—	pf1-zhtw 0／mods 22／compendium 0	拖曳	對岸用語；台灣寫「拖曳」，pf1-zhtw、mods、compendium 已經這樣用。
 （變量）	對岸用語	變量×10	變量×4	變量×7	pf1-zhtw 10／mods 4／compendium 7	變數	對岸用語；台灣寫「變數」，compendium 已經這樣用。
-（窗口）	對岸用語	—	窗口×10	窗口×8	pf1-zhtw 0／mods 10／compendium 8	待裁定	對岸用語；台灣一般寫「視窗」，但三個倉庫都還沒有這個寫法可對照。
+（窗口）	對岸用語	—	窗口×10	窗口×8	pf1-zhtw 0／mods 10／compendium 8	視窗	已裁定（只改繁體版）。台灣寫「視窗」。
 （自定義）	對岸用語	自定義×16	—	自定義×1	pf1-zhtw 16／mods 0／compendium 1	自訂	對岸用語；台灣寫「自訂」，mods、compendium 已經這樣用。
 （全局）	對岸用語	全局×1	全局×14	—	pf1-zhtw 1／mods 14／compendium 0	全域	對岸用語；台灣寫「全域」，mods、compendium 已經這樣用。
 （創建）	對岸用語	—	—	創建×14	pf1-zhtw 0／mods 0／compendium 14	建立	對岸用語；台灣寫「建立」，pf1-zhtw、mods、compendium 已經這樣用。
 （用戶）	對岸用語	用戶×1	用戶×8	—	pf1-zhtw 1／mods 8／compendium 0	使用者	對岸用語；台灣寫「使用者」，mods、compendium 已經這樣用。
-（調試）	對岸用語	—	調試×8	—	pf1-zhtw 0／mods 8／compendium 0	待裁定	對岸用語；台灣一般寫「偵錯」，但三個倉庫都還沒有這個寫法可對照。
-（控件）	對岸用語	—	控件×6	—	pf1-zhtw 0／mods 6／compendium 0	待裁定	對岸用語；台灣一般寫「控制項」，但三個倉庫都還沒有這個寫法可對照。
+（調試）	對岸用語	—	調試×8	—	pf1-zhtw 0／mods 8／compendium 0	偵錯	已裁定（只改繁體版）。台灣寫「偵錯」。
+（控件）	對岸用語	—	控件×6	—	pf1-zhtw 0／mods 6／compendium 0	控制項	已裁定（只改繁體版）。台灣寫「控制項」。
 （運行）	對岸用語	運行×3	運行×1	—	pf1-zhtw 3／mods 1／compendium 0	執行	對岸用語；台灣寫「執行」，pf1-zhtw、mods、compendium 已經這樣用。
 （令牌）	對岸用語	—	令牌×4	—	pf1-zhtw 0／mods 4／compendium 0	指示物	對岸用語；台灣寫「指示物」，pf1-zhtw、mods 已經這樣用。
 （字段）	對岸用語	—	字段×4	—	pf1-zhtw 0／mods 4／compendium 0	欄位	對岸用語；台灣寫「欄位」，pf1-zhtw、compendium 已經這樣用。
 （默認）	對岸用語	—	—	默認×4	pf1-zhtw 0／mods 0／compendium 4	預設	對岸用語；台灣寫「預設」，pf1-zhtw、mods、compendium 已經這樣用。
 （搜索）	對岸用語	搜索×3	—	—	pf1-zhtw 3／mods 0／compendium 0	搜尋	對岸用語；台灣寫「搜尋」，mods、compendium 已經這樣用。
 （兼容）	對岸用語	兼容×2	—	兼容×1	pf1-zhtw 2／mods 0／compendium 1	相容	對岸用語；台灣寫「相容」，mods 已經這樣用。
-（代碼）	對岸用語	代碼×1	—	代碼×1	pf1-zhtw 1／mods 0／compendium 1	待裁定	對岸用語；台灣一般寫「程式碼」，但三個倉庫都還沒有這個寫法可對照。
-（批量）	對岸用語	—	批量×2	—	pf1-zhtw 0／mods 2／compendium 0	待裁定	對岸用語；台灣一般寫「批次」，但三個倉庫都還沒有這個寫法可對照。
-（攝像機）	對岸用語	—	攝像機×2	—	pf1-zhtw 0／mods 2／compendium 0	待裁定	對岸用語；台灣一般寫「攝影機」，但三個倉庫都還沒有這個寫法可對照。
+（代碼）	對岸用語	代碼×1	—	代碼×1	pf1-zhtw 1／mods 0／compendium 1	程式碼	已裁定（只改繁體版）。台灣寫「程式碼」。
+（批量）	對岸用語	—	批量×2	—	pf1-zhtw 0／mods 2／compendium 0	批次	已裁定（只改繁體版）。台灣寫「批次」。
+（攝像機）	對岸用語	—	攝像機×2	—	pf1-zhtw 0／mods 2／compendium 0	攝影機	已裁定（只改繁體版）。台灣寫「攝影機」。
 （粘貼）	對岸用語	—	粘貼×2	—	pf1-zhtw 0／mods 2／compendium 0	貼上	對岸用語；台灣寫「貼上」，mods、compendium 已經這樣用。
 （刷新）	對岸用語	—	—	刷新×2	pf1-zhtw 0／mods 0／compendium 2	待裁定	這裡是「刷新持續時間」（重新計時），介面用的「重新整理」不適用，需要人看語境。
 （钟）	簡體字	—	—	钟×2	pf1-zhtw 0／mods 0／compendium 2	鐘	「钟」是簡體字，同一個詞在倉庫其他地方已經寫成「鐘」。
 （導入）	對岸用語	導入×1	—	—	pf1-zhtw 1／mods 0／compendium 0	匯入	對岸用語；台灣寫「匯入」，mods 已經這樣用。
-（服務器）	對岸用語	服務器×1	—	—	pf1-zhtw 1／mods 0／compendium 0	待裁定	對岸用語；台灣一般寫「伺服器」，但三個倉庫都還沒有這個寫法可對照。
-（光標）	對岸用語	—	光標×1	—	pf1-zhtw 0／mods 1／compendium 0	待裁定	對岸用語；台灣一般寫「游標」，但三個倉庫都還沒有這個寫法可對照。
+（服務器）	對岸用語	服務器×1	—	—	pf1-zhtw 1／mods 0／compendium 0	伺服器	已裁定（只改繁體版）。台灣寫「伺服器」。
+（光標）	對岸用語	—	光標×1	—	pf1-zhtw 0／mods 1／compendium 0	游標	已裁定（只改繁體版）。台灣寫「游標」。
 （音頻）	對岸用語	—	音頻×1	—	pf1-zhtw 0／mods 1／compendium 0	音訊	對岸用語；台灣寫「音訊」，compendium 已經這樣用。
