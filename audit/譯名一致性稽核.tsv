@@ -42,14 +42,14 @@ Spontaneous Casting	職業能力名	—	—	自發施法×2；法術轉換	pf1-z
 Amazing Inspiration	職業能力名	—	驚人靈感；奇妙靈感	奇妙靈感	pf1-zhtw 0／mods 2／compendium 1	奇妙靈感	CHM v2.33.0 寫「奇妙靈感（Amazing Inspiration）」2 次。
 True Inspiration	職業能力名	—	真實靈感；靈感滿溢	靈感滿溢	pf1-zhtw 0／mods 2／compendium 1	靈感滿溢	2 個倉庫都用「靈感滿溢」，只有 mods 另有寫法。
 Tenacious Inspiration	職業能力名	—	頑強靈感；執著靈感	執著靈感	pf1-zhtw 0／mods 2／compendium 1	執著靈感	CHM v2.33.0 寫「執著靈感（Tenacious Inspiration）」2 次。
-Maneuver Mastery	職業能力名	—	—	戰技熟稔×2；戰技精通	pf1-zhtw 0／mods 0／compendium 3	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
+Maneuver Mastery	職業能力名	—	—	戰技熟稔×2；戰技精通	pf1-zhtw 0／mods 0／compendium 3	維持：先知「戰技熟稔」／魔戰士「戰技精通」	已裁定，照 CHM：這是不同職業剛好同名的能力，CHM 本來就依職業各取各的名字，現有寫法跟 CHM 一致，維持不動。
 Unarmed Strike	職業能力名	—	—	徒手擊打；徒手打擊	pf1-zhtw 0／mods 0／compendium 2	徒手打擊	CHM v2.33.0 寫「徒手打擊（Unarmed Strike）」22 次。
 Increased Damage Reduction	職業能力名	—	—	傷害減免；增強傷害減免	pf1-zhtw 0／mods 0／compendium 2	增強傷害減免	CHM v2.33.0 寫「增強傷害減免（Increased Damage Reduction）」20 次。
 Channel	職業能力名	—	—	引導能量；能量引導	pf1-zhtw 0／mods 0／compendium 2	引導能量	CHM 內文寫「引導能量」759 次、「能量引導」40 次。
 Spirit	職業能力名	—	精魂	魂域	pf1-zhtw 0／mods 1／compendium 1	魂域	已裁定。查過 CHM：薩滿的 Spirit 寫「魂域」，通靈者的 Spirit 寫「英靈」，巫婆庇護主的 Spirits 寫「精魂」，是三個不同東西。這裡兩處（SBC 的施法特性、合集包的職業能力）都是薩滿的，所以建議「魂域」。
 Low-Light Vision	職業能力名	—	—	低光視力；昏暗視覺	pf1-zhtw 0／mods 0／compendium 2	昏暗視覺	CHM v2.33.0 寫「昏暗視覺（Low-Light Vision）」102 次。
 Breath Weapon	職業能力名	—	—	噴吐武器；噴吐龍息	pf1-zhtw 0／mods 0／compendium 2	噴吐武器	CHM v2.33.0 寫「噴吐武器（Breath Weapon）」6 次。
-Wings	職業能力名	—	—	翅膀；龍翼	pf1-zhtw 0／mods 0／compendium 2	待裁定	「翅膀」是一般用字，CHM 也沒有明確定名；龍族血統版叫「龍翼」可能是刻意區分，需要人來決定。
+Wings	職業能力名	—	—	翅膀；龍翼	pf1-zhtw 0／mods 0／compendium 2	維持：鍊金術師「翅膀」／術士「龍翼」	已裁定，照 CHM：這是不同職業剛好同名的能力，CHM 本來就依職業各取各的名字，現有寫法跟 CHM 一致，維持不動。
 Evasion	職業能力名	—	—	忍法·無常步；反射閃避	pf1-zhtw 0／mods 0／compendium 2	反射閃避	CHM v2.33.0 寫「反射閃避（Evasion）」20 次；CHM 裡找不到「忍法·」這種寫法。
 Mystery	職業能力名	—	秘示	秘示域	pf1-zhtw 0／mods 1／compendium 1	秘示域	CHM v2.33.0 寫「秘示域（Mystery）」12 次。
 Knockback	職業能力名	—	—	一擊即飛；擊飛	pf1-zhtw 0／mods 0／compendium 2	擊飛	CHM v2.33.0 寫「擊飛（Knockback）」8 次。
@@ -60,7 +60,7 @@ Major Magic	職業能力名	—	—	高等魔法；高級魔法	pf1-zhtw 0／mod
 Minor Magic	職業能力名	—	—	次等魔法；次級魔法	pf1-zhtw 0／mods 0／compendium 2	次級魔法	CHM v2.33.0 寫「次級魔法（Minor Magic）」40 次。
 Order of the Beast	職業能力名	—	—	獸之騎士團；狂獸騎士團	pf1-zhtw 0／mods 0／compendium 2	狂獸騎士團	CHM v2.33.0 寫「狂獸騎士團（Order of the Beast）」6 次。
 Resiliency	職業能力名	—	—	堅韌身軀；韌性	pf1-zhtw 0／mods 0／compendium 2	韌性	CHM v2.33.0 寫「韌性（Resiliency）」6 次。
-Acid Dart	職業能力名	—	—	強酸鏢；酸鏢	pf1-zhtw 0／mods 0／compendium 2	待裁定	「酸鏢」是「強酸鏢」的一部分，內文次數沒辦法公平比較，需要人來決定。
+Acid Dart	職業能力名	—	—	強酸鏢；酸鏢	pf1-zhtw 0／mods 0／compendium 2	牧師「酸鏢」維持；法師改「酸蝕鏢」	已裁定，照 CHM：不同職業的同名能力。CHM 牧師領域寫「酸鏢」，法師學派寫「酸蝕鏢」；合集包法師版寫「強酸鏢」，要改成「酸蝕鏢」（也跟 Acid→酸蝕 的決定一致）。
 Intimidating Glare	職業能力名	—	—	威嚇凝視；威嚇怒視	pf1-zhtw 0／mods 0／compendium 2	威嚇凝視	CHM v2.33.0 寫「威嚇凝視（Intimidating Glare）」18 次。
 Smoke Bomb	職業能力名	—	—	忍法·迷蹤；煙霧炸彈	pf1-zhtw 0／mods 0／compendium 2	煙霧彈	已裁定，跟 CHM 一致。
 Guarded Stance	職業能力名	—	—	守衛姿態；防衛戰姿	pf1-zhtw 0／mods 0／compendium 2	守衛姿態	CHM v2.33.0 寫「守衛姿態（Guarded Stance）」10 次。
@@ -70,8 +70,8 @@ Aura of Despair	職業能力名	—	—	絕望光環；絕望靈光	pf1-zhtw 0�
 Auspicious Mark	職業能力名	—	—	吉祥印記；吉祥烙記	pf1-zhtw 0／mods 0／compendium 2	吉祥烙記	CHM v2.33.0 寫「吉祥烙記（Auspicious Mark）」2 次。
 Deadly Accuracy	職業能力名	—	—	死亡精準；致命精確	pf1-zhtw 0／mods 0／compendium 2	致命精確	CHM v2.33.0 寫「致命精確（Deadly Accuracy）」4 次。
 High Jump	職業能力名	—	—	輕功；輕身縱	pf1-zhtw 0／mods 0／compendium 2	輕功	CHM v2.33.0 寫「輕功（High Jump）」2 次。
-Poison Resistance	職業能力名	—	—	毒素抗力；毒性抗力	pf1-zhtw 0／mods 0／compendium 2	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
-Dazing Touch	職業能力名	—	—	恍惚接觸；眩目之觸	pf1-zhtw 0／mods 0／compendium 2	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
+Poison Resistance	職業能力名	—	—	毒素抗力；毒性抗力	pf1-zhtw 0／mods 0／compendium 2	維持：鍊金術師「毒性抗力」／調查員「毒素抗力」	已裁定，照 CHM：這是不同職業剛好同名的能力，CHM 本來就依職業各取各的名字，現有寫法跟 CHM 一致，維持不動。
+Dazing Touch	職業能力名	—	—	恍惚接觸；眩目之觸	pf1-zhtw 0／mods 0／compendium 2	維持：牧師「恍惚接觸」／法師「眩目之觸」	已裁定，照 CHM：這是不同職業剛好同名的能力，CHM 本來就依職業各取各的名字，現有寫法跟 CHM 一致，維持不動。
 Ground Breaker	職業能力名	—	—	大地之擊；撼地一擊	pf1-zhtw 0／mods 0／compendium 2	大地之擊	CHM v2.33.0 寫「大地之擊（Ground Breaker）」2 次。
 Skill Mastery	職業能力名	—	—	技能專精；技藝精湛	pf1-zhtw 0／mods 0／compendium 2	技能專精	CHM v2.33.0 寫「技能專精（Skill Mastery）」40 次。
 Swift Foot	職業能力名	—	—	迅捷腳步；迅足	pf1-zhtw 0／mods 0／compendium 2	迅足	CHM v2.33.0 寫「迅足（Swift Foot）」8 次。
@@ -85,10 +85,10 @@ Raging Leaper	職業能力名	—	—	狂暴躍者；狂暴跳躍	pf1-zhtw 0／m
 Raging Swimmer	職業能力名	—	—	狂暴泳者；狂暴遊者	pf1-zhtw 0／mods 0／compendium 2	狂暴遊者	CHM v2.33.0 寫「狂暴遊者（Raging Swimmer）」10 次。
 Sharpened Accuracy	職業能力名	—	—	敏銳精準；敏銳精確	pf1-zhtw 0／mods 0／compendium 2	敏銳精確	CHM v2.33.0 寫「敏銳精確（Sharpened Accuracy）」2 次。
 Sprint	職業能力名	—	—	奮力衝刺；奮勇衝刺	pf1-zhtw 0／mods 0／compendium 2	奮力衝刺	CHM v2.33.0 寫「奮力衝刺（Sprint）」6 次。
-Sudden Speed	職業能力名	—	—	瞬時加速；電瞬步	pf1-zhtw 0／mods 0／compendium 2	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
+Sudden Speed	職業能力名	—	—	瞬時加速；電瞬步	pf1-zhtw 0／mods 0／compendium 2	維持：秘學士「瞬時加速」／武僧（Unchained）「電瞬步」	已裁定，照 CHM：這是不同職業剛好同名的能力，CHM 本來就依職業各取各的名字，現有寫法跟 CHM 一致，維持不動。
 Unexpected Strike	職業能力名	—	—	意外之擊；詭擊	pf1-zhtw 0／mods 0／compendium 2	詭擊	CHM v2.33.0 寫「詭擊（Unexpected Strike）」6 次。
 Witch Hunter	職業能力名	—	—	女巫獵人；獵巫人	pf1-zhtw 0／mods 0／compendium 2	獵巫人	CHM v2.33.0 寫「獵巫人（Witch Hunter）」8 次。
-Aberrant Form	職業能力名	—	—	化身異怪；異怪形態	pf1-zhtw 0／mods 0／compendium 2	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
+Aberrant Form	職業能力名	—	—	化身異怪；異怪形態	pf1-zhtw 0／mods 0／compendium 2	維持：術士「異怪形態」／血脈狂怒者「化身異怪」	已裁定，照 CHM：這是不同職業剛好同名的能力，CHM 本來就依職業各取各的名字，現有寫法跟 CHM 一致，維持不動。
 Brain Drain	職業能力名	—	—	意識鑽刺；意識鑽探	pf1-zhtw 0／mods 0／compendium 2	意識鑽刺	CHM v2.33.0 寫「意識鑽刺（Brain Drain）」2 次。
 Clear Mind	職業能力名	—	—	心如堅鋼；心若明鏡	pf1-zhtw 0／mods 0／compendium 2	心如堅鋼	CHM v2.33.0 寫「心如堅鋼（Clear Mind）」10 次。
 Fearless Rage	職業能力名	—	—	無懼狂暴；無畏狂暴	pf1-zhtw 0／mods 0／compendium 2	無懼狂暴	CHM v2.33.0 寫「無懼狂暴（Fearless Rage）」6 次。
@@ -96,11 +96,11 @@ Flesh Wound	職業能力名	—	—	不屈武勇；皮外小傷	pf1-zhtw 0／mod
 Improved Quarry	職業能力名	—	—	精通狩獵目標；高等狩獵目標	pf1-zhtw 0／mods 0／compendium 2	高等狩獵目標	CHM v2.33.0 寫「高等狩獵目標（Improved Quarry）」4 次。
 Inspire Ferocity	職業能力名	—	—	狂怒之示；狂怒激發	pf1-zhtw 0／mods 0／compendium 2	狂怒激發	CHM v2.33.0 寫「狂怒激發（Inspire Ferocity）」2 次。
 Lethal Accuracy	職業能力名	—	—	致命精準；致死精確	pf1-zhtw 0／mods 0／compendium 2	致死精確	CHM v2.33.0 寫「致死精確（Lethal Accuracy）」4 次。
-Life Sight	職業能力名	—	—	感知生命；生命視野	pf1-zhtw 0／mods 0／compendium 2	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
-Light Steps	職業能力名	—	—	凌波步；輕身步	pf1-zhtw 0／mods 0／compendium 2	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
+Life Sight	職業能力名	—	—	感知生命；生命視野	pf1-zhtw 0／mods 0／compendium 2	維持：法師「生命視野」／薩滿「感知生命」	已裁定，照 CHM：這是不同職業剛好同名的能力，CHM 本來就依職業各取各的名字，現有寫法跟 CHM 一致，維持不動。
+Light Steps	職業能力名	—	—	凌波步；輕身步	pf1-zhtw 0／mods 0／compendium 2	維持：忍者「輕身步」／武僧（Unchained）「凌波步」	已裁定，照 CHM：這是不同職業剛好同名的能力，CHM 本來就依職業各取各的名字，現有寫法跟 CHM 一致，維持不動。
 Quick Reflexes	職業能力名	—	—	快速反射；超速反射	pf1-zhtw 0／mods 0／compendium 2	超速反射	CHM v2.33.0 寫「超速反射（Quick Reflexes）」8 次。
 Roused Anger	職業能力名	—	—	無邊怒火；激發怒意	pf1-zhtw 0／mods 0／compendium 2	無邊怒火	CHM v2.33.0 寫「無邊怒火（Roused Anger）」10 次。
-Slowing Strike	職業能力名	—	—	延緩打擊；遲緩一擊	pf1-zhtw 0／mods 0／compendium 2	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
+Slowing Strike	職業能力名	—	—	延緩打擊；遲緩一擊	pf1-zhtw 0／mods 0／compendium 2	維持：調查員「遲緩一擊」／殺手「延緩打擊」	已裁定，照 CHM：這是不同職業剛好同名的能力，CHM 本來就依職業各取各的名字，現有寫法跟 CHM 一致，維持不動。
 Smasher	職業能力名	—	—	破壞者；野蠻破壞	pf1-zhtw 0／mods 0／compendium 2	破壞者	CHM v2.33.0 寫「破壞者（Smasher）」4 次。
 （文本）	對岸用語	文本×8	文本×8	文本×384	pf1-zhtw 8／mods 8／compendium 384	內文	已裁定（只改繁體版）。法術欄位的「見文本」改成「見內文」，介面的「文本頁」改成「內文頁」。
 （信息）	對岸用語	—	—	信息×211	pf1-zhtw 0／mods 0／compendium 211	訊息	對岸用語；台灣寫「訊息」，mods、compendium 已經這樣用。
