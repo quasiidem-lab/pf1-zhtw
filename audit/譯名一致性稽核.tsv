@@ -17,10 +17,23 @@ Snake Sidewind	專長名	—	蛇形步×2；蛇行	蛇行	pf1-zhtw 0／mods 3／
 Martial Focus	專長名	—	武器專家×2；武術專攻	武器專家	pf1-zhtw 0／mods 3／compendium 1	武器專家	2 個倉庫都用「武器專家」，只有 mods 另有寫法。
 Focused Inspiration	專長名	—	專注靈感；靈感專注	靈感專注	pf1-zhtw 0／mods 2／compendium 1	靈感專注	2 個倉庫都用「靈感專注」，只有 mods 另有寫法。
 Improved Armor Focus	專長名	—	精通護甲專攻	進階盔甲專攻	pf1-zhtw 0／mods 1／compendium 1	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
-Ooze	種族／生物類型	泥怪	—	泥形生物	pf1-zhtw 1／mods 0／compendium 1	泥怪	合集包的規則內文寫「泥怪」62 次，「泥形生物」只有 2 次，玩家讀規則時看到的是前者。
-Monstrous Humanoid	種族／生物類型	類人怪物	—	人形怪物	pf1-zhtw 1／mods 0／compendium 1	待裁定	兩種說法各有人用；合集包內文「人形怪物」27 次、「類人怪物」24 次，差距不夠大，需要人來決定。
+Ooze	種族／生物類型	泥怪	泥怪	泥形生物	pf1-zhtw 1／mods 1／compendium 1	泥怪	2 個倉庫都用「泥怪」，只有 compendium 另有寫法。
+Monstrous Humanoid	種族／生物類型	類人怪物	類人怪物	人形怪物	pf1-zhtw 1／mods 1／compendium 1	類人怪物	2 個倉庫都用「類人怪物」，只有 compendium 另有寫法。
+Kami	種族／生物類型	神靈	神	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	「神」是「神靈」的一部分，內文次數沒辦法公平比較，需要人來決定。
+Extraplanar	種族／生物類型	跨位面	異界	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	「異界」也出現在「異界生物」（Outsider）這類詞裡，內文次數會灌水，不能當證據，需要人來決定。
 Wayang	種族／生物類型	皮影人	—	剪影人	pf1-zhtw 1／mods 0／compendium 1	剪影人	合集包的規則內文寫「剪影人」30 次，「皮影人」只有 0 次，玩家讀規則時看到的是前者。
+Troop	種族／生物類型	部隊	軍隊	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	「軍隊」是一般用字，內文次數不能當證據，需要人來決定。
+Robot	種族／生物類型	機體	機器人	—	pf1-zhtw 1／mods 1／compendium 0	機體	合集包的規則內文寫「機體」20 次，「機器人」只有 3 次，玩家讀規則時看到的是前者。
+Leshy	種族／生物類型	萊西	勒席	—	pf1-zhtw 1／mods 1／compendium 0	萊西	合集包的規則內文寫「萊西」20 次，「勒席」只有 0 次，玩家讀規則時看到的是前者。
 Ratfolk	種族／生物類型	鼠族	—	鼠人	pf1-zhtw 1／mods 0／compendium 1	鼠族	合集包的規則內文寫「鼠族」17 次，「鼠人」只有 3 次，玩家讀規則時看到的是前者。
+Azata	種族／生物類型	靈使	愛塔天族	—	pf1-zhtw 1／mods 1／compendium 0	靈使	合集包的規則內文寫「靈使」10 次，「愛塔天族」只有 0 次，玩家讀規則時看到的是前者。
+Archon	種族／生物類型	聖使	亞空天族	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
+Agathion	種族／生物類型	衛使	蓋丁天族	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
+Div	種族／生物類型	妖靈	迪瓦	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
+Derro	種族／生物類型	迪洛人	迪洛矮人	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
+Dark Folk	種族／生物類型	幽暗之民	暗黑民	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
+Demodand	種族／生物類型	神孽	泰坦神孽	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	「神孽」是「泰坦神孽」的一部分，內文次數沒辦法公平比較，需要人來決定。
+Spawn of Rovagug	種族／生物類型	拉瓦古格之嗣	拉瓦古格之子	—	pf1-zhtw 1／mods 1／compendium 0	待裁定	兩種說法使用次數差不多，內文也看不出哪個常用，需要人來決定。
 Bonus Feats	職業能力名	—	—	獎勵專長×5；額外專長	pf1-zhtw 0／mods 0／compendium 6	獎勵專長	「獎勵專長」用了 5 次，另一種只有 1 次，照多數。
 Ki Pool	職業能力名	—	—	氣池×3；氣運丹田	pf1-zhtw 0／mods 0／compendium 4	氣池	「氣池」用了 3 次，另一種只有 1 次，照多數。
 Feat	職業能力名	—	—	專長×2；忍法·心技體	pf1-zhtw 0／mods 0／compendium 3	專長	「忍法·心技體」是忍者版刻意取的風格名，但通用的 Feat 就叫「專長」，三個倉庫都這樣用。
@@ -33,10 +46,12 @@ Maneuver Mastery	職業能力名	—	—	戰技熟稔×2；戰技精通	pf1-zhtw
 Unarmed Strike	職業能力名	—	—	徒手擊打；徒手打擊	pf1-zhtw 0／mods 0／compendium 2	待裁定	兩種說法各有人用；合集包內文「徒手打擊」276 次、「徒手擊打」140 次，差距不夠大，需要人來決定。
 Increased Damage Reduction	職業能力名	—	—	傷害減免；增強傷害減免	pf1-zhtw 0／mods 0／compendium 2	待裁定	「傷害減免」是「增強傷害減免」的一部分，內文次數沒辦法公平比較，需要人來決定。
 Channel	職業能力名	—	—	引導能量；能量引導	pf1-zhtw 0／mods 0／compendium 2	引導能量	合集包的規則內文寫「引導能量」179 次，「能量引導」只有 3 次，玩家讀規則時看到的是前者。
+Spirit	職業能力名	—	精魂	魂域	pf1-zhtw 0／mods 1／compendium 1	待裁定	兩種說法各有人用；合集包內文「精魂」98 次、「魂域」69 次，差距不夠大，需要人來決定。
 Low-Light Vision	職業能力名	—	—	低光視力；昏暗視覺	pf1-zhtw 0／mods 0／compendium 2	昏暗視覺	合集包的規則內文寫「昏暗視覺」158 次，「低光視力」只有 1 次，玩家讀規則時看到的是前者。
 Breath Weapon	職業能力名	—	—	噴吐武器；噴吐龍息	pf1-zhtw 0／mods 0／compendium 2	噴吐武器	合集包的規則內文寫「噴吐武器」102 次，「噴吐龍息」只有 0 次，玩家讀規則時看到的是前者。
 Wings	職業能力名	—	—	翅膀；龍翼	pf1-zhtw 0／mods 0／compendium 2	待裁定	「翅膀」是一般用字，內文次數不能當證據；龍族血統版叫「龍翼」可能是刻意區分，需要人來決定。
 Evasion	職業能力名	—	—	忍法·無常步；反射閃避	pf1-zhtw 0／mods 0／compendium 2	待裁定	忍者職業的版本刻意改成「忍法·」風格的名字，要不要跟一般版本統一，需要人來決定。
+Mystery	職業能力名	—	秘示	秘示域	pf1-zhtw 0／mods 1／compendium 1	待裁定	「秘示」是「秘示域」的一部分，內文次數沒辦法公平比較，需要人來決定。
 Knockback	職業能力名	—	—	一擊即飛；擊飛	pf1-zhtw 0／mods 0／compendium 2	擊飛	合集包的規則內文寫「擊飛」27 次，「一擊即飛」只有 0 次，玩家讀規則時看到的是前者。
 Elemental Body	職業能力名	—	—	元素之軀；元素身軀	pf1-zhtw 0／mods 0／compendium 2	元素身軀	合集包的規則內文寫「元素身軀」12 次，「元素之軀」只有 0 次，玩家讀規則時看到的是前者。
 Superstition	職業能力名	—	—	神秘迷信；迷信	pf1-zhtw 0／mods 0／compendium 2	待裁定	「迷信」是「神秘迷信」的一部分，內文次數沒辦法公平比較，需要人來決定。
