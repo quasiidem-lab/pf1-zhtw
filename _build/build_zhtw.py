@@ -55,6 +55,27 @@ TERM_MAP = OrderedDict([
     ('拖拽', '拖曳'),
     ('可選', '選用'),
     ('布爾', '布林'),
+    # 2026-10-17 譯名一致性稽核（audit/譯名一致性稽核.md）裁定的用語
+    ('設置', '設定'),
+    ('自定義', '自訂'),
+    ('圖標', '圖示'),
+    ('變量', '變數'),
+    ('搜索', '搜尋'),
+    ('用戶', '使用者'),
+    ('運行', '執行'),
+    ('導入', '匯入'),
+    ('兼容', '相容'),
+    ('代碼', '程式碼'),
+    ('服務器', '伺服器'),
+    ('全局', '全域'),
+    ('文本頁', '內文頁'),
+    ('文本', '文字'),
+    # 2026-10-17 依 CHM v2.33.0／維護者裁定統一的術語
+    ('絆摔', '摔絆'),
+    ('快速醫療', '快速治療'),
+    ('特技動作', '特技'),
+    ('傷勢穩定', '穩定'),
+    ('徒手擊打', '徒手打擊'),
 ])
 
 # ---------------------------------------------------------------
@@ -113,14 +134,14 @@ KEY_OVERRIDE = {
     'PF1.Chat.Visibility.Blind': '暗骰',
     'PF1.Condition.energyDrain': '能量流失',
     'PF1.CreatureSubTypes.adlet': '狼妖',
-    'PF1.CreatureSubTypes.agathion': '衛使',
+    'PF1.CreatureSubTypes.agathion': '福使',
     'PF1.CreatureSubTypes.archon': '聖使',
     'PF1.CreatureSubTypes.astomoi': '阿斯托莫伊人',
     'PF1.CreatureSubTypes.azata': '靈使',
     'PF1.CreatureSubTypes.blight': '荒疫怪',
     'PF1.CreatureSubTypes.darkFolk': '幽暗之民',
-    'PF1.CreatureSubTypes.demodand': '神孽',
-    'PF1.CreatureSubTypes.derro': '迪洛人',
+    'PF1.CreatureSubTypes.demodand': '魔孽',
+    'PF1.CreatureSubTypes.derro': '德洛人',
     'PF1.CreatureSubTypes.div': '妖靈',
     'PF1.CreatureSubTypes.extraplanar': '跨位面',
     'PF1.CreatureSubTypes.gray': '小灰人',
@@ -138,7 +159,7 @@ KEY_OVERRIDE = {
     'PF1.CreatureSubTypes.troop': '部隊',
     'PF1.DomainSlotValue': '領域/學派槽',
     'PF1.Error.NoMacroID': "未找到 ID 為 '{id}' 的巨集",
-    'PF1.Help/Items/Script-Calls': '# 腳本呼叫\n\n大多數物品都有某些類別的腳本呼叫，這些是在該物品的特定事件下運行的巨集和內聯腳本的組合。\n',
+    'PF1.Help/Items/Script-Calls': '# 腳本呼叫\n\n大多數物品都有某些類別的腳本呼叫，這些是在該物品的特定事件下執行的巨集和內聯腳本的組合。\n',
     'PF1.Inventory': '物品欄',
     'PF1.KEYBINDINGS.ForceShowItem.Hint': '在使用物品巨集時，強制在聊天欄中顯示該物品卡片',
     'PF1.Language.munavri': '白化人語',
@@ -166,7 +187,17 @@ KEY_OVERRIDE = {
     'PF1.SpellLevels.0': '0環 (戲法/禱念/念力)',
     'PF1.Subtypes.Item.implant.cybertech.Single': '賽博科技植入物',
     'PF1.Tours.ActorSheet.TraitsSection.Content': "體型、感官、抗力、免疫... 這裡的所有條目都可以通過點擊 <i class='fas fa-edit'></i> 編輯，直接在輸入框中輸入或從下拉選單中選擇。<br><br>感官會自動配合 Foundry 光照系統工作，除了那些不支持並標記為 (<code>*</code>) 的感官。",
+    # 2026-10-17 譯名一致性稽核裁定（依 CHM v2.33.0 或維護者決定；見 audit/譯名一致性稽核.md）
+    'PF1.Condition.stable': '穩定',
+    'PF1.Distance.reach': '觸及',
+    'PF1.SkillAcr': '特技',
+    'PF1.WeaponProperty.Sunder': '擊破',
+    'PF1.CreatureTypes.monstrousHumanoid': '人形怪物',
+    'PF1.CreatureSubTypes.wayang': '剪影人',
+    'PF1.DamageTypes.acid.Label': '酸蝕',
+    'PF1.SpellDescriptors.acid': '酸蝕',
 }
+
 
 
 def flatten(node, prefix=''):
