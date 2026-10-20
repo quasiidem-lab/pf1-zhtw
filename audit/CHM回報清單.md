@@ -9,7 +9,6 @@
 
 | 組 | 項目 | CHM 現在的寫法 | 建議改為 | 處數 | 頁數 |
 |---|---|---|---|---:|---:|
-| A | Energy Drained（狀態名稱） | 能量吸取 | 能量流失 | 1 | 1 |
 | A | Terrifying Howl | 可怖狂嚎、怖懼狂嚎 | 驚駭狂嚎 | 15 | 7 |
 | A | Improved Quarry | 高等狩獵目標 | 精通狩獵目標 | 22 | 13 |
 | A | Inspire Ferocity | 狂怒之示、狂怒激發 | 激發凶性 | 8 | 4 |
@@ -29,15 +28,9 @@
 | C | Stable（狀態） | 傷勢穩定 | 穩定 | 26 | 24 |
 | C | Trip（錯字） | 摔拌 | 摔絆 | 22 | 12 |
 
-共 19 項、1156 處。A 組是維護者的決定，跟 CHM 現行寫法不同；B 組是 CHM 自己更新紀錄說已統一、但還沒改乾淨的；C 組是 CHM 內部本來就兩種寫法並存。
+共 18 項、1155 處。A 組是維護者的決定，跟 CHM 現行寫法不同；B 組是 CHM 自己更新紀錄說已統一、但還沒改乾淨的；C 組是 CHM 內部本來就兩種寫法並存。
 
 ## 一、維護者裁定、跟 CHM 不同的譯名（請 CHM 考慮跟進）
-
-### Energy Drained（狀態名稱）：能量吸取 → 能量流失（1 處）
-
-維護者裁定。只改「狀態」頁的狀態名稱。其他約 127 處「能量吸取」多半是 energy drain 能力或「能量吸取」法術，要不要一起改請 CHM 判斷。
-
-出現的頁面：[狀態](https://chm.zhtrpg.com/#page_9.html)。
 
 ### Terrifying Howl：可怖狂嚎、怖懼狂嚎 → 驚駭狂嚎（15 處）
 
@@ -154,6 +147,8 @@ CHM「狀態」頁定名是「穩定」。注意：有些「傷勢穩定」是�
 出現的頁面：[法術](https://chm.zhtrpg.com/#page_326.html)（2 處）；[卡薩達人](https://chm.zhtrpg.com/#page_940.html)；[MTT-魔法戰術工具箱](https://chm.zhtrpg.com/#page_1169.html)（2 處）；[裝備技法彙總](https://chm.zhtrpg.com/#page_1090.html)（4 處）；[BoB-野獸血脈](https://chm.zhtrpg.com/#page_1170.html)（3 處）；[PF官方彈藥彙總](https://chm.zhtrpg.com/#page_851.html)；[騎士](https://chm.zhtrpg.com/#page_432.html)；[內海海盜](https://chm.zhtrpg.com/#zhd1dd833389.htm)（3 處）；另外還有 4 頁，見出處表。
 
 ## 不在這份清單裡的
+
+- **Energy Drained（能量吸取）**：原本列為要改成「能量流失」，2026-10-20 改定沿用 CHM 的「能量吸取」（跟怪物能力 Energy Drain 同一個詞），不需要 CHM 改。
 
 - **內文裡的「倒地」**：Prone 的狀態定名是「俯臥」，但內文的「倒地」多半是動詞（倒在地上），沒有列入。
 - **「神使」其他 440 處**：多半是人名或 Herald 等別的意思，只列了明確標著 archons 的。
