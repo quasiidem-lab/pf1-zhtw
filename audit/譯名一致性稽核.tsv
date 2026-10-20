@@ -1,7 +1,7 @@
 英文	類別	pf1-zhtw 譯法	mods 譯法	compendium 譯法	各倉出現次數	建議採用	建議理由
 Blind	狀態	目盲	盲目	目盲	pf1-zhtw 1／mods 1／compendium 1	目盲	CHM v2.33.0 寫「目盲（Blind）」13 次。
 Stable	狀態	傷勢穩定	傷勢穩定	穩定	pf1-zhtw 1／mods 1／compendium 1	穩定	CHM 的「狀態」頁寫「穩定（Stable）」。
-Energy Drained	狀態	能量流失	能量流失	能量汲取	pf1-zhtw 1／mods 1／compendium 1	能量流失	已裁定。CHM 目前寫「能量吸取」（全文約 127 處），也要跟著改。
+Energy Drained	狀態	能量流失	能量流失	能量汲取	pf1-zhtw 1／mods 1／compendium 1	能量吸取	已裁定（2026-10-20 改定，原定「能量流失」）。跟 CHM、怪物能力 Energy Drain 用同一個詞，玩家看到「能量吸取」才查得到這個狀態；Ability Drain「屬性吸取」也一致。
 Prone	狀態	俯臥	—	倒地	pf1-zhtw 1／mods 0／compendium 1	俯臥	CHM 的「狀態」頁寫「俯臥（Prone）」。
 Acrobatics	技能	特技動作	—	特技	pf1-zhtw 1／mods 0／compendium 1	特技	CHM v2.33.0 寫「特技（Acrobatics）」20 次。
 Temporary Hit Points	核心規則	臨時生命值	臨時生命	—	pf1-zhtw 1／mods 1／compendium 0	臨時生命值	CHM v2.33.0 寫「臨時生命值（Temporary Hit Points）」2 次。

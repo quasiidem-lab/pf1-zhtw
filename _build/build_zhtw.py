@@ -132,7 +132,7 @@ KEY_OVERRIDE = {
     'PF1.Alignments.ln': '守序中立',
     'PF1.Calendar.Months.8.Name': '奧羅登 (Arodus)',
     'PF1.Chat.Visibility.Blind': '暗骰',
-    'PF1.Condition.energyDrain': '能量流失',
+    'PF1.Condition.energyDrain': '能量吸取',  # 2026-10-20 改定：跟 CHM、怪物能力 Energy Drain 同一個詞，玩家才對得上
     'PF1.CreatureSubTypes.adlet': '狼妖',
     'PF1.CreatureSubTypes.agathion': '福使',
     'PF1.CreatureSubTypes.archon': '聖使',
